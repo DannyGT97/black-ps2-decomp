@@ -41,6 +41,11 @@ foreach ($s in $srcs) {
     if ($s.BaseName -like 'auto_*') {
         $lines = $text -split "`r?`n"
         $inc = ($lines | Where-Object { $_ -match '^#include' } | Select-Object -First 1)
+        if ($text.Contains('/* ---- */')) {
+            # formato con bloques: cada bloque trae sus propios prototipos y externs
+            foreach ($blk in ($text -split '(?m)^/\* ---- \*/\r?$' | Select-Object -Skip 1)) { Invoke-Unit ("$inc`n$blk`n") $s.Name $fl }
+            continue
+        }
         $ext = ($lines | Where-Object { $_ -match '^extern ' } | Sort-Object -Unique) -join "`n"
         $body = ($lines | Where-Object { $_ -notmatch '^#include' -and $_ -notmatch '^extern ' -and $_ -notmatch '^/\* Funciones reconstruidas' }) -join "`n"
         $chunks = [regex]::Split($body, '(?m)^(?=/\* ADDR )') | Where-Object { $_ -match '/\* ADDR ' }

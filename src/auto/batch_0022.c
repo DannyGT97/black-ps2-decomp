@@ -1,4 +1,823 @@
 // ==== FUN_00201ad0 @ 00201ad0 ====
+// GLOBAL DAT_0042bbf8 undefined4
+// GLOBAL DAT_0042bbfc undefined4
+// GLOBAL DAT_0042bc00 undefined4
+// GLOBAL DAT_0042bc04 undefined4
+// GLOBAL DAT_0042bc08 undefined4
+// GLOBAL DAT_0042bc0c undefined4
+// GLOBAL DAT_0042bc10 undefined4
+// GLOBAL DAT_0042bc14 undefined4
+// GLOBAL DAT_0042bc18 undefined4
+// GLOBAL DAT_0042bc1c undefined4
+// GLOBAL DAT_0042bbb0 undefined4
+// GLOBAL DAT_0042bbb4 undefined4
+// GLOBAL DAT_0042bbb8 undefined4
+// GLOBAL DAT_0042bbbc undefined4
+// GLOBAL DAT_0042bbc0 undefined4
+// GLOBAL DAT_0042bbc4 undefined4
+// GLOBAL DAT_0042bbc8 undefined4
+// GLOBAL DAT_0042bbcc undefined4
+// GLOBAL DAT_0042bbd0 undefined4
+// GLOBAL DAT_0042bbd4 undefined4
+// GLOBAL DAT_0042bbd8 undefined4
+// GLOBAL DAT_0042bbdc undefined4
+// GLOBAL DAT_0042bbe0 undefined4
+// GLOBAL DAT_0042bbe4 undefined4
+// GLOBAL DAT_0042bbe8 undefined4
+// GLOBAL DAT_0042bbec undefined4
+// GLOBAL DAT_0042bbf0 undefined4
+// GLOBAL DAT_0042bbf4 undefined4
+// GLOBAL DAT_0042bc20 undefined4
+// GLOBAL DAT_0042bc24 undefined4
+// GLOBAL DAT_0042bc28 undefined4
+// GLOBAL DAT_0042bc2c undefined4
+// GLOBAL DAT_0042bc30 undefined4
+// GLOBAL DAT_0042bc34 undefined4
+// GLOBAL DAT_0042bc38 undefined4
+// GLOBAL DAT_0042bc3c undefined4
+// GLOBAL DAT_0042bc4c undefined4
+// GLOBAL DAT_0042bc44 undefined4
+// GLOBAL DAT_0042bc48 undefined4
+// GLOBAL DAT_0042bc50 undefined
+// GLOBAL DAT_0042bc58 undefined4
+// GLOBAL DAT_0042bc5c undefined4
+// GLOBAL DAT_0042bc60 undefined4
+// GLOBAL DAT_0042bc64 undefined4
+// GLOBAL DAT_0042bc68 undefined4
+// GLOBAL DAT_0042bc6c undefined4
+// GLOBAL DAT_0042bc70 undefined
+// GLOBAL DAT_0042bc78 undefined4
+// GLOBAL DAT_0042bc7c undefined4
+// GLOBAL DAT_0042bc80 undefined4
+// GLOBAL DAT_0042bc84 undefined4
+// GLOBAL DAT_0042bc88 undefined4
+// GLOBAL DAT_0042bc8c undefined4
+// GLOBAL DAT_0042bc90 undefined
+// GLOBAL DAT_0042bc40 undefined4
+// GLOBAL DAT_0042bca0 undefined4
+// GLOBAL DAT_0042bca4 undefined4
+// GLOBAL DAT_0042bca8 undefined4
+// GLOBAL DAT_0042bcac undefined4
+// GLOBAL DAT_0042bcb0 undefined4
+// GLOBAL DAT_0042bcb4 undefined4
+// GLOBAL DAT_0042bcb8 undefined4
+// GLOBAL DAT_0042bcbc undefined4
+// GLOBAL DAT_0042bcc0 undefined4
+// GLOBAL DAT_0042bcc4 undefined4
+// GLOBAL DAT_0042bcc8 undefined4
+// GLOBAL DAT_0042bccc undefined4
+// GLOBAL DAT_0042bcd0 undefined4
+// GLOBAL DAT_0042bcd4 undefined4
+// GLOBAL DAT_0042bcd8 undefined4
+// GLOBAL DAT_0042bcdc undefined4
+// GLOBAL DAT_0042bce0 undefined4
+// GLOBAL DAT_0042bce4 undefined4
+// GLOBAL DAT_0042bce8 undefined4
+// GLOBAL DAT_0042bcec undefined4
+// GLOBAL DAT_0042bcf0 undefined4
+// GLOBAL DAT_0042bcf4 undefined4
+// GLOBAL DAT_0042bcf8 undefined4
+// GLOBAL DAT_0042bcfc undefined4
+// GLOBAL DAT_0042bd00 undefined4
+// GLOBAL DAT_0042bd04 undefined4
+// GLOBAL DAT_0042bd08 undefined4
+// GLOBAL DAT_0042bd0c undefined4
+// GLOBAL DAT_0042bd10 undefined4
+// GLOBAL DAT_0042bd14 undefined4
+// GLOBAL DAT_0042bd18 undefined4
+// GLOBAL DAT_0042bd1c undefined4
+// GLOBAL DAT_0042bd20 undefined4
+// GLOBAL DAT_0042bd24 undefined4
+// GLOBAL DAT_0042bd28 undefined4
+// GLOBAL DAT_0042bd2c undefined4
+// GLOBAL DAT_0042bd30 undefined4
+// GLOBAL DAT_0042bd34 undefined4
+// GLOBAL DAT_0042bd38 undefined4
+// GLOBAL DAT_0042bd3c undefined4
+// GLOBAL DAT_0042bd40 undefined4
+// GLOBAL DAT_0042bd44 undefined4
+// GLOBAL DAT_0042bd48 undefined4
+// GLOBAL DAT_0042bd4c undefined4
+// GLOBAL DAT_0042bd50 undefined4
+// GLOBAL DAT_0042bd54 undefined4
+// GLOBAL DAT_0042bd58 undefined4
+// GLOBAL DAT_0042bd5c undefined4
+// GLOBAL DAT_0042bd60 undefined4
+// GLOBAL DAT_0042bd64 undefined4
+// GLOBAL DAT_0042bd68 undefined4
+// GLOBAL DAT_0042bd6c undefined4
+// GLOBAL DAT_0042bd70 undefined4
+// GLOBAL DAT_0042bd74 undefined4
+// GLOBAL DAT_0042bd78 undefined4
+// GLOBAL DAT_0042bd7c undefined4
+// GLOBAL DAT_0042bd80 undefined4
+// GLOBAL DAT_0042bd84 undefined4
+// GLOBAL DAT_0042bd88 undefined4
+// GLOBAL DAT_0042bd8c undefined4
+// GLOBAL DAT_0042bd90 undefined4
+// GLOBAL DAT_0042bd94 undefined4
+// GLOBAL DAT_0042bd98 undefined4
+// GLOBAL DAT_0042bd9c undefined4
+// GLOBAL DAT_0042bda8 undefined4
+// GLOBAL DAT_0042bdac undefined4
+// GLOBAL DAT_0042bda0 undefined4
+// GLOBAL DAT_0042bda4 undefined4
+// GLOBAL DAT_0042bdb0 undefined4
+// GLOBAL DAT_0042bdb4 undefined4
+// GLOBAL DAT_0042bdb8 undefined4
+// GLOBAL DAT_0042bdbc undefined4
+// GLOBAL DAT_0042bdc0 undefined4
+// GLOBAL DAT_0042bdc4 undefined4
+// GLOBAL DAT_0042bdc8 undefined4
+// GLOBAL DAT_0042bdcc undefined4
+// GLOBAL DAT_0042bdd0 undefined8
+// GLOBAL DAT_0042bde0 undefined8
+// GLOBAL DAT_0042bdd8 undefined8
+// GLOBAL DAT_0042be00 undefined4
+// GLOBAL DAT_0042be04 undefined4
+// GLOBAL DAT_0042be08 undefined4
+// GLOBAL DAT_0042be0c undefined4
+// GLOBAL DAT_0042bdf0 undefined8
+// GLOBAL DAT_0042bde8 undefined8
+// GLOBAL DAT_0042be10 undefined4
+// GLOBAL DAT_0042bdf8 undefined8
+// GLOBAL DAT_0042be14 undefined4
+// GLOBAL DAT_0042be20 undefined
+// GLOBAL DAT_0042be30 undefined4
+// GLOBAL DAT_0042be34 undefined4
+// GLOBAL DAT_0042be38 undefined4
+// GLOBAL DAT_0042be3c undefined4
+// GLOBAL DAT_0042be40 undefined4
+// GLOBAL DAT_0042be44 undefined4
+// GLOBAL DAT_0042be48 undefined4
+// GLOBAL DAT_0042be4c undefined4
+// GLOBAL DAT_0042be50 undefined4
+// GLOBAL DAT_0042be54 undefined4
+// GLOBAL DAT_0042be58 undefined4
+// GLOBAL DAT_0042be5c undefined4
+// GLOBAL DAT_0042be60 undefined4
+// GLOBAL DAT_0042be64 undefined4
+// GLOBAL DAT_0042be68 undefined4
+// GLOBAL DAT_0042be6c undefined4
+// GLOBAL DAT_0042be1c undefined4
+// GLOBAL DAT_0042be18 undefined4
+// GLOBAL DAT_0042be70 undefined4
+// GLOBAL DAT_0042be74 undefined4
+// GLOBAL DAT_0042be78 undefined4
+// GLOBAL DAT_0042be7c undefined4
+// GLOBAL DAT_0042be80 undefined4
+// GLOBAL DAT_0042be84 undefined4
+// GLOBAL DAT_0042be88 undefined4
+// GLOBAL DAT_0042be8c undefined4
+// GLOBAL DAT_0042be90 undefined4
+// GLOBAL DAT_0042be94 undefined4
+// GLOBAL DAT_0042be98 undefined4
+// GLOBAL DAT_0042be9c undefined4
+// GLOBAL DAT_0042bea0 undefined4
+// GLOBAL DAT_0042bea4 undefined4
+// GLOBAL DAT_0042bea8 undefined4
+// GLOBAL DAT_0042beac undefined4
+// GLOBAL DAT_0042beb0 undefined4
+// GLOBAL DAT_0042beb4 undefined4
+// GLOBAL DAT_0042beb8 undefined4
+// GLOBAL DAT_0042bebc undefined4
+// GLOBAL DAT_0042bec0 undefined4
+// GLOBAL DAT_0042bec4 undefined4
+// GLOBAL DAT_0042bec8 undefined4
+// GLOBAL DAT_0042becc undefined4
+// GLOBAL DAT_0042bed0 undefined4
+// GLOBAL DAT_0042bed4 undefined4
+// GLOBAL DAT_0042bed8 undefined4
+// GLOBAL DAT_0042bedc undefined4
+// GLOBAL DAT_0042bee0 undefined4
+// GLOBAL DAT_0042bee4 undefined4
+// GLOBAL DAT_0042bee8 undefined4
+// GLOBAL DAT_0042beec undefined4
+// GLOBAL DAT_0042bef0 undefined4
+// GLOBAL DAT_0042bef4 undefined4
+// GLOBAL DAT_0042bef8 undefined4
+// GLOBAL DAT_0042befc undefined4
+// GLOBAL DAT_0042bf00 undefined4
+// GLOBAL DAT_0042bf04 undefined4
+// GLOBAL DAT_0042bf08 undefined4
+// GLOBAL DAT_0042bf0c undefined4
+// GLOBAL DAT_0042bf10 undefined4
+// GLOBAL DAT_0042bf14 undefined4
+// GLOBAL DAT_0042bf18 undefined4
+// GLOBAL DAT_0042bf1c undefined4
+// GLOBAL DAT_0042bf20 undefined4
+// GLOBAL DAT_0042bf24 undefined4
+// GLOBAL DAT_0042bf28 undefined4
+// GLOBAL DAT_0042bf2c undefined4
+// GLOBAL DAT_0042bf30 undefined4
+// GLOBAL DAT_0042bf34 undefined4
+// GLOBAL DAT_0042bf38 undefined4
+// GLOBAL DAT_0042bf3c undefined4
+// GLOBAL DAT_0042bf40 undefined4
+// GLOBAL DAT_0042bf44 undefined4
+// GLOBAL DAT_0042bf48 undefined4
+// GLOBAL DAT_0042bf4c undefined4
+// GLOBAL DAT_0042bf50 undefined4
+// GLOBAL DAT_0042bf54 undefined4
+// GLOBAL DAT_0042bf58 undefined4
+// GLOBAL DAT_0042bf5c undefined4
+// GLOBAL DAT_0042bf7c undefined4
+// GLOBAL DAT_0042bf90 undefined4
+// GLOBAL DAT_0042bf78 undefined4
+// GLOBAL DAT_0042bf88 undefined4
+// GLOBAL DAT_0042bf8c undefined4
+// GLOBAL DAT_0042bf80 undefined4
+// GLOBAL DAT_0042bf9c undefined4
+// GLOBAL DAT_0042bfa0 undefined4
+// GLOBAL DAT_0042bfa4 undefined4
+// GLOBAL DAT_0042bfac undefined4
+// GLOBAL DAT_0042bf84 undefined4
+// GLOBAL DAT_0042bf94 undefined4
+// GLOBAL DAT_0042bf98 undefined4
+// GLOBAL DAT_0042bfa8 undefined4
+// GLOBAL DAT_0042bfb4 undefined4
+// GLOBAL DAT_0042bfbc undefined4
+// GLOBAL DAT_0042bff0 undefined4
+// GLOBAL DAT_0042bffc undefined4
+// GLOBAL DAT_0042bff8 undefined4
+// GLOBAL DAT_0042c004 undefined4
+// GLOBAL DAT_0042bfc8 undefined4
+// GLOBAL DAT_0042bfcc undefined4
+// GLOBAL DAT_0042bfd4 undefined4
+// GLOBAL DAT_0042bfd8 undefined4
+// GLOBAL DAT_0042bfdc undefined4
+// GLOBAL DAT_0042bfe4 undefined4
+// GLOBAL DAT_0042bfe8 undefined4
+// GLOBAL DAT_0042bfec undefined4
+// GLOBAL DAT_0042bff4 undefined4
+// GLOBAL DAT_0042bfc0 undefined4
+// GLOBAL DAT_0042bfc4 undefined4
+// GLOBAL DAT_0042bfd0 undefined4
+// GLOBAL DAT_0042bfe0 undefined4
+// GLOBAL DAT_0042c01c undefined4
+// GLOBAL DAT_0042c02c undefined4
+// GLOBAL DAT_0042c038 undefined4
+// GLOBAL DAT_0042c044 undefined4
+// GLOBAL DAT_0042c008 undefined4
+// GLOBAL DAT_0042c00c undefined4
+// GLOBAL DAT_0042c028 undefined4
+// GLOBAL DAT_0042c04c undefined4
+// GLOBAL DAT_0042c010 undefined4
+// GLOBAL DAT_0042c014 undefined4
+// GLOBAL DAT_0042c018 undefined4
+// GLOBAL DAT_0042c020 undefined4
+// GLOBAL DAT_0042c030 undefined4
+// GLOBAL DAT_0042c034 undefined4
+// GLOBAL DAT_0042c03c undefined4
+// GLOBAL DAT_0042c024 undefined4
+// GLOBAL DAT_0042c094 undefined4
+// GLOBAL DAT_0042c060 undefined4
+// GLOBAL DAT_0042c064 undefined4
+// GLOBAL DAT_0042c06c undefined4
+// GLOBAL DAT_0042c070 undefined4
+// GLOBAL DAT_0042c08c undefined4
+// GLOBAL DAT_0042c05c undefined4
+// GLOBAL DAT_0042c080 undefined4
+// GLOBAL DAT_0042c050 undefined4
+// GLOBAL DAT_0042c054 undefined4
+// GLOBAL DAT_0042c058 undefined4
+// GLOBAL DAT_0042c068 undefined4
+// GLOBAL DAT_0042c074 undefined4
+// GLOBAL DAT_0042c078 undefined4
+// GLOBAL DAT_0042c07c undefined4
+// GLOBAL DAT_0042c084 undefined4
+// GLOBAL DAT_0042c0dc undefined4
+// GLOBAL DAT_0042c0d4 undefined4
+// GLOBAL DAT_0042c0c8 undefined4
+// GLOBAL DAT_0042c0a0 undefined4
+// GLOBAL DAT_0042c0a4 undefined4
+// GLOBAL DAT_0042c0b4 undefined4
+// GLOBAL DAT_0042c0b8 undefined4
+// GLOBAL DAT_0042c0b0 undefined4
+// GLOBAL DAT_0042c098 undefined4
+// GLOBAL DAT_0042c09c undefined4
+// GLOBAL DAT_0042c0a8 undefined4
+// GLOBAL DAT_0042c0ac undefined4
+// GLOBAL DAT_0042c0bc undefined4
+// GLOBAL DAT_0042c0c0 undefined4
+// GLOBAL DAT_0042c0c4 undefined4
+// GLOBAL DAT_0042c0cc undefined4
+// GLOBAL DAT_0042c0f8 undefined4
+// GLOBAL DAT_0042c100 undefined4
+// GLOBAL DAT_0042c0e8 undefined4
+// GLOBAL DAT_0042c0f0 undefined4
+// GLOBAL DAT_0042c11c undefined4
+// GLOBAL DAT_0042c0ec undefined4
+// GLOBAL DAT_0042c0f4 undefined4
+// GLOBAL DAT_0042c0fc undefined4
+// GLOBAL DAT_0042c104 undefined4
+// GLOBAL DAT_0042c110 undefined4
+// GLOBAL DAT_0042c0e0 undefined4
+// GLOBAL DAT_0042c0e4 undefined4
+// GLOBAL DAT_0042c108 undefined4
+// GLOBAL DAT_0042c10c undefined4
+// GLOBAL DAT_0042c114 undefined4
+// GLOBAL DAT_0042c124 undefined4
+// GLOBAL DAT_0042c198 undefined
+// GLOBAL DAT_0042c188 undefined
+// GLOBAL DAT_0042c16c undefined4
+// GLOBAL DAT_0042c170 undefined
+// GLOBAL DAT_0042c180 undefined
+// GLOBAL DAT_0042c178 undefined
+// GLOBAL DAT_0042c190 undefined
+// GLOBAL DAT_0042c1a0 undefined
+// GLOBAL DAT_0042c1a8 undefined
+// GLOBAL DAT_0042c1b0 undefined
+// GLOBAL DAT_0042c148 undefined4
+// GLOBAL DAT_0042c164 undefined4
+// GLOBAL DAT_0042c130 undefined4
+// GLOBAL DAT_0042c134 undefined4
+// GLOBAL DAT_0042c144 undefined4
+// GLOBAL DAT_0042c128 undefined4
+// GLOBAL DAT_0042c12c undefined4
+// GLOBAL DAT_0042c138 undefined4
+// GLOBAL DAT_0042c13c undefined4
+// GLOBAL DAT_0042c140 undefined4
+// GLOBAL DAT_0042c14c undefined4
+// GLOBAL DAT_0042c150 undefined4
+// GLOBAL DAT_0042c154 undefined4
+// GLOBAL DAT_0042c158 undefined4
+// GLOBAL DAT_0042c15c undefined4
+// GLOBAL DAT_0042c1d8 undefined
+// GLOBAL DAT_0042c1f0 undefined
+// GLOBAL DAT_0042c1c0 undefined
+// GLOBAL DAT_0042c1c8 undefined
+// GLOBAL DAT_0042c1e8 undefined
+// GLOBAL DAT_0042c1d0 undefined
+// GLOBAL DAT_0042c1f8 undefined
+// GLOBAL DAT_0042c208 undefined
+// GLOBAL DAT_0042c210 undefined4
+// GLOBAL DAT_0042c214 undefined4
+// GLOBAL DAT_0042c220 undefined4
+// GLOBAL DAT_0042c224 undefined4
+// GLOBAL DAT_0042c228 undefined4
+// GLOBAL DAT_0042c22c undefined4
+// GLOBAL DAT_0042c234 undefined4
+// GLOBAL DAT_0042c238 undefined4
+// GLOBAL DAT_0042c1b8 undefined
+// GLOBAL DAT_0042c1e0 undefined
+// GLOBAL DAT_0042c200 undefined
+// GLOBAL DAT_0042c230 undefined4
+// GLOBAL DAT_0042c23c undefined4
+// GLOBAL DAT_0042c280 undefined4
+// GLOBAL DAT_0042c250 undefined4
+// GLOBAL DAT_0042c254 undefined4
+// GLOBAL DAT_0042c284 undefined4
+// GLOBAL DAT_0042c240 undefined4
+// GLOBAL DAT_0042c244 undefined4
+// GLOBAL DAT_0042c248 undefined4
+// GLOBAL DAT_0042c24c undefined4
+// GLOBAL DAT_0042c25c undefined4
+// GLOBAL DAT_0042c26c undefined4
+// GLOBAL DAT_0042c274 undefined4
+// GLOBAL DAT_0042c294 undefined4
+// GLOBAL DAT_0042c298 undefined4
+// GLOBAL DAT_0042c258 undefined4
+// GLOBAL DAT_0042c260 undefined4
+// GLOBAL DAT_0042c264 undefined4
+// GLOBAL DAT_0042c268 undefined4
+// GLOBAL DAT_0042c27c undefined4
+// GLOBAL DAT_0042c28c undefined4
+// GLOBAL DAT_0042c290 undefined4
+// GLOBAL DAT_0042c29c undefined4
+// GLOBAL DAT_0042c2a0 undefined4
+// GLOBAL DAT_0042c2a4 undefined4
+// GLOBAL DAT_0042c270 undefined4
+// GLOBAL DAT_0042c278 undefined4
+// GLOBAL DAT_0042c288 undefined4
+// GLOBAL DAT_0042c2b0 undefined4
+// GLOBAL DAT_0042c2b4 undefined4
+// GLOBAL DAT_0042c2b8 undefined4
+// GLOBAL DAT_0042c2bc undefined4
+// GLOBAL DAT_003bdc60 float
+// GLOBAL DAT_0042c2f8 undefined
+// GLOBAL DAT_0042c2c0 undefined4
+// GLOBAL DAT_0042c2c4 undefined4
+// GLOBAL DAT_0042c2c8 undefined4
+// GLOBAL DAT_0042c2cc undefined4
+// GLOBAL DAT_0042c2d0 undefined4
+// GLOBAL DAT_0042c2d4 undefined4
+// GLOBAL DAT_0042c2d8 undefined4
+// GLOBAL DAT_0042c2dc undefined4
+// GLOBAL DAT_0042c2e4 undefined4
+// GLOBAL DAT_0042c2ec float
+// GLOBAL DAT_0042c308 undefined
+// GLOBAL DAT_0042c310 undefined
+// GLOBAL DAT_0042c2f0 undefined
+// GLOBAL DAT_0042c2e8 float
+// GLOBAL DAT_0042c2e0 undefined4
+// GLOBAL DAT_0042c300 undefined
+// GLOBAL DAT_0042c320 undefined4
+// GLOBAL DAT_0042c324 undefined4
+// GLOBAL DAT_0042c328 undefined4
+// GLOBAL DAT_0042c32c undefined4
+// GLOBAL DAT_0042c388 undefined
+// GLOBAL DAT_0042c330 undefined4
+// GLOBAL DAT_0042c334 undefined4
+// GLOBAL DAT_0042c338 undefined4
+// GLOBAL DAT_0042c33c undefined4
+// GLOBAL DAT_0042c340 undefined4
+// GLOBAL DAT_0042c344 undefined4
+// GLOBAL DAT_0042c348 undefined4
+// GLOBAL DAT_0042c34c undefined4
+// GLOBAL DAT_0042c350 undefined4
+// GLOBAL DAT_0042c354 undefined4
+// GLOBAL DAT_0042c358 undefined4
+// GLOBAL DAT_0042c35c undefined4
+// GLOBAL DAT_0042c360 undefined4
+// GLOBAL DAT_0042c364 undefined4
+// GLOBAL DAT_0042c368 undefined4
+// GLOBAL DAT_0042c36c undefined4
+// GLOBAL DAT_0042c380 undefined4
+// GLOBAL DAT_0042c370 undefined4
+// GLOBAL DAT_0042c374 undefined4
+// GLOBAL DAT_0042c378 undefined4
+// GLOBAL DAT_0042c37c undefined4
+// GLOBAL DAT_0042c384 undefined4
+// GLOBAL DAT_0042c3f8 undefined4
+// GLOBAL DAT_0042c3a0 undefined
+// GLOBAL DAT_0042c3fc undefined4
+// GLOBAL DAT_0042c398 undefined4
+// GLOBAL DAT_0042c3c0 undefined4
+// GLOBAL DAT_0042c3c4 undefined4
+// GLOBAL DAT_0042c3c8 undefined4
+// GLOBAL DAT_0042c3cc undefined4
+// GLOBAL DAT_0042c404 undefined
+// GLOBAL DAT_0042c39c undefined4
+// GLOBAL DAT_0042c3ac undefined4
+// GLOBAL DAT_0042c3b0 undefined4
+// GLOBAL DAT_0042c3b4 undefined4
+// GLOBAL DAT_0042c3b8 undefined4
+// GLOBAL DAT_0042c3bc undefined4
+// GLOBAL DAT_0042c3d0 undefined
+// GLOBAL DAT_0042c3e0 undefined4
+// GLOBAL DAT_0042c3ec undefined4
+// GLOBAL DAT_0042c3f0 undefined
+// GLOBAL DAT_0042c400 undefined4
+// GLOBAL DAT_0042c408 undefined4
+// GLOBAL DAT_0042c3a8 undefined4
+// GLOBAL DAT_0042c3d8 undefined
+// GLOBAL DAT_0042c3e4 undefined4
+// GLOBAL DAT_0042c3e8 undefined4
+// GLOBAL DAT_0042c40c undefined4
+// GLOBAL DAT_0042c420 undefined4
+// GLOBAL DAT_0042c450 undefined4
+// GLOBAL DAT_0042c438 undefined4
+// GLOBAL DAT_0042c424 undefined4
+// GLOBAL DAT_0042c43c undefined4
+// GLOBAL DAT_0042c454 undefined4
+// GLOBAL DAT_0042c440 undefined4
+// GLOBAL DAT_0042c458 undefined4
+// GLOBAL DAT_0042c410 undefined4
+// GLOBAL DAT_0042c414 undefined4
+// GLOBAL DAT_0042c428 undefined4
+// GLOBAL DAT_0042c42c undefined4
+// GLOBAL DAT_0042c444 undefined4
+// GLOBAL DAT_0042c45c undefined4
+// GLOBAL DAT_0042c434 undefined4
+// GLOBAL DAT_0042c44c undefined4
+// GLOBAL DAT_0042c464 undefined4
+// GLOBAL DAT_0042c474 undefined
+// GLOBAL DAT_0042c480 undefined4
+// GLOBAL DAT_0042c484 undefined4
+// GLOBAL DAT_0042c488 undefined4
+// GLOBAL DAT_0042c48c undefined4
+// GLOBAL DAT_0042c41c undefined4
+// GLOBAL DAT_0042c448 undefined4
+// GLOBAL DAT_0042c460 undefined4
+// GLOBAL DAT_0042c468 undefined4
+// GLOBAL DAT_0042c46c undefined4
+// GLOBAL DAT_0042c470 undefined4
+// GLOBAL DAT_0042c418 undefined4
+// GLOBAL DAT_0042c430 undefined4
+// GLOBAL DAT_0042c490 undefined4
+// GLOBAL DAT_0042c494 undefined4
+// GLOBAL DAT_0042c498 undefined4
+// GLOBAL DAT_0042c49c undefined4
+// GLOBAL DAT_0042c4a0 undefined4
+// GLOBAL DAT_0042c4a4 undefined4
+// GLOBAL DAT_0042c4a8 undefined4
+// GLOBAL DAT_0042c4ac undefined4
+// GLOBAL DAT_0042c4b0 undefined4
+// GLOBAL DAT_0042c4b4 undefined4
+// GLOBAL DAT_0042c4b8 undefined4
+// GLOBAL DAT_0042c4bc undefined4
+// GLOBAL DAT_0042c4c0 undefined4
+// GLOBAL DAT_0042c4c4 undefined4
+// GLOBAL DAT_0042c4c8 undefined4
+// GLOBAL DAT_0042c4cc undefined4
+// GLOBAL DAT_0042c4d0 undefined4
+// GLOBAL DAT_0042c4d4 undefined4
+// GLOBAL DAT_0042c4d8 undefined4
+// GLOBAL DAT_0042c4dc undefined4
+// GLOBAL DAT_0042c4e0 undefined4
+// GLOBAL DAT_0042c4e4 undefined4
+// GLOBAL DAT_0042c4f0 undefined4
+// GLOBAL DAT_0042c4f4 undefined4
+// GLOBAL DAT_0042c4f8 undefined4
+// GLOBAL DAT_0042c4fc undefined4
+// GLOBAL DAT_0042c508 undefined
+// GLOBAL DAT_0042c514 undefined4
+// GLOBAL DAT_0042c500 undefined
+// GLOBAL DAT_0042c510 undefined4
+// GLOBAL DAT_0042c520 undefined8
+// GLOBAL DAT_0042c538 undefined8
+// GLOBAL DAT_0042c548 undefined4
+// GLOBAL DAT_0042c550 undefined8
+// GLOBAL DAT_0042c570 undefined4
+// GLOBAL DAT_0042c568 undefined8
+// GLOBAL DAT_0042c560 undefined4
+// GLOBAL DAT_0042c578 undefined4
+// GLOBAL DAT_0042c580 undefined8
+// GLOBAL DAT_0042c598 undefined8
+// GLOBAL DAT_0042c5ac undefined4
+// GLOBAL DAT_0042c5b0 undefined4
+// GLOBAL DAT_0042c5c0 undefined4
+// GLOBAL DAT_0042c5c4 undefined4
+// GLOBAL DAT_0042c5c8 undefined4
+// GLOBAL DAT_0042c5cc undefined4
+// GLOBAL DAT_0042c5d0 undefined4
+// GLOBAL DAT_0042c5dc undefined4
+// GLOBAL DAT_0042c5e0 undefined4
+// GLOBAL DAT_0042c5e4 undefined4
+// GLOBAL DAT_0042c5e8 undefined4
+// GLOBAL DAT_0042c600 undefined4
+// GLOBAL DAT_0042c604 undefined4
+// GLOBAL DAT_0042c608 undefined4
+// GLOBAL DAT_0042c60c undefined4
+// GLOBAL DAT_0042c610 undefined4
+// GLOBAL DAT_0042c5a8 undefined4
+// GLOBAL DAT_0042c5b4 undefined4
+// GLOBAL DAT_0042c5b8 undefined4
+// GLOBAL DAT_0042c5bc undefined4
+// GLOBAL DAT_0042c5d4 undefined4
+// GLOBAL DAT_0042c5ec undefined4
+// GLOBAL DAT_0042c5f0 undefined4
+// GLOBAL DAT_0042c5f4 undefined4
+// GLOBAL DAT_0042c614 undefined4
+// GLOBAL DAT_0042c590 undefined
+// GLOBAL DAT_0042c5d8 undefined4
+// GLOBAL DAT_0042c618 undefined4
+// GLOBAL DAT_0042c61c undefined4
+// GLOBAL DAT_0042c630 undefined4
+// GLOBAL DAT_0042c634 undefined4
+// GLOBAL DAT_0042c638 undefined4
+// GLOBAL DAT_0042c63c undefined4
+// GLOBAL DAT_0042c650 undefined4
+// GLOBAL DAT_0042c654 undefined4
+// GLOBAL DAT_0042c658 undefined4
+// GLOBAL DAT_0042c65c undefined4
+// GLOBAL DAT_0042c660 undefined4
+// GLOBAL DAT_0042c620 undefined4
+// GLOBAL DAT_0042c624 undefined4
+// GLOBAL DAT_0042c628 undefined4
+// GLOBAL DAT_0042c62c undefined4
+// GLOBAL DAT_0042c640 undefined4
+// GLOBAL DAT_0042c644 undefined4
+// GLOBAL DAT_0042c648 undefined4
+// GLOBAL DAT_0042c64c undefined4
+// GLOBAL DAT_0042c668 undefined4
+// GLOBAL DAT_0042c670 undefined4
+// GLOBAL DAT_0042c674 undefined4
+// GLOBAL DAT_0042c678 undefined4
+// GLOBAL DAT_0042c67c undefined4
+// GLOBAL DAT_0042c680 undefined4
+// GLOBAL DAT_0042c684 undefined4
+// GLOBAL DAT_0042c664 undefined4
+// GLOBAL DAT_0042c66c undefined4
+// GLOBAL DAT_0042c690 undefined4
+// GLOBAL DAT_0042c694 undefined4
+// GLOBAL DAT_0042c698 undefined4
+// GLOBAL DAT_0042c69c undefined4
+// GLOBAL DAT_0042c6b0 undefined4
+// GLOBAL DAT_0042c6b4 undefined4
+// GLOBAL DAT_0042c6b8 undefined4
+// GLOBAL DAT_0042c6bc undefined4
+// GLOBAL DAT_0042c6c0 undefined4
+// GLOBAL DAT_0042c6c4 undefined4
+// GLOBAL DAT_0042c6cc undefined4
+// GLOBAL DAT_0042c6e0 undefined4
+// GLOBAL DAT_0042c6e4 undefined4
+// GLOBAL DAT_0042c6e8 undefined4
+// GLOBAL DAT_0042c6ec undefined4
+// GLOBAL DAT_0042c6fc undefined4
+// GLOBAL DAT_0042c700 undefined4
+// GLOBAL DAT_0042c704 undefined4
+// GLOBAL DAT_0042c6a0 undefined4
+// GLOBAL DAT_0042c6a4 undefined4
+// GLOBAL DAT_0042c6a8 undefined4
+// GLOBAL DAT_0042c6ac undefined4
+// GLOBAL DAT_0042c6c8 undefined4
+// GLOBAL DAT_0042c6d0 undefined4
+// GLOBAL DAT_0042c6d4 undefined4
+// GLOBAL DAT_0042c6f0 undefined4
+// GLOBAL DAT_0042c6f4 undefined4
+// GLOBAL DAT_0042c6f8 undefined4
+// GLOBAL DAT_0042c708 undefined4
+// GLOBAL DAT_0042c70c undefined4
+// GLOBAL DAT_0042c710 undefined4
+// GLOBAL DAT_0042c720 undefined4
+// GLOBAL DAT_0042c724 undefined4
+// GLOBAL DAT_0042c728 undefined4
+// GLOBAL DAT_0042c72c undefined4
+// GLOBAL DAT_0042c730 undefined4
+// GLOBAL DAT_0042c734 undefined4
+// GLOBAL DAT_0042c738 undefined4
+// GLOBAL DAT_0042c750 undefined4
+// GLOBAL DAT_0042c754 undefined4
+// GLOBAL DAT_0042c758 undefined4
+// GLOBAL DAT_0042c75c undefined4
+// GLOBAL DAT_0042c760 undefined
+// GLOBAL DAT_0042c76c undefined4
+// GLOBAL DAT_0042c780 undefined4
+// GLOBAL DAT_0042c784 undefined4
+// GLOBAL DAT_0042c788 undefined4
+// GLOBAL DAT_0042c78c undefined4
+// GLOBAL DAT_0042c714 undefined4
+// GLOBAL DAT_0042c73c undefined4
+// GLOBAL DAT_0042c740 undefined4
+// GLOBAL DAT_0042c744 undefined4
+// GLOBAL DAT_0042c768 undefined4
+// GLOBAL DAT_0042c770 undefined4
+// GLOBAL DAT_0042c774 undefined4
+// GLOBAL DAT_0042c790 undefined4
+// GLOBAL DAT_0042c794 undefined4
+// GLOBAL DAT_0042c798 undefined4
+// GLOBAL DAT_0042c79c undefined4
+// GLOBAL DAT_0042c7a0 undefined4
+// GLOBAL DAT_0042c7ac undefined4
+// GLOBAL DAT_0042c7b0 undefined4
+// GLOBAL DAT_0042c7bc undefined4
+// GLOBAL DAT_0042c7c8 undefined8
+// GLOBAL DAT_0042c7d4 undefined4
+// GLOBAL DAT_0042c7dc undefined4
+// GLOBAL DAT_0042c7e4 undefined4
+// GLOBAL DAT_0042c7e8 undefined4
+// GLOBAL DAT_0042c7f4 undefined4
+// GLOBAL DAT_0042c800 undefined4
+// GLOBAL DAT_0042c804 undefined4
+// GLOBAL DAT_0042c808 undefined4
+// GLOBAL DAT_0042c80c undefined4
+// GLOBAL DAT_0042c7a8 undefined4
+// GLOBAL DAT_0042c7b4 undefined4
+// GLOBAL DAT_0042c7b8 undefined4
+// GLOBAL DAT_0042c7c0 undefined4
+// GLOBAL DAT_0042c7c4 undefined4
+// GLOBAL DAT_0042c7d0 undefined4
+// GLOBAL DAT_0042c7d8 undefined4
+// GLOBAL DAT_0042c7e0 undefined4
+// GLOBAL DAT_0042c7ec undefined4
+// GLOBAL DAT_0042c7f0 undefined4
+// GLOBAL DAT_0042c7a4 undefined4
+// GLOBAL DAT_0042c858 undefined4
+// GLOBAL DAT_0042c838 undefined4
+// GLOBAL DAT_0042c83c undefined4
+// GLOBAL DAT_0042c85c undefined4
+// GLOBAL DAT_0042c840 undefined4
+// GLOBAL DAT_0042c844 undefined4
+// GLOBAL DAT_0042c860 undefined4
+// GLOBAL DAT_0042c864 undefined4
+// GLOBAL DAT_0042c84c undefined4
+// GLOBAL DAT_0042c848 undefined4
+// GLOBAL DAT_0042c868 undefined4
+// GLOBAL DAT_0042c86c undefined4
+// GLOBAL DAT_0042c820 undefined4
+// GLOBAL DAT_0042c824 undefined4
+// GLOBAL DAT_0042c828 undefined4
+// GLOBAL DAT_0042c82c undefined4
+// GLOBAL DAT_0042c834 undefined4
+// GLOBAL DAT_0042c854 undefined4
+// GLOBAL DAT_0042c880 undefined4
+// GLOBAL DAT_0042c884 undefined4
+// GLOBAL DAT_0042c888 undefined4
+// GLOBAL DAT_0042c88c undefined4
+// GLOBAL DAT_0042c810 undefined4
+// GLOBAL DAT_0042c814 undefined4
+// GLOBAL DAT_0042c818 undefined4
+// GLOBAL DAT_0042c81c undefined4
+// GLOBAL DAT_0042c830 undefined4
+// GLOBAL DAT_0042c850 undefined4
+// GLOBAL DAT_0042c870 undefined4
+// GLOBAL DAT_0042c874 undefined4
+// GLOBAL DAT_0042c890 undefined4
+// GLOBAL DAT_0042c894 undefined4
+// GLOBAL DAT_0042c898 undefined4
+// GLOBAL DAT_0042c89c undefined4
+// GLOBAL DAT_0042c8b0 undefined4
+// GLOBAL DAT_0042c8b4 undefined4
+// GLOBAL DAT_0042c8b8 undefined4
+// GLOBAL DAT_0042c8bc undefined4
+// GLOBAL DAT_0042c8c0 undefined4
+// GLOBAL DAT_0042c8fc undefined4
+// GLOBAL DAT_0042c8a0 undefined4
+// GLOBAL DAT_0042c8a4 undefined4
+// GLOBAL DAT_0042c8a8 undefined4
+// GLOBAL DAT_0042c8ac undefined4
+// GLOBAL DAT_0042c8c4 undefined4
+// GLOBAL DAT_0042c8c8 undefined4
+// GLOBAL DAT_0042c8cc undefined4
+// GLOBAL DAT_0042c8d0 undefined4
+// GLOBAL DAT_0042c8d4 undefined4
+// GLOBAL DAT_0042c8dc undefined4
+// GLOBAL DAT_0042c8e0 undefined4
+// GLOBAL DAT_0042c8e4 undefined4
+// GLOBAL DAT_0042c8ec undefined4
+// GLOBAL DAT_0042c8f0 undefined4
+// GLOBAL DAT_0042c8e8 undefined4
+// GLOBAL DAT_0042c8f4 undefined4
+// GLOBAL DAT_0042c8f8 undefined4
+// GLOBAL DAT_0042c8d8 undefined4
+// GLOBAL DAT_0042c900 undefined4
+// GLOBAL DAT_0042c938 undefined4
+// GLOBAL DAT_0042c920 undefined4
+// GLOBAL DAT_0042c93c undefined4
+// GLOBAL DAT_0042c924 undefined4
+// GLOBAL DAT_0042c928 undefined4
+// GLOBAL DAT_0042c92c undefined4
+// GLOBAL DAT_0042c940 undefined4
+// GLOBAL DAT_0042c944 undefined4
+// GLOBAL DAT_0042c950 undefined4
+// GLOBAL DAT_0042c954 undefined4
+// GLOBAL DAT_0042c958 undefined4
+// GLOBAL DAT_0042c95c undefined4
+// GLOBAL DAT_0042c904 undefined4
+// GLOBAL DAT_0042c910 undefined4
+// GLOBAL DAT_0042c914 undefined4
+// GLOBAL DAT_0042c918 undefined4
+// GLOBAL DAT_0042c91c undefined4
+// GLOBAL DAT_0042c934 undefined4
+// GLOBAL DAT_0042c94c undefined4
+// GLOBAL DAT_0042c930 undefined4
+// GLOBAL DAT_0042c948 undefined4
+// GLOBAL DAT_0042c960 undefined4
+// GLOBAL DAT_0042c964 undefined4
+// GLOBAL DAT_0042c968 undefined4
+// GLOBAL DAT_0042c96c undefined4
+// GLOBAL DAT_0042c9c0 undefined4
+// GLOBAL DAT_0042c9b0 undefined4
+// GLOBAL DAT_0042c9c4 undefined4
+// GLOBAL DAT_0042c970 undefined4
+// GLOBAL DAT_0042c974 undefined4
+// GLOBAL DAT_0042c978 undefined4
+// GLOBAL DAT_0042c97c undefined4
+// GLOBAL DAT_0042c9ac undefined4
+// GLOBAL DAT_0042c9cc undefined4
+// GLOBAL DAT_0042c980 undefined4
+// GLOBAL DAT_0042c984 undefined4
+// GLOBAL DAT_0042c988 undefined4
+// GLOBAL DAT_0042c990 undefined4
+// GLOBAL DAT_0042c994 undefined4
+// GLOBAL DAT_0042c99c undefined4
+// GLOBAL DAT_0042c9a0 undefined4
+// GLOBAL DAT_0042c9a4 undefined4
+// GLOBAL DAT_0042c998 undefined4
+// GLOBAL DAT_0042c9a8 undefined4
+// GLOBAL DAT_0042c9c8 undefined4
+// GLOBAL DAT_0042c9d0 undefined4
+// GLOBAL DAT_0042c9d4 undefined4
+// GLOBAL DAT_0042c9d8 undefined4
+// GLOBAL DAT_0042c9dc undefined4
+// GLOBAL DAT_0042c98c undefined4
+// GLOBAL DAT_0042c9e0 undefined4
+// GLOBAL DAT_0042c9e4 undefined4
+// GLOBAL DAT_0042c9e8 undefined4
+// GLOBAL DAT_0042c9ec undefined4
+// GLOBAL DAT_0042ca0c undefined4
+// GLOBAL DAT_0042ca10 undefined4
+// GLOBAL DAT_0042ca14 undefined4
+// GLOBAL DAT_0042ca20 undefined4
+// GLOBAL DAT_0042ca24 undefined4
+// GLOBAL DAT_0042ca28 undefined4
+// GLOBAL DAT_0042ca2c undefined4
+// GLOBAL DAT_0042ca30 undefined
+// GLOBAL DAT_003f9f00 undefined4
+// GLOBAL DAT_0042ca38 undefined
+// GLOBAL DAT_0042ca40 undefined
+// GLOBAL DAT_0042ca50 undefined4
+// GLOBAL DAT_0042ca54 undefined4
+// GLOBAL DAT_0042ca58 undefined4
+// GLOBAL DAT_0042ca5c undefined4
+// GLOBAL DAT_0042c9f0 undefined4
+// GLOBAL DAT_0042c9f4 undefined4
+// GLOBAL DAT_0042c9f8 undefined4
+// GLOBAL DAT_0042c9fc undefined4
+// GLOBAL DAT_0042ca00 undefined4
+// GLOBAL DAT_0042ca04 undefined4
+// GLOBAL DAT_0042ca08 undefined4
+// GLOBAL DAT_0042ca60 undefined4
+// GLOBAL DAT_0042ca64 undefined4
+// GLOBAL DAT_0042ca68 undefined4
+// GLOBAL DAT_0042ca6c undefined4
+// GLOBAL DAT_0042c390 undefined4
+// GLOBAL DAT_0042c394 undefined4
+// GLOBAL DAT_0042c9b4 undefined4
+// GLOBAL DAT_0042c9bc undefined4
+// GLOBAL DAT_0042c9b8 undefined4
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -918,6 +1737,7 @@ void FUN_002041d0(int param_1)
 
 
 // ==== FUN_002041f8 @ 002041f8 ====
+// GLOBAL DAT_0040f518 int
 
 undefined4 FUN_002041f8(undefined8 param_1,undefined1 param_2,undefined8 param_3,undefined8 param_4)
 
@@ -1022,6 +1842,9 @@ undefined4 FUN_002041f8(undefined8 param_1,undefined1 param_2,undefined8 param_3
 
 
 // ==== FUN_00204450 @ 00204450 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL DAT_0040f518 int
 
 /* Strings referenciadas:
      "HINT_INGAME_%d" */
@@ -1271,6 +2094,7 @@ void FUN_00204450(undefined4 param_1,int param_2)
 
 
 // ==== FUN_002048d0 @ 002048d0 ====
+// GLOBAL DAT_0040f518 int
 
 undefined4 FUN_002048d0(int param_1)
 
@@ -1282,6 +2106,24 @@ undefined4 FUN_002048d0(int param_1)
 
 
 // ==== FUN_00204910 @ 00204910 ====
+// GLOBAL DAT_00438bc0 undefined4
+// GLOBAL DAT_00438bc4 undefined4
+// GLOBAL DAT_00438bc8 undefined4
+// GLOBAL DAT_00438bcc undefined4
+// GLOBAL DAT_00438bd0 undefined4
+// GLOBAL DAT_00438bd4 undefined4
+// GLOBAL DAT_00438bd8 undefined4
+// GLOBAL DAT_00438bdc undefined4
+// GLOBAL DAT_00438be0 undefined4
+// GLOBAL DAT_00438be4 undefined4
+// GLOBAL DAT_00438be8 undefined4
+// GLOBAL DAT_00438bec undefined4
+// GLOBAL DAT_00438bf0 undefined4
+// GLOBAL DAT_00438bf4 undefined4
+// GLOBAL DAT_00438bf8 undefined4
+// GLOBAL DAT_00438bfc undefined4
+// GLOBAL DAT_00438c00 undefined4
+// GLOBAL DAT_00438c04 undefined4
 
 void FUN_00204910(long param_1,long param_2)
 
@@ -1323,6 +2165,8 @@ void FUN_00204a30(void)
 
 
 // ==== FUN_00204a50 @ 00204a50 ====
+// GLOBAL DAT_003e0c90 undefined
+// GLOBAL DAT_003e0ca8 undefined
 
 void FUN_00204a50(undefined8 param_1)
 
@@ -1355,6 +2199,19 @@ void FUN_00204a50(undefined8 param_1)
 
 
 // ==== FUN_00204af8 @ 00204af8 ====
+// GLOBAL DAT_00438cb0 undefined
+// GLOBAL DAT_0040f4c0 int_*
+// GLOBAL DAT_00438c80 undefined
+// GLOBAL DAT_00438c98 undefined4
+// GLOBAL DAT_00438c9c undefined4
+// GLOBAL DAT_00438c90 undefined
+// GLOBAL DAT_00438ca8 undefined4
+// GLOBAL DAT_00438cac undefined4
+// GLOBAL DAT_00438ca0 undefined
+// GLOBAL DAT_003bdcc8 undefined4
+// GLOBAL DAT_0040f0e0 undefined4
+// GLOBAL DAT_0040f4e8 undefined4
+// GLOBAL u_Mission_Failed_003bdca0 unicode
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* Strings referenciadas:
@@ -1462,6 +2319,8 @@ undefined4 FUN_00204af8(int param_1)
 
 
 // ==== FUN_00204d80 @ 00204d80 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f510 int
 
 void FUN_00204d80(int param_1)
 
@@ -1520,6 +2379,7 @@ undefined4 FUN_00204ec0(int param_1)
 
 
 // ==== FUN_00204f00 @ 00204f00 ====
+// GLOBAL PTR_DAT_003bdcc0 undefined_*
 
 void FUN_00204f00(undefined8 param_1)
 
@@ -1634,6 +2494,10 @@ undefined4 FUN_002050b0(void)
 
 
 // ==== FUN_002050b8 @ 002050b8 ====
+// GLOBAL DAT_003e0c30 undefined
+// GLOBAL DAT_003e0c48 undefined
+// GLOBAL DAT_003e0c60 undefined
+// GLOBAL DAT_003e0c78 undefined
 
 void FUN_002050b8(int param_1)
 
@@ -1787,6 +2651,10 @@ void FUN_002053c0(void)
 
 
 // ==== FUN_002053e0 @ 002053e0 ====
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f518 int
+// GLOBAL DAT_0040f4d0 int
 
 /* Strings referenciadas:
      "GM_Objectives"
@@ -1904,6 +2772,8 @@ undefined8 FUN_002053e0(int param_1)
 
 
 // ==== FUN_00205798 @ 00205798 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f524 undefined4
 
 void FUN_00205798(void)
 
@@ -1924,6 +2794,7 @@ void FUN_00205798(void)
 
 
 // ==== FUN_00205808 @ 00205808 ====
+// GLOBAL DAT_0040f0e0 undefined4
 
 undefined4 FUN_00205808(void)
 
@@ -1950,6 +2821,7 @@ void FUN_00205830(undefined8 param_1)
 
 
 // ==== FUN_00205878 @ 00205878 ====
+// GLOBAL DAT_0040f0e0 undefined4
 
 undefined4 FUN_00205878(int param_1,undefined4 param_2)
 
@@ -1965,6 +2837,8 @@ undefined4 FUN_00205878(int param_1,undefined4 param_2)
 
 
 // ==== FUN_002058f0 @ 002058f0 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f524 undefined4
 
 void FUN_002058f0(int param_1)
 
@@ -1999,6 +2873,7 @@ void FUN_00205980(void)
 
 
 // ==== FUN_002059a0 @ 002059a0 ====
+// GLOBAL DAT_0040f0e0 undefined4
 
 undefined4 FUN_002059a0(int param_1)
 
@@ -2017,6 +2892,8 @@ undefined4 FUN_002059a0(int param_1)
 
 
 // ==== FUN_00205a00 @ 00205a00 ====
+// GLOBAL DAT_003bdcc8 int
+// GLOBAL DAT_003e0ca8 undefined
 
 void FUN_00205a00(undefined8 param_1)
 
@@ -2049,6 +2926,9 @@ void FUN_00205a00(undefined8 param_1)
 
 
 // ==== FUN_00205aa0 @ 00205aa0 ====
+// GLOBAL DAT_0040f0e0 undefined4
+// GLOBAL DAT_0040f4e8 undefined4
+// GLOBAL DAT_0040f4c0 int
 
 undefined4 FUN_00205aa0(int param_1)
 
@@ -2084,6 +2964,7 @@ undefined4 FUN_00205aa0(int param_1)
 
 
 // ==== FUN_00205b68 @ 00205b68 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_00205b68(int param_1)
 
@@ -2141,6 +3022,7 @@ void FUN_00205c50(undefined8 param_1)
 
 
 // ==== FUN_00205ca0 @ 00205ca0 ====
+// GLOBAL DAT_0040f0e0 int
 
 undefined4 FUN_00205ca0(int param_1)
 
@@ -2161,6 +3043,8 @@ undefined4 FUN_00205ca0(int param_1)
 
 
 // ==== FUN_00205d40 @ 00205d40 ====
+// GLOBAL DAT_0040ead8 char
+// GLOBAL DAT_0040f0e0 int
 
 /* Strings referenciadas:
      "Unit %u" */
@@ -2312,6 +3196,7 @@ void FUN_00206110(void)
 
 
 // ==== FUN_00206130 @ 00206130 ====
+// GLOBAL DAT_0040f4c0 int_*
 
 undefined4 FUN_00206130(int param_1)
 
@@ -2383,6 +3268,14 @@ void FUN_00206218(int param_1)
 
 
 // ==== FUN_00206248 @ 00206248 ====
+// GLOBAL DAT_0040f4c0 int_*
+// GLOBAL DAT_003fa154 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_003fa138 undefined
+// GLOBAL DAT_003fa140 undefined
+// GLOBAL PTR_s_Toggle_Crouch:_003fa258 pointer
+// GLOBAL DAT_0043bf60 undefined
 
 /* Strings referenciadas:
      "Game Paused"
@@ -2515,6 +3408,17 @@ undefined4 FUN_00206248(int param_1)
 
 
 // ==== FUN_002066e0 @ 002066e0 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_00438cd8 undefined4
+// GLOBAL DAT_00438cdc undefined4
+// GLOBAL DAT_00438cd0 undefined4
+// GLOBAL DAT_00438cc8 undefined4
+// GLOBAL DAT_00438ccc undefined4
+// GLOBAL DAT_00438cc0 undefined4
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_0040f524 undefined4
+// GLOBAL DAT_003fa138 undefined
+// GLOBAL DAT_003fa140 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -2686,6 +3590,10 @@ void FUN_00206a28(int param_1)
 
 
 // ==== FUN_00206a58 @ 00206a58 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_00443348 undefined4
+// GLOBAL DAT_0044334c undefined4
+// GLOBAL DAT_00443340 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -2761,6 +3669,9 @@ void FUN_00206b58(int param_1)
 
 
 // ==== fe_FE_PressStart_00206b88 @ 00206b88 ====
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL DAT_0040f4c0 int_*
+// GLOBAL DAT_0040f0e0 int
 
 /* Strings referenciadas:
      "FE_PressStart" */
@@ -2842,6 +3753,7 @@ undefined4 fe_FE_PressStart_00206b88(undefined8 param_1)
 
 
 // ==== FUN_00206e30 @ 00206e30 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_00206e30(int param_1)
 
@@ -2894,6 +3806,7 @@ undefined4 FUN_00206f08(void)
 
 
 // ==== FUN_00206f30 @ 00206f30 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_00206f30(int param_1,undefined8 param_2,long param_3)
 
@@ -2934,6 +3847,7 @@ void FUN_00206f30(int param_1,undefined8 param_2,long param_3)
 
 
 // ==== FUN_00207020 @ 00207020 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_00207020(int param_1,undefined8 param_2,long param_3)
 
@@ -2974,6 +3888,9 @@ void FUN_00207020(int param_1,undefined8 param_2,long param_3)
 
 
 // ==== FUN_00207110 @ 00207110 ====
+// GLOBAL DAT_0040f4c0 int_*
+// GLOBAL DAT_003bdcc8 undefined4
+// GLOBAL DAT_00438ce0 undefined4
 
 undefined4 FUN_00207110(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
@@ -2993,6 +3910,7 @@ undefined4 FUN_00207110(undefined8 param_1,undefined8 param_2,undefined8 param_3
 
 
 // ==== FUN_002071c8 @ 002071c8 ====
+// GLOBAL DAT_003bdcc8 undefined4
 
 undefined4 FUN_002071c8(int param_1)
 
@@ -3150,6 +4068,7 @@ void FUN_002075f0(void)
 
 
 // ==== FUN_00207610 @ 00207610 ====
+// GLOBAL DAT_0040f0e0 int
 
 undefined4
 FUN_00207610(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
@@ -3173,6 +4092,7 @@ FUN_00207610(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8
 
 
 // ==== FUN_002076a8 @ 002076a8 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_002076a8(int param_1)
 
@@ -3186,6 +4106,7 @@ void FUN_002076a8(int param_1)
 
 
 // ==== FUN_002076f8 @ 002076f8 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_002076f8(float param_1,int param_2)
 
@@ -3278,6 +4199,11 @@ undefined4 FUN_00207938(int param_1)
 
 
 // ==== FUN_00207978 @ 00207978 ====
+// GLOBAL DAT_003bdcc8 undefined4
+// GLOBAL PTR_s_Objectives_Complete_003bdcf8 pointer
+// GLOBAL DAT_003e0c10 undefined
+// GLOBAL DAT_003e0c90 undefined
+// GLOBAL DAT_0043cf88 undefined
 
 /* Strings referenciadas:
      "Objectives Complete" */
@@ -3357,6 +4283,46 @@ void FUN_00207978(int param_1)
 
 
 // ==== FUN_00207b80 @ 00207b80 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_00438d48 undefined
+// GLOBAL DAT_0040f4c0 int_*
+// GLOBAL DAT_00438d10 undefined
+// GLOBAL DAT_00438d08 undefined4
+// GLOBAL DAT_00438d0c undefined4
+// GLOBAL DAT_00438d00 undefined
+// GLOBAL DAT_00438d40 undefined8
+// GLOBAL DAT_00438d28 undefined4
+// GLOBAL DAT_00438d2c undefined4
+// GLOBAL DAT_00438d20 undefined
+// GLOBAL DAT_00438d38 undefined4
+// GLOBAL DAT_00438d3c undefined4
+// GLOBAL DAT_00438d30 undefined
+// GLOBAL DAT_00438cf0 undefined
+// GLOBAL DAT_00438cf8 undefined
+// GLOBAL DAT_00438da8 undefined4
+// GLOBAL DAT_00438dac undefined4
+// GLOBAL DAT_00438da0 undefined
+// GLOBAL DAT_00438db8 undefined4
+// GLOBAL DAT_00438dbc undefined4
+// GLOBAL DAT_00438db0 undefined
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL PTR_s_star_none_003be714 undefined_*
+// GLOBAL PTR_s_star_full_003be710 undefined_*
+// GLOBAL DAT_00438e20 undefined
+// GLOBAL DAT_00438df8 undefined4
+// GLOBAL DAT_00438dfc undefined4
+// GLOBAL DAT_00438df0 undefined
+// GLOBAL DAT_00438e28 undefined
+// GLOBAL DAT_00438e30 undefined
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0043d988 undefined1
+// GLOBAL DAT_003bdd10 undefined2
+// GLOBAL DAT_00438d50 undefined4
+// GLOBAL DAT_00438d78 undefined4
+// GLOBAL DAT_0043cf88 undefined
+// GLOBAL DAT_0043d990 undefined
+// GLOBAL DAT_0043d9d0 undefined
+// GLOBAL DAT_0043d9d8 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* Strings referenciadas:
@@ -3579,6 +4545,33 @@ undefined4 FUN_00207b80(undefined4 *param_1)
 
 
 // ==== FUN_00208140 @ 00208140 ====
+// GLOBAL DAT_00438e10 undefined8
+// GLOBAL DAT_00438e00 undefined
+// GLOBAL DAT_00438e08 undefined4
+// GLOBAL DAT_00438e0c undefined4
+// GLOBAL DAT_00438e40 undefined8
+// GLOBAL DAT_0043d9d3 char
+// GLOBAL DAT_0043d9d4 char
+// GLOBAL DAT_0040f4e8 undefined4
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_00438d40 undefined8
+// GLOBAL DAT_00438db8 undefined4
+// GLOBAL DAT_00438dbc undefined4
+// GLOBAL DAT_00438db0 undefined
+// GLOBAL DAT_00438da8 undefined4
+// GLOBAL DAT_00438dac undefined4
+// GLOBAL DAT_00438da0 undefined
+// GLOBAL DAT_00438e18 undefined8
+// GLOBAL DAT_00438df8 undefined4
+// GLOBAL DAT_00438dfc undefined4
+// GLOBAL DAT_00438df0 undefined
+// GLOBAL DAT_0040f4dc int_*
+// GLOBAL DAT_003bdd10 undefined2
+// GLOBAL DAT_00438dc0 undefined4
+// GLOBAL DAT_00438e30 undefined4
+// GLOBAL DAT_0043d988 undefined1
+// GLOBAL DAT_0043d9d0 undefined
+// GLOBAL DAT_0043d9d8 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -3939,6 +4932,17 @@ LAB_00208a58:
 
 
 // ==== FUN_00208af8 @ 00208af8 ====
+// GLOBAL DAT_00438e10 undefined8
+// GLOBAL DAT_00438e18 undefined8
+// GLOBAL DAT_00438df8 undefined4
+// GLOBAL DAT_00438dfc undefined4
+// GLOBAL DAT_00438df0 undefined
+// GLOBAL DAT_00438e20 undefined
+// GLOBAL DAT_00438e08 undefined4
+// GLOBAL DAT_00438e0c undefined4
+// GLOBAL DAT_00438e00 undefined
+// GLOBAL DAT_00438e38 undefined8
+// GLOBAL DAT_0043d9d8 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -4036,6 +5040,139 @@ void FUN_00208c60(float param_1,undefined8 param_2)
 
 
 // ==== FUN_00208d00 @ 00208d00 ====
+// GLOBAL DAT_00438c10 undefined4
+// GLOBAL DAT_00438c14 undefined4
+// GLOBAL DAT_00438c18 undefined4
+// GLOBAL DAT_00438c1c undefined4
+// GLOBAL DAT_00438c20 undefined4
+// GLOBAL DAT_00438c24 undefined4
+// GLOBAL DAT_00438c28 undefined4
+// GLOBAL DAT_00438c2c undefined4
+// GLOBAL DAT_00438c30 undefined4
+// GLOBAL DAT_00438c34 undefined4
+// GLOBAL DAT_00438c38 undefined4
+// GLOBAL DAT_00438c3c undefined4
+// GLOBAL DAT_00438c40 undefined4
+// GLOBAL DAT_00438c44 undefined4
+// GLOBAL DAT_00438c48 undefined4
+// GLOBAL DAT_00438c4c undefined4
+// GLOBAL DAT_00438c54 undefined4
+// GLOBAL DAT_00438c60 undefined4
+// GLOBAL DAT_00438c64 undefined4
+// GLOBAL DAT_00438c68 undefined4
+// GLOBAL DAT_00438c6c undefined4
+// GLOBAL DAT_00438c50 undefined4
+// GLOBAL DAT_00438c70 undefined4
+// GLOBAL DAT_00438c74 undefined4
+// GLOBAL DAT_00438c78 undefined4
+// GLOBAL DAT_00438c7c undefined4
+// GLOBAL DAT_00438c90 undefined4
+// GLOBAL DAT_00438c94 undefined4
+// GLOBAL DAT_00438c98 undefined4
+// GLOBAL DAT_00438c9c undefined4
+// GLOBAL DAT_00438ca0 undefined4
+// GLOBAL DAT_00438ca4 undefined4
+// GLOBAL DAT_00438ca8 undefined4
+// GLOBAL DAT_00438cac undefined4
+// GLOBAL DAT_00438cc0 undefined4
+// GLOBAL DAT_00438cc4 undefined4
+// GLOBAL DAT_00438cc8 undefined4
+// GLOBAL DAT_00438ccc undefined4
+// GLOBAL DAT_00438cd0 undefined4
+// GLOBAL DAT_00438cd4 undefined4
+// GLOBAL DAT_00438cd8 undefined4
+// GLOBAL DAT_00438cdc undefined4
+// GLOBAL DAT_00438c80 undefined4
+// GLOBAL DAT_00438c84 undefined4
+// GLOBAL DAT_00438cb0 undefined4
+// GLOBAL DAT_00438cb4 undefined4
+// GLOBAL DAT_00438ce0 undefined4
+// GLOBAL DAT_00438ce4 undefined4
+// GLOBAL DAT_00438ce8 undefined4
+// GLOBAL DAT_00438cec undefined4
+// GLOBAL DAT_00438d50 undefined4
+// GLOBAL DAT_00438d54 undefined4
+// GLOBAL DAT_00438d58 undefined4
+// GLOBAL DAT_00438d5c undefined4
+// GLOBAL DAT_00438d00 undefined4
+// GLOBAL DAT_00438d04 undefined4
+// GLOBAL DAT_00438d08 undefined4
+// GLOBAL DAT_00438d0c undefined4
+// GLOBAL DAT_00438d20 undefined4
+// GLOBAL DAT_00438d24 undefined4
+// GLOBAL DAT_00438d28 undefined4
+// GLOBAL DAT_00438d2c undefined4
+// GLOBAL DAT_00438d30 undefined4
+// GLOBAL DAT_00438d34 undefined4
+// GLOBAL DAT_00438d38 undefined4
+// GLOBAL DAT_00438d3c undefined4
+// GLOBAL DAT_00438cf0 undefined4
+// GLOBAL DAT_00438cf4 undefined4
+// GLOBAL DAT_00438cf8 undefined4
+// GLOBAL DAT_00438cfc undefined4
+// GLOBAL DAT_00438d10 undefined4
+// GLOBAL DAT_00438d14 undefined4
+// GLOBAL DAT_00438d40 undefined
+// GLOBAL DAT_00438d48 undefined4
+// GLOBAL DAT_00438d4c undefined4
+// GLOBAL DAT_00438d60 undefined4
+// GLOBAL DAT_00438d64 undefined4
+// GLOBAL DAT_00438d78 undefined4
+// GLOBAL DAT_00438d7c undefined4
+// GLOBAL DAT_00438dc0 undefined4
+// GLOBAL DAT_00438d80 undefined4
+// GLOBAL DAT_00438d84 undefined4
+// GLOBAL DAT_00438dc4 undefined4
+// GLOBAL DAT_00438d88 undefined4
+// GLOBAL DAT_00438d8c undefined4
+// GLOBAL DAT_00438dc8 undefined4
+// GLOBAL DAT_00438dcc undefined4
+// GLOBAL DAT_00438d68 undefined4
+// GLOBAL DAT_00438d6c undefined4
+// GLOBAL DAT_00438d90 undefined4
+// GLOBAL DAT_00438d94 undefined4
+// GLOBAL DAT_00438dd0 undefined4
+// GLOBAL DAT_00438dd4 undefined4
+// GLOBAL DAT_00438da0 undefined4
+// GLOBAL DAT_00438da4 undefined4
+// GLOBAL DAT_00438da8 undefined4
+// GLOBAL DAT_00438dac undefined4
+// GLOBAL DAT_00438db0 undefined4
+// GLOBAL DAT_00438db4 undefined4
+// GLOBAL DAT_00438db8 undefined4
+// GLOBAL DAT_00438dbc undefined4
+// GLOBAL DAT_00438d70 undefined4
+// GLOBAL DAT_00438d74 undefined4
+// GLOBAL DAT_00438d98 undefined4
+// GLOBAL DAT_00438d9c undefined4
+// GLOBAL DAT_00438dd8 undefined4
+// GLOBAL DAT_00438ddc undefined4
+// GLOBAL DAT_00438e38 undefined
+// GLOBAL DAT_00438e40 undefined
+// GLOBAL DAT_00438e48 undefined4
+// GLOBAL DAT_00438e4c undefined4
+// GLOBAL DAT_00438e28 undefined4
+// GLOBAL DAT_00438e2c undefined4
+// GLOBAL DAT_00438e50 undefined4
+// GLOBAL DAT_00438e54 undefined4
+// GLOBAL DAT_00438df0 undefined4
+// GLOBAL DAT_00438df4 undefined4
+// GLOBAL DAT_00438df8 undefined4
+// GLOBAL DAT_00438dfc undefined4
+// GLOBAL DAT_00438e00 undefined4
+// GLOBAL DAT_00438e04 undefined4
+// GLOBAL DAT_00438e08 undefined4
+// GLOBAL DAT_00438e0c undefined4
+// GLOBAL DAT_00438e10 undefined
+// GLOBAL DAT_00438e24 undefined
+// GLOBAL DAT_00438e34 undefined
+// GLOBAL DAT_00438de0 undefined4
+// GLOBAL DAT_00438de4 undefined4
+// GLOBAL DAT_00438e18 undefined
+// GLOBAL DAT_00438e20 undefined4
+// GLOBAL DAT_00438e58 undefined4
+// GLOBAL DAT_00438e30 undefined4
+// GLOBAL DAT_00438e5c undefined4
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -4199,6 +5336,7 @@ void FUN_002092b8(void)
 
 
 // ==== FUN_002092d8 @ 002092d8 ====
+// GLOBAL DAT_003be718 undefined4
 
 void FUN_002092d8(undefined4 param_1)
 
@@ -4209,6 +5347,7 @@ void FUN_002092d8(undefined4 param_1)
 
 
 // ==== FUN_002092e8 @ 002092e8 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_002092e8(void)
 
@@ -4219,6 +5358,7 @@ void FUN_002092e8(void)
 
 
 // ==== FUN_00209340 @ 00209340 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_00209340(void)
 
@@ -4229,6 +5369,7 @@ void FUN_00209340(void)
 
 
 // ==== FUN_00209378 @ 00209378 ====
+// GLOBAL DAT_0040f4a4 undefined4
 
 void FUN_00209378(undefined8 param_1)
 
@@ -4307,6 +5448,8 @@ void FUN_002094b0(undefined4 *param_1)
 
 
 // ==== fe_FEFunctionTrigger_002094d8 @ 002094d8 ====
+// GLOBAL DAT_0040dde8 undefined1
+// GLOBAL DAT_0040f544 undefined4
 
 /* Strings referenciadas:
      "FEFunctionTrigger"
@@ -4384,6 +5527,7 @@ void FUN_00209618(int *param_1,undefined8 param_2,int param_3)
 
 
 // ==== FUN_002096a8 @ 002096a8 ====
+// GLOBAL DAT_0040dde8 undefined1
 
 void FUN_002096a8(int *param_1)
 
@@ -4456,6 +5600,7 @@ void FUN_002097b8(void)
 
 
 // ==== fe_FEInputId_002097c0 @ 002097c0 ====
+// GLOBAL DAT_0040f544 int
 
 /* Strings referenciadas:
      "FEInputId"
@@ -4483,6 +5628,8 @@ undefined4 fe_FEInputId_002097c0(undefined8 param_1)
 
 
 // ==== FUN_00209858 @ 00209858 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f0e8 int
 
 void FUN_00209858(undefined8 param_1)
 
@@ -4515,6 +5662,7 @@ void FUN_00209858(undefined8 param_1)
 
 
 // ==== FUN_00209930 @ 00209930 ====
+// GLOBAL DAT_0040f544 int
 
 /* Strings referenciadas:
      "PauseMenu" */
@@ -4597,6 +5745,7 @@ void FUN_00209a58(int param_1)
 
 
 // ==== FUN_00209a60 @ 00209a60 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_00209a60(void)
 
@@ -4612,6 +5761,9 @@ void FUN_00209a60(void)
 
 
 // ==== FUN_00209aa0 @ 00209aa0 ====
+// GLOBAL DAT_0040f0e8 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f544 int
 
 undefined4 FUN_00209aa0(void)
 
@@ -4784,6 +5936,8 @@ void FUN_00209cf0(undefined4 *param_1)
 
 
 // ==== FUN_00209d10 @ 00209d10 ====
+// GLOBAL DAT_003fc9e0 undefined
+// GLOBAL DAT_003fc9e4 undefined
 
 /* Strings referenciadas:
      "Default" */
@@ -4983,6 +6137,9 @@ undefined4 FUN_00209ff8(int param_1,int param_2)
 
 
 // ==== FUN_0020a058 @ 0020a058 ====
+// GLOBAL DAT_004432e8 undefined4
+// GLOBAL DAT_004432ec undefined4
+// GLOBAL DAT_004432e0 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* Strings referenciadas:
@@ -5092,6 +6249,7 @@ void FUN_0020a058(undefined8 param_1)
 
 
 // ==== FUN_0020a220 @ 0020a220 ====
+// GLOBAL DAT_0040f4c0 int
 
 undefined4 FUN_0020a220(undefined1 *param_1)
 
@@ -5134,6 +6292,17 @@ undefined4 FUN_0020a220(undefined1 *param_1)
 
 
 // ==== fe_FEChangePage_0020a338 @ 0020a338 ====
+// GLOBAL DAT_004432e8 undefined4
+// GLOBAL DAT_004432ec undefined4
+// GLOBAL DAT_004432e0 undefined
+// GLOBAL DAT_0040dde8 undefined1
+// GLOBAL DAT_0040f4c4 int
+// GLOBAL PTR_s_Export\FrontEnd\InGameOn.bin_003be724 undefined_*
+// GLOBAL PTR_s_Export\FrontEnd\Core.bin_003be748 undefined_*
+// GLOBAL PTR_s_Export\FrontEnd\Loading.bin_003be734 undefined_*
+// GLOBAL PTR_s_Export\FrontEnd\WpnScope.bin_003be72c undefined_*
+// GLOBAL PTR_s_Export\FrontEnd\Ring.bin_003be738 undefined_*
+// GLOBAL PTR_s_Export\FrontEnd\cntrDisc.bin_003be73c undefined_*
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* Strings referenciadas:
@@ -5422,6 +6591,7 @@ switchD_0020a38c_caseD_11:
 
 
 // ==== FUN_0020aac8 @ 0020aac8 ====
+// GLOBAL DAT_0040f4c4 undefined4
 
 void FUN_0020aac8(undefined8 param_1,undefined2 param_2)
 
@@ -5436,6 +6606,10 @@ void FUN_0020aac8(undefined8 param_1,undefined2 param_2)
 
 
 // ==== FUN_0020ab20 @ 0020ab20 ====
+// GLOBAL DAT_0040f4c4 int
+// GLOBAL PTR_s_Export\FrontEnd\FEMain.bin_003be730 undefined_*
+// GLOBAL PTR_s_Export\FrontEnd\Common.bin_003be74c undefined_*
+// GLOBAL DAT_0040f4f0 undefined4
 
 /* Strings referenciadas:
      "Export\FrontEnd\FEMain.bin"
@@ -5524,6 +6698,8 @@ switchD_0020ab54_caseD_7:
 
 
 // ==== fe_FECurrentLevelId_0020ad10 @ 0020ad10 ====
+// GLOBAL DAT_0040f4c4 int
+// GLOBAL DAT_0040f0e0 int
 
 /* Strings referenciadas:
      "FECurrentLevelId"
@@ -5572,6 +6748,8 @@ LAB_0020adfc:
 
 
 // ==== FUN_0020ae20 @ 0020ae20 ====
+// GLOBAL DAT_0040f51c undefined4
+// GLOBAL DAT_0040f544 undefined4
 
 /* Strings referenciadas:
      "PauseMenu" */
@@ -5595,6 +6773,11 @@ void FUN_0020ae20(int param_1)
 
 
 // ==== FUN_0020aea0 @ 0020aea0 ====
+// GLOBAL DAT_0040f540 undefined4
+// GLOBAL DAT_0040f4c4 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f4e8 undefined4
+// GLOBAL PTR_s_Export\FrontEnd\PseMenu.bin_003be750 undefined_*
 
 /* Strings referenciadas:
      "Export\FrontEnd\PseMenu.bin"
@@ -5653,6 +6836,8 @@ void FUN_0020aea0(int param_1)
 
 
 // ==== FUN_0020aff8 @ 0020aff8 ====
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL DAT_0040f540 undefined4
 
 void FUN_0020aff8(int param_1)
 
@@ -5668,6 +6853,8 @@ void FUN_0020aff8(int param_1)
 
 
 // ==== FUN_0020b048 @ 0020b048 ====
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL DAT_0040f4f0 undefined4
 
 void FUN_0020b048(int param_1)
 
@@ -5716,6 +6903,8 @@ void fe_FECurrentLevelId_0020b0c0(undefined8 param_1)
 
 
 // ==== FUN_0020b170 @ 0020b170 ====
+// GLOBAL DAT_0040f4c0 undefined4
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_0020b170(undefined8 param_1)
 
@@ -5760,6 +6949,9 @@ void FUN_0020b170(undefined8 param_1)
 
 
 // ==== FUN_0020b2b0 @ 0020b2b0 ====
+// GLOBAL DAT_0040f544 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040dde8 undefined1
 
 /* Strings referenciadas:
      "Empty"
@@ -5892,6 +7084,9 @@ void FUN_0020b2b0(undefined8 param_1)
 
 
 // ==== FUN_0020b678 @ 0020b678 ====
+// GLOBAL DAT_0040f544 int
+// GLOBAL DAT_0040f4c0 int
+// GLOBAL DAT_0040f0e0 int
 
 /* Strings referenciadas:
      "LegalScreen"
@@ -5971,6 +7166,7 @@ void FUN_0020b8c0(int param_1)
 
 
 // ==== FUN_0020b8e8 @ 0020b8e8 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_0020b8e8(undefined8 param_1)
 
@@ -6014,6 +7210,9 @@ int FUN_0020b980(int param_1)
 
 
 // ==== FUN_0020b988 @ 0020b988 ====
+// GLOBAL DAT_0040f544 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040dde8 char
 
 /* Strings referenciadas:
      "Empty"
@@ -6124,6 +7323,90 @@ int FUN_0020bc00(int param_1,int param_2)
 
 
 // ==== FUN_0020bc18 @ 0020bc18 ====
+// GLOBAL DAT_0043da70 undefined_*
+// GLOBAL DAT_0043da84 undefined_*
+// GLOBAL DAT_0043da98 undefined1_*
+// GLOBAL DAT_0043da9c undefined_*
+// GLOBAL DAT_0043daa0 undefined1_*
+// GLOBAL DAT_0043daa4 undefined1_*
+// GLOBAL DAT_0043daa8 undefined1_*
+// GLOBAL DAT_0043daac undefined_*
+// GLOBAL DAT_0043dab0 undefined_*
+// GLOBAL DAT_0043da74 undefined_*
+// GLOBAL DAT_0043da78 undefined_*
+// GLOBAL DAT_0043dab4 undefined1_*
+// GLOBAL DAT_0043da7c undefined1_*
+// GLOBAL DAT_0043da80 undefined1_*
+// GLOBAL DAT_0043dab8 undefined_*
+// GLOBAL DAT_0043da94 undefined1_*
+// GLOBAL DAT_0043dadc undefined_*
+// GLOBAL DAT_0043dabc undefined_*
+// GLOBAL DAT_0043dac0 undefined_*
+// GLOBAL DAT_0043dad4 undefined1_*
+// GLOBAL DAT_0043dad8 undefined1_*
+// GLOBAL DAT_0043da88 undefined1_*
+// GLOBAL DAT_0043da8c undefined1_*
+// GLOBAL DAT_0043da90 undefined_*
+// GLOBAL DAT_0043dae0 undefined_*
+// GLOBAL DAT_0043dae4 undefined1_*
+// GLOBAL DAT_0043dae8 undefined1_*
+// GLOBAL DAT_0043daec undefined1_*
+// GLOBAL DAT_0043daf0 undefined_*
+// GLOBAL DAT_0043daf4 undefined1_*
+// GLOBAL DAT_0043daf8 undefined1_*
+// GLOBAL DAT_0043dafc undefined1_*
+// GLOBAL DAT_0043db00 undefined1_*
+// GLOBAL DAT_0043db04 undefined1_*
+// GLOBAL DAT_0043dad0 undefined1_*
+// GLOBAL DAT_0043db08 undefined1_*
+// GLOBAL DAT_0043db0c undefined1_*
+// GLOBAL DAT_0043db10 undefined1_*
+// GLOBAL DAT_0043db14 undefined1_*
+// GLOBAL DAT_0043dac4 undefined_*
+// GLOBAL DAT_0043dac8 undefined1_*
+// GLOBAL DAT_0043dacc undefined_*
+// GLOBAL LAB_0020bf18 undefined
+// GLOBAL LAB_0020bf20 undefined
+// GLOBAL LAB_0020bfe8 undefined
+// GLOBAL LAB_0020bff0 undefined
+// GLOBAL LAB_0020c098 undefined
+// GLOBAL LAB_0020c0a0 undefined
+// GLOBAL LAB_0020c0d0 undefined
+// GLOBAL LAB_0020c0d8 undefined
+// GLOBAL LAB_0020c0e0 undefined
+// GLOBAL LAB_0020c440 undefined
+// GLOBAL LAB_0020c590 undefined
+// GLOBAL LAB_0020c5e8 undefined
+// GLOBAL LAB_0020c848 undefined
+// GLOBAL LAB_0020c850 undefined
+// GLOBAL LAB_0020c8c8 undefined
+// GLOBAL LAB_0020ca38 undefined
+// GLOBAL LAB_0020ca40 undefined
+// GLOBAL LAB_0020ca48 undefined
+// GLOBAL LAB_0020ca50 undefined
+// GLOBAL LAB_0020ca58 undefined
+// GLOBAL LAB_0020ca60 undefined
+// GLOBAL LAB_0020ca70 undefined
+// GLOBAL LAB_0020ca78 undefined
+// GLOBAL LAB_0020ca88 undefined
+// GLOBAL LAB_0020cc58 undefined
+// GLOBAL LAB_0020cc98 undefined
+// GLOBAL FUN_0020c4b8 undefined
+// GLOBAL FUN_0020be90 undefined
+// GLOBAL FUN_0020beb8 undefined
+// GLOBAL FUN_0020bee8 undefined
+// GLOBAL FUN_0020bfb0 undefined
+// GLOBAL FUN_0020bff8 undefined
+// GLOBAL FUN_0020c0a8 undefined
+// GLOBAL FUN_0020c0e8 undefined
+// GLOBAL FUN_0020c260 undefined
+// GLOBAL FUN_0020c448 undefined
+// GLOBAL FUN_0020c4f0 undefined
+// GLOBAL FUN_0020c5f0 undefined
+// GLOBAL FUN_0020c7c0 undefined
+// GLOBAL FUN_0020c998 undefined
+// GLOBAL FUN_0020cbc0 undefined
+// GLOBAL FUN_0020cc60 undefined
 
 void FUN_0020bc18(void)
 
@@ -6175,6 +7458,7 @@ void FUN_0020bc18(void)
 
 
 // ==== FUN_0020be90 @ 0020be90 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020be90(undefined8 param_1)
 
@@ -6185,6 +7469,7 @@ void FUN_0020be90(undefined8 param_1)
 
 
 // ==== FUN_0020beb8 @ 0020beb8 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020beb8(long param_1)
 
@@ -6197,6 +7482,7 @@ void FUN_0020beb8(long param_1)
 
 
 // ==== FUN_0020bee8 @ 0020bee8 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020bee8(long param_1)
 
@@ -6218,6 +7504,7 @@ void FUN_0020bfb0(void)
 
 
 // ==== FUN_0020bff8 @ 0020bff8 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020bff8(undefined8 param_1,int *param_2)
 
@@ -6257,6 +7544,7 @@ void FUN_0020c0a8(void)
 
 
 // ==== FUN_0020c0e8 @ 0020c0e8 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020c0e8(undefined8 param_1,undefined8 param_2)
 
@@ -6311,6 +7599,7 @@ void FUN_0020c0e8(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_0020c260 @ 0020c260 ====
+// GLOBAL DAT_0040f544 int
 
 long FUN_0020c260(undefined8 param_1)
 
@@ -6388,6 +7677,7 @@ LAB_0020c40c:
 
 
 // ==== FUN_0020c448 @ 0020c448 ====
+// GLOBAL DAT_0040f544 int
 
 undefined8 FUN_0020c448(undefined8 param_1)
 
@@ -6404,6 +7694,7 @@ undefined8 FUN_0020c448(undefined8 param_1)
 
 
 // ==== FUN_0020c4b8 @ 0020c4b8 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020c4b8(undefined8 param_1)
 
@@ -6415,6 +7706,7 @@ void FUN_0020c4b8(undefined8 param_1)
 
 
 // ==== FUN_0020c4f0 @ 0020c4f0 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020c4f0(undefined8 param_1,int param_2)
 
@@ -6541,6 +7833,7 @@ undefined4 FUN_0020c7c0(int param_1,undefined8 param_2)
 
 
 // ==== FUN_0020c998 @ 0020c998 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020c998(undefined8 param_1,int param_2)
 
@@ -6574,6 +7867,7 @@ void FUN_0020ca98(int param_1)
 
 
 // ==== fe_FE_RESTART_0020cad0 @ 0020cad0 ====
+// GLOBAL DAT_0040f4c4 undefined4
 
 /* Strings referenciadas:
      "RestartConfirm"
@@ -6610,6 +7904,14 @@ void fe_FE_RESTART_0020cad0(undefined8 param_1)
 
 
 // ==== FUN_0020cbc0 @ 0020cbc0 ====
+// GLOBAL PTR_s_f_scroll_003be758 undefined_*
+// GLOBAL DAT_003be820 undefined4
+// GLOBAL DAT_003be804 undefined4
+// GLOBAL DAT_003be838 undefined4
+// GLOBAL PTR_s_f_map_003be75c undefined_*
+// GLOBAL DAT_003be7d0 undefined4
+// GLOBAL PTR_s_p_scroll_003be754 undefined_*
+// GLOBAL DAT_003be7ec undefined4
 
 /* Strings referenciadas:
      "p_scroll"
@@ -6642,6 +7944,7 @@ undefined8 FUN_0020cbc0(undefined8 param_1,undefined8 param_2,undefined8 param_3
 
 
 // ==== FUN_0020cc60 @ 0020cc60 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_0020cc60(undefined8 param_1)
 
@@ -6680,6 +7983,7 @@ void FUN_0020ccf8(int param_1,undefined4 param_2)
 
 
 // ==== FUN_0020cd00 @ 0020cd00 ====
+// GLOBAL DAT_0040f4c0 undefined4
 
 void FUN_0020cd00(int param_1)
 
@@ -6810,6 +8114,8 @@ void FUN_0020cd00(int param_1)
 
 
 // ==== FUN_0020d0c0 @ 0020d0c0 ====
+// GLOBAL DAT_0040f4a4 undefined4
+// GLOBAL DAT_003e0cc8 undefined
 
 void FUN_0020d0c0(undefined8 param_1)
 
@@ -6852,6 +8158,12 @@ void FUN_0020d1a8(void)
 
 
 // ==== FUN_0020d1c8 @ 0020d1c8 ====
+// GLOBAL DAT_0043da54 float
+// GLOBAL DAT_0043da50 float
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL DAT_0040f544 int
+// GLOBAL PTR_s_ITC_Machine_Std_003bc3a0 pointer
 
 /* Strings referenciadas:
      "Eurostile LT Std"
@@ -7105,6 +8417,8 @@ switchD_0020d730_default:
 
 
 // ==== FUN_0020d880 @ 0020d880 ====
+// GLOBAL DAT_0042bc50 undefined8
+// GLOBAL DAT_003fc9e8 int
 
 void FUN_0020d880(int *param_1)
 
@@ -7157,6 +8471,7 @@ void FUN_0020d910(int param_1)
 
 
 // ==== FUN_0020d960 @ 0020d960 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020d960(int param_1)
 
@@ -7175,6 +8490,9 @@ void FUN_0020d960(int param_1)
 
 
 // ==== FUN_0020d9c0 @ 0020d9c0 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL PTR_s_BUTTON_TRIANGLE_003be760 undefined_*
 
 void FUN_0020d9c0(ushort *param_1)
 
@@ -7242,6 +8560,7 @@ void FUN_0020d9c0(ushort *param_1)
 
 
 // ==== FUN_0020db40 @ 0020db40 ====
+// GLOBAL DAT_003be7a0 undefined4
 
 void FUN_0020db40(undefined4 param_1)
 
@@ -7271,6 +8590,8 @@ int FUN_0020db58(undefined8 param_1,char *param_2)
 
 
 // ==== FUN_0020db90 @ 0020db90 ====
+// GLOBAL DAT_003be7a0 undefined4
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020db90(int *param_1,int param_2)
 
@@ -7292,6 +8613,7 @@ void FUN_0020db90(int *param_1,int param_2)
 
 
 // ==== FUN_0020dc20 @ 0020dc20 ====
+// GLOBAL DAT_003be7a0 undefined4
 
 void FUN_0020dc20(undefined4 *param_1)
 
@@ -7336,6 +8658,7 @@ undefined4 FUN_0020dcb0(undefined8 param_1)
 
 
 // ==== FUN_0020dcf8 @ 0020dcf8 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020dcf8(int param_1,undefined8 param_2)
 
@@ -7352,6 +8675,7 @@ void FUN_0020dcf8(int param_1,undefined8 param_2)
 
 
 // ==== FUN_0020dd48 @ 0020dd48 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020dd48(int param_1)
 
@@ -7460,6 +8784,7 @@ undefined4 FUN_0020df30(void)
 
 
 // ==== FUN_0020df68 @ 0020df68 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020df68(void)
 
@@ -7470,6 +8795,7 @@ void FUN_0020df68(void)
 
 
 // ==== FUN_0020df90 @ 0020df90 ====
+// GLOBAL DAT_0040f544 int
 
 void FUN_0020df90(void)
 
@@ -7480,6 +8806,7 @@ void FUN_0020df90(void)
 
 
 // ==== FUN_0020dfc8 @ 0020dfc8 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020dfc8(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
@@ -7495,6 +8822,7 @@ void FUN_0020dfc8(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
 
 // ==== FUN_0020e020 @ 0020e020 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020e020(undefined8 param_1,undefined8 param_2)
 
@@ -7510,6 +8838,7 @@ void FUN_0020e020(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_0020e068 @ 0020e068 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020e068(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
@@ -7525,6 +8854,7 @@ void FUN_0020e068(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
 
 // ==== FUN_0020e0c8 @ 0020e0c8 ====
+// GLOBAL DAT_0040f544 undefined4
 
 void FUN_0020e0c8(undefined8 param_1,undefined8 param_2)
 
@@ -7540,6 +8870,7 @@ void FUN_0020e0c8(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_0020e118 @ 0020e118 ====
+// GLOBAL DAT_0040f0e0 int
 
 void FUN_0020e118(undefined8 param_1,long param_2)
 
@@ -7601,6 +8932,7 @@ void FUN_0020e118(undefined8 param_1,long param_2)
 
 
 // ==== fe_FE_COUNT_0020e200 @ 0020e200 ====
+// GLOBAL DAT_003be7a8 undefined4
 
 /* Strings referenciadas:
      "Set480p"
@@ -7636,6 +8968,10 @@ void fe_FE_COUNT_0020e200(undefined8 param_1)
 
 
 // ==== FUN_0020e338 @ 0020e338 ====
+// GLOBAL DAT_003be7a8 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_003be7ac float
+// GLOBAL DAT_0040f544 int
 
 /* Strings referenciadas:
      "60HzSelect" */
@@ -7681,6 +9017,7 @@ void FUN_0020e338(void)
 
 
 // ==== FUN_0020e4a8 @ 0020e4a8 ====
+// GLOBAL DAT_003be7a8 undefined4
 
 /* Strings referenciadas:
      "Set480p"
@@ -7711,6 +9048,8 @@ undefined4 FUN_0020e4a8(undefined8 param_1)
 
 
 // ==== FUN_0020e560 @ 0020e560 ====
+// GLOBAL DAT_003be7a4 undefined4
+// GLOBAL DAT_0040f0e8 int
 
 void FUN_0020e560(void)
 
@@ -7738,6 +9077,7 @@ void FUN_0020e560(void)
 
 
 // ==== FUN_0020e620 @ 0020e620 ====
+// GLOBAL DAT_003be7a4 int
 
 bool FUN_0020e620(void)
 
@@ -7747,6 +9087,10 @@ bool FUN_0020e620(void)
 
 
 // ==== FUN_0020e630 @ 0020e630 ====
+// GLOBAL DAT_0040f4c0 undefined4
+// GLOBAL DAT_0040f0e0 undefined4
+// GLOBAL DAT_0040f544 undefined4
+// GLOBAL null undefined1
 
 void FUN_0020e630(void)
 
@@ -7760,6 +9104,11 @@ void FUN_0020e630(void)
 
 
 // ==== FUN_0020e678 @ 0020e678 ====
+// GLOBAL DAT_0040f4c0 undefined4
+// GLOBAL DAT_0040f0e0 undefined4
+// GLOBAL DAT_0040f544 undefined4
+// GLOBAL DAT_003be7a8 undefined4
+// GLOBAL null undefined1
 
 void FUN_0020e678(void)
 

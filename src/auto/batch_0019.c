@@ -78,6 +78,9 @@ int FUN_001d9f60(int *param_1)
 
 
 // ==== FUN_001d9f78 @ 001d9f78 ====
+// GLOBAL DAT_004092d0 undefined
+// GLOBAL DAT_004092e0 undefined
+// GLOBAL DAT_00409310 undefined
 
 void FUN_001d9f78(undefined8 param_1,undefined8 param_2,undefined8 param_3,long param_4,int param_5,
                  undefined4 param_6,undefined4 param_7,long param_8,undefined1 param_9,
@@ -168,6 +171,7 @@ LAB_001da150:
 
 
 // ==== FUN_001da1c8 @ 001da1c8 ====
+// GLOBAL DAT_0040f510 int
 
 undefined4
 FUN_001da1c8(undefined8 param_1,uint param_2,undefined4 param_3,undefined8 param_4,
@@ -305,6 +309,7 @@ switchD_001da3dc_caseD_6:
 
 
 // ==== FUN_001da5c8 @ 001da5c8 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001da5c8(undefined8 param_1,undefined8 *param_2)
 
@@ -628,6 +633,7 @@ undefined4 FUN_001daae0(int param_1)
 
 
 // ==== FUN_001dab20 @ 001dab20 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001dab20(int param_1,undefined8 *param_2)
 
@@ -795,6 +801,9 @@ void FUN_001dad60(int param_1,long param_2)
 
 
 // ==== FUN_001dad90 @ 001dad90 ====
+// GLOBAL DAT_003f8cb8 undefined
+// GLOBAL DAT_003f8cbc undefined
+// GLOBAL DAT_003f8cd8 undefined
 
 void FUN_001dad90(undefined8 param_1,byte *param_2,undefined2 *param_3)
 
@@ -855,6 +864,7 @@ void FUN_001dad90(undefined8 param_1,byte *param_2,undefined2 *param_3)
 
 
 // ==== FUN_001daf20 @ 001daf20 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001daf20(int *param_1,int param_2,int param_3,int param_4)
 
@@ -883,6 +893,7 @@ void FUN_001daf20(int *param_1,int param_2,int param_3,int param_4)
 
 
 // ==== FUN_001dafd0 @ 001dafd0 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001dafd0(undefined4 *param_1)
 
@@ -984,6 +995,11 @@ switchD_001db170_caseD_0:
 
 
 // ==== FUN_001db1b0 @ 001db1b0 ====
+// GLOBAL DAT_003bd2d8 undefined4
+// GLOBAL DAT_003bd2e4 undefined4
+// GLOBAL DAT_003bd2dc undefined4
+// GLOBAL DAT_003bd2e0 undefined4
+// GLOBAL null undefined1
 
 void FUN_001db1b0(undefined4 param_1,undefined4 *param_2)
 
@@ -1069,6 +1085,11 @@ void FUN_001db2f0(undefined4 param_1,int param_2)
 
 
 // ==== FUN_001db2f8 @ 001db2f8 ====
+// GLOBAL DAT_003bd2e4 undefined4
+// GLOBAL DAT_003bd2dc undefined4
+// GLOBAL DAT_003bd2d8 undefined4
+// GLOBAL DAT_003bd2e0 undefined4
+// GLOBAL null undefined1
 
 void FUN_001db2f8(float param_1,undefined4 *param_2)
 
@@ -1199,6 +1220,12 @@ void FUN_001db4f0(undefined8 param_1)
 
 
 // ==== FUN_001db5f0 @ 001db5f0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL PTR_s_Ambience.ssh_003bd2d0 undefined_*
+// GLOBAL DAT_0040f4c4 undefined4
+// GLOBAL PTR_s_Emitter.awd_003bd2d4 undefined_*
+// GLOBAL null char
 
 /* Strings referenciadas:
      "Ambience.ssh"
@@ -1339,6 +1366,9 @@ switchD_001db670_caseD_5:
 
 
 // ==== FUN_001dba00 @ 001dba00 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_003bd2e8 undefined4
 
 void FUN_001dba00(uint param_1,int param_2)
 
@@ -1519,6 +1549,7 @@ LAB_001dbca8:
 
 
 // ==== FUN_001dbdb8 @ 001dbdb8 ====
+// GLOBAL DAT_0040f510 undefined4
 
 undefined4 FUN_001dbdb8(int param_1)
 
@@ -1602,6 +1633,8 @@ void FUN_001dbed8(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001dbf38 @ 001dbf38 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_0040eae4 uint
 
 void FUN_001dbf38(int param_1,int param_2)
 
@@ -1671,6 +1704,9 @@ void FUN_001dc000(int param_1)
 
 
 // ==== FUN_001dc038 @ 001dc038 ====
+// GLOBAL DAT_0040da1c char
+// GLOBAL DAT_003c09e8 int
+// GLOBAL PTR_s_../Export/ValueDB/Sound/ps2/Base_003bd2cc undefined_*
 
 /* Strings referenciadas:
      "../Export/ValueDB/Sound/ps2/BaseMix.cfg"
@@ -1719,6 +1755,8 @@ void FUN_001dc038(int param_1,long *param_2)
 
 
 // ==== FUN_001dc1a0 @ 001dc1a0 ====
+// GLOBAL DAT_0040f0e0 undefined4
+// GLOBAL DAT_0040f510 int
 
 undefined4 FUN_001dc1a0(undefined8 param_1,undefined8 param_2)
 
@@ -1760,6 +1798,7 @@ undefined4 FUN_001dc1a0(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001dc278 @ 001dc278 ====
+// GLOBAL DAT_0040f0e0 int
 
 undefined4 FUN_001dc278(int param_1,int param_2)
 
@@ -1779,6 +1818,9 @@ undefined4 FUN_001dc278(int param_1,int param_2)
 
 
 // ==== FUN_001dc2c0 @ 001dc2c0 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040f510 undefined4
+// GLOBAL DAT_003f8d10 undefined
 
 void FUN_001dc2c0(int param_1)
 
@@ -1825,6 +1867,7 @@ void FUN_001dc2c0(int param_1)
 
 
 // ==== FUN_001dc498 @ 001dc498 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001dc498(int param_1,undefined8 param_2,long param_3)
 
@@ -1945,6 +1988,7 @@ void FUN_001dc690(int param_1,undefined4 param_2)
 
 
 // ==== FUN_001dc6e8 @ 001dc6e8 ====
+// GLOBAL DAT_0040f510 undefined4
 
 void FUN_001dc6e8(int param_1)
 
@@ -1975,6 +2019,8 @@ void FUN_001dc6e8(int param_1)
 
 
 // ==== FUN_001dc790 @ 001dc790 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d0 int
 
 void FUN_001dc790(float param_1,undefined8 param_2,int param_3)
 
@@ -2850,6 +2896,9 @@ void FUN_001dd7c0(int param_1,undefined8 param_2)
 
 
 // ==== FUN_001dd838 @ 001dd838 ====
+// GLOBAL DAT_003c09e8 int
+// GLOBAL PTR_s_../Export/ValueDB/Sound/ps2/Coll_003bd2ec undefined_*
+// GLOBAL null char
 
 /* Strings referenciadas:
      "../Export/ValueDB/Sound/ps2/Collision.cfg"
@@ -2884,6 +2933,27 @@ void FUN_001dd838(void)
 
 
 // ==== FUN_001dd9c8 @ 001dd9c8 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003f91b0 undefined8
+// GLOBAL DAT_0040f4e0 undefined4
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_003bd354 float
+// GLOBAL DAT_003bd350 float
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_003bd338 float
+// GLOBAL DAT_003bd34c undefined4
+// GLOBAL DAT_003bd384 undefined4
+// GLOBAL DAT_003bd38c undefined4
+// GLOBAL DAT_003bd330 undefined4
+// GLOBAL DAT_003bd334 undefined4
+// GLOBAL DAT_003bd388 undefined4
+// GLOBAL DAT_0040da1e undefined1
+// GLOBAL DAT_003bd33c float
+// GLOBAL DAT_003bd340 float
+// GLOBAL DAT_003bd344 float
+// GLOBAL DAT_003bd348 float
+// GLOBAL DAT_003e26b0 undefined
 
 void FUN_001dd9c8(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
@@ -3022,6 +3092,9 @@ LAB_001ddc0c:
 
 
 // ==== FUN_001dde78 @ 001dde78 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001dde78(undefined8 param_1,undefined8 *param_2,undefined8 param_3)
 
@@ -3080,6 +3153,9 @@ void FUN_001dde78(undefined8 param_1,undefined8 *param_2,undefined8 param_3)
 
 
 // ==== FUN_001de078 @ 001de078 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001de078(undefined8 param_1,undefined8 param_2,int param_3,undefined4 param_4)
 
@@ -3131,6 +3207,10 @@ void FUN_001de078(undefined8 param_1,undefined8 param_2,int param_3,undefined4 p
 
 
 // ==== FUN_001de1f0 @ 001de1f0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_003f9190 undefined8
 
 void FUN_001de1f0(undefined8 param_1,undefined8 *param_2,undefined8 param_3)
 
@@ -3195,6 +3275,9 @@ LAB_001de378:
 
 
 // ==== FUN_001de3d0 @ 001de3d0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001de3d0(undefined8 param_1,undefined8 param_2,int param_3)
 
@@ -3280,6 +3363,9 @@ undefined4 FUN_001de520(undefined8 param_1,long param_2)
 
 
 // ==== FUN_001de598 @ 001de598 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001de598(undefined8 param_1,int param_2,undefined8 param_3)
 
@@ -3334,6 +3420,15 @@ void FUN_001de598(undefined8 param_1,int param_2,undefined8 param_3)
 
 
 // ==== FUN_001de6f0 @ 001de6f0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd32c uint
+// GLOBAL DAT_0042a430 undefined4
+// GLOBAL DAT_003bd2f0 float
+// GLOBAL DAT_003bd300 undefined
+// GLOBAL DAT_0042a3f0 undefined
+// GLOBAL DAT_0042a3f8 undefined
+// GLOBAL DAT_0042a3fc undefined1
+// GLOBAL DAT_0042a434 undefined
 
 void FUN_001de6f0(undefined8 param_1,int param_2,uint param_3)
 
@@ -3562,6 +3657,10 @@ LAB_001de904:
 
 
 // ==== FUN_001dec08 @ 001dec08 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d8 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001dec08(undefined8 param_1,undefined8 param_2)
 
@@ -3613,6 +3712,10 @@ void FUN_001dec08(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001ded60 @ 001ded60 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d8 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001ded60(undefined8 param_1,undefined8 param_2)
 
@@ -3664,6 +3767,8 @@ void FUN_001ded60(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001deeb8 @ 001deeb8 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd2fc undefined4
 
 void FUN_001deeb8(undefined8 param_1,int *param_2,long param_3,long param_4)
 
@@ -3719,6 +3824,7 @@ void FUN_001deeb8(undefined8 param_1,int *param_2,long param_3,long param_4)
 
 
 // ==== FUN_001df028 @ 001df028 ====
+// GLOBAL DAT_0040f4d0 undefined4
 
 undefined1 FUN_001df028(undefined8 param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4)
 
@@ -3743,6 +3849,11 @@ undefined1 FUN_001df028(undefined8 param_1,undefined4 param_2,undefined8 param_3
 
 
 // ==== FUN_001df080 @ 001df080 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d8 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_003bd310 undefined4
 
 void FUN_001df080(undefined8 param_1,undefined8 param_2)
 
@@ -3808,6 +3919,10 @@ void FUN_001df080(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001df278 @ 001df278 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d8 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001df278(undefined8 param_1,undefined8 param_2)
 
@@ -3859,6 +3974,8 @@ void FUN_001df278(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001df3d0 @ 001df3d0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd358 undefined4
 
 void FUN_001df3d0(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
@@ -3911,6 +4028,9 @@ void FUN_001df3d0(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
 
 // ==== FUN_001df4d0 @ 001df4d0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001df4d0(undefined8 param_1,int param_2)
 
@@ -3958,6 +4078,10 @@ void FUN_001df4d0(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001df640 @ 001df640 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d8 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001df640(undefined8 param_1,undefined8 param_2)
 
@@ -4007,6 +4131,10 @@ void FUN_001df640(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001df7b0 @ 001df7b0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d8 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001df7b0(undefined8 param_1,undefined8 param_2)
 
@@ -4054,6 +4182,7 @@ void FUN_001df7b0(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001df908 @ 001df908 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001df908(undefined8 param_1,undefined8 param_2,undefined4 param_3)
 
@@ -4099,6 +4228,7 @@ void FUN_001df908(undefined8 param_1,undefined8 param_2,undefined4 param_3)
 
 
 // ==== FUN_001df9e0 @ 001df9e0 ====
+// GLOBAL DAT_0040f510 int
 
 uint FUN_001df9e0(undefined8 param_1,long param_2)
 
@@ -4144,6 +4274,10 @@ switchD_001dfa0c_caseD_5:
 
 
 // ==== FUN_001dfab0 @ 001dfab0 ====
+// GLOBAL DAT_0040eb30 int
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_003bd2f8 int
+// GLOBAL DAT_003bd2f4 undefined
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -4160,6 +4294,7 @@ uint FUN_001dfab0(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001dfb20 @ 001dfb20 ====
+// GLOBAL DAT_0040f510 int
 
 undefined4 FUN_001dfb20(undefined8 param_1,long param_2)
 
@@ -4222,6 +4357,8 @@ undefined4 FUN_001dfc08(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001dfc78 @ 001dfc78 ====
+// GLOBAL DAT_003bd310 undefined4
+// GLOBAL DAT_0042a3f0 undefined
 
 void FUN_001dfc78(void)
 
@@ -4256,6 +4393,8 @@ void FUN_001dfc78(void)
 
 
 // ==== FUN_001dfd08 @ 001dfd08 ====
+// GLOBAL DAT_003c09e8 int
+// GLOBAL null char
 
 /* Strings referenciadas:
      "Collision"
@@ -4339,6 +4478,9 @@ void FUN_001dfeb0(undefined4 *param_1,int *param_2,undefined1 param_3)
 
 
 // ==== FUN_001dfed0 @ 001dfed0 ====
+// GLOBAL DAT_003bd3a4 float
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_003bd3a0 float
 
 void FUN_001dfed0(int param_1,int param_2,undefined4 param_3)
 
@@ -4397,6 +4539,11 @@ void FUN_001dfed0(int param_1,int param_2,undefined4 param_3)
 
 
 // ==== FUN_001e0028 @ 001e0028 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL PTR_s_Collide.awd_003bd35c undefined_*
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL PTR_s_Level.awd_003bd360 undefined_*
 
 /* Strings referenciadas:
      "Level.awd"
@@ -4557,6 +4704,7 @@ void FUN_001e0440(undefined8 param_1)
 
 
 // ==== FUN_001e0480 @ 001e0480 ====
+// GLOBAL DAT_0040f510 undefined4
 
 undefined4 FUN_001e0480(undefined8 param_1)
 
@@ -4598,6 +4746,12 @@ undefined4 FUN_001e0480(undefined8 param_1)
 
 
 // ==== FUN_001e0550 @ 001e0550 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd384 undefined4
+// GLOBAL DAT_003bd38c undefined4
+// GLOBAL DAT_003bd388 undefined4
+// GLOBAL DAT_0040da1e undefined1
 
 void FUN_001e0550(int param_1,undefined4 param_2,undefined8 param_3)
 
@@ -4894,6 +5048,8 @@ void FUN_001e0930(int param_1,undefined8 *param_2,undefined1 param_3)
 
 
 // ==== FUN_001e09a8 @ 001e09a8 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d0 int
 
 bool FUN_001e09a8(undefined8 param_1,int param_2)
 
@@ -4918,6 +5074,8 @@ bool FUN_001e09a8(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001e0a30 @ 001e0a30 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e0a30(undefined8 param_1)
 
@@ -5074,6 +5232,8 @@ LAB_001e0c64:
 
 
 // ==== FUN_001e0d28 @ 001e0d28 ====
+// GLOBAL DAT_003f7e10 undefined4
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e0d28(int param_1)
 
@@ -5149,6 +5309,8 @@ void FUN_001e0d28(int param_1)
 
 
 // ==== FUN_001e0e70 @ 001e0e70 ====
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001e0e70(int param_1)
 
@@ -5318,6 +5480,7 @@ undefined8 FUN_001e1100(undefined8 param_1,undefined8 param_2,undefined8 param_3
 
 
 // ==== FUN_001e11f8 @ 001e11f8 ====
+// GLOBAL DAT_003bd390 undefined4
 
 int FUN_001e11f8(float param_1)
 
@@ -5350,6 +5513,22 @@ undefined4 FUN_001e1240(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001e1248 @ 001e1248 ====
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd374 undefined4
+// GLOBAL DAT_003bd380 undefined4
+// GLOBAL DAT_003bd378 undefined4
+// GLOBAL DAT_003bd37c undefined4
+// GLOBAL DAT_003bd364 undefined4
+// GLOBAL DAT_003bd370 undefined4
+// GLOBAL DAT_003bd368 undefined4
+// GLOBAL DAT_003bd36c undefined4
+// GLOBAL DAT_003bd384 undefined4
+// GLOBAL DAT_003bd38c undefined4
+// GLOBAL DAT_003bd388 undefined4
+// GLOBAL DAT_003f91c8 undefined
+// GLOBAL null undefined1
 
 void FUN_001e1248(undefined4 param_1,undefined4 param_2,undefined8 param_3,int param_4,
                  undefined8 param_5,undefined8 param_6)
@@ -5484,6 +5663,7 @@ LAB_001e1620:
 
 
 // ==== FUN_001e1690 @ 001e1690 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e1690(int param_1,undefined8 param_2,long param_3)
 
@@ -5515,6 +5695,7 @@ void FUN_001e16e0(int param_1)
 
 
 // ==== FUN_001e1708 @ 001e1708 ====
+// GLOBAL DAT_003bd390 undefined4
 
 undefined4 FUN_001e1708(undefined8 param_1,int param_2)
 
@@ -5586,6 +5767,7 @@ LAB_001e1814:
 
 
 // ==== FUN_001e1840 @ 001e1840 ====
+// GLOBAL DAT_0040f4d0 int
 
 undefined8 FUN_001e1840(undefined8 param_1,long param_2)
 
@@ -5613,6 +5795,10 @@ undefined8 FUN_001e1840(undefined8 param_1,long param_2)
 
 
 // ==== FUN_001e18b0 @ 001e18b0 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003c09e8 int
+// GLOBAL PTR_s_../Export/ValueDB/Sound/ps2/AIWe_003bd3b8 undefined_*
+// GLOBAL null char
 
 /* Strings referenciadas:
      "Deemphasis Attenuation"
@@ -5772,6 +5958,12 @@ void FUN_001e1be0(undefined4 param_1,int param_2,undefined8 param_3)
 
 
 // ==== FUN_001e1c50 @ 001e1c50 ====
+// GLOBAL DAT_003bd3a8 float
+// GLOBAL DAT_003bd3ac undefined4
+// GLOBAL DAT_003bd3b4 undefined4
+// GLOBAL DAT_003bd3b0 undefined4
+// GLOBAL DAT_0040f510 int
+// GLOBAL null undefined1
 
 void FUN_001e1c50(float param_1,int *param_2,undefined8 param_3,long param_4,long param_5)
 
@@ -5952,6 +6144,7 @@ undefined4 FUN_001e1f18(int param_1)
 
 
 // ==== FUN_001e1f28 @ 001e1f28 ====
+// GLOBAL DAT_003bd3a8 undefined4
 
 undefined4 FUN_001e1f28(void)
 
@@ -6009,6 +6202,10 @@ void FUN_001e1f38(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001e2020 @ 001e2020 ====
+// GLOBAL DAT_003c09e8 int
+// GLOBAL PTR_s_../Export/ValueDB/Sound/ps2/AIWe_003bd3b8 undefined_*
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d0 int
 
 /* Strings referenciadas:
      "AIWeapon"
@@ -6116,6 +6313,9 @@ switchD_001e2074_caseD_0:
 
 
 // ==== FUN_001e2540 @ 001e2540 ====
+// GLOBAL DAT_003bd3d0 float
+// GLOBAL DAT_003bd3c8 float
+// GLOBAL DAT_003bd3cc float
 
 float FUN_001e2540(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4)
 
@@ -6259,6 +6459,12 @@ void FUN_001e26d0(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001e27d8 @ 001e27d8 ====
+// GLOBAL DAT_003bd3c4 int
+// GLOBAL DAT_003bd3c0 int
+// GLOBAL DAT_003bd3d4 float
+// GLOBAL DAT_003bd3dc int
+// GLOBAL DAT_003bd3d8 float
+// GLOBAL null char
 
 void FUN_001e27d8(undefined8 param_1)
 
@@ -6469,6 +6675,7 @@ LAB_001e2aec:
 
 
 // ==== FUN_001e2b48 @ 001e2b48 ====
+// GLOBAL DAT_0040f510 undefined4
 
 undefined4 FUN_001e2b48(undefined8 param_1)
 
@@ -6552,6 +6759,7 @@ void FUN_001e2c38(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_001e2c68 @ 001e2c68 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e2c68(undefined8 param_1,undefined8 param_2,long param_3)
 
@@ -6593,6 +6801,8 @@ void FUN_001e2c68(undefined8 param_1,undefined8 param_2,long param_3)
 
 
 // ==== FUN_001e2d38 @ 001e2d38 ====
+// GLOBAL DAT_003c09e8 int
+// GLOBAL PTR_s_../Export/ValueDB/Sound/ps2/AIWe_003bd3b8 undefined_*
 
 /* Strings referenciadas:
      "../Export/ValueDB/Sound/ps2/AIWeapon.cfg"
@@ -6659,6 +6869,7 @@ void FUN_001e2d38(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001e2f08 @ 001e2f08 ====
+// GLOBAL DAT_003c09e8 int
 
 void FUN_001e2f08(int param_1)
 
@@ -6704,6 +6915,7 @@ void FUN_001e2f08(int param_1)
 
 
 // ==== FUN_001e3018 @ 001e3018 ====
+// GLOBAL PTR_LAB_003f8130 undefined_*
 
 undefined8 FUN_001e3018(undefined8 param_1,ulong param_2)
 
@@ -6721,6 +6933,12 @@ undefined8 FUN_001e3018(undefined8 param_1,ulong param_2)
 
 
 // ==== FUN_001e3098 @ 001e3098 ====
+// GLOBAL DAT_003c0e04 uint
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd3e4 undefined4
+// GLOBAL DAT_003bd3e0 undefined4
+// GLOBAL DAT_003bd3e8 undefined4
+// GLOBAL UNK_003f91d8 undefined
 
 void FUN_001e3098(int param_1,undefined8 param_2)
 
@@ -6801,6 +7019,12 @@ void FUN_001e31a8(int param_1)
 
 
 // ==== FUN_001e31d0 @ 001e31d0 ====
+// GLOBAL DAT_003c0e04 uint
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd3ec undefined4
+// GLOBAL DAT_003bd3f4 undefined4
+// GLOBAL DAT_003bd3f0 undefined4
+// GLOBAL UNK_003f91f8 undefined
 
 void FUN_001e31d0(undefined8 param_1,long param_2,undefined8 param_3)
 
@@ -6865,6 +7089,9 @@ void FUN_001e31d0(undefined8 param_1,long param_2,undefined8 param_3)
 
 
 // ==== FUN_001e32b8 @ 001e32b8 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001e32b8(float param_1,undefined8 param_2,undefined8 param_3)
 
@@ -7008,6 +7235,14 @@ undefined4 FUN_001e3500(int param_1)
 
 
 // ==== FUN_001e3518 @ 001e3518 ====
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_003bd41c float
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_003bd414 float
+// GLOBAL DAT_003bd44c undefined4
+// GLOBAL DAT_003bd454 undefined4
+// GLOBAL DAT_003bd450 undefined4
+// GLOBAL null undefined1
 
 void FUN_001e3518(undefined4 param_1,undefined4 param_2,undefined4 param_3,float param_4,
                  undefined1 (*param_5) [16],undefined4 param_6,undefined4 param_7,undefined4 param_8
@@ -7124,6 +7359,12 @@ void FUN_001e36d0(undefined8 param_1)
 
 
 // ==== FUN_001e3758 @ 001e3758 ====
+// GLOBAL DAT_003c09e8 int
+// GLOBAL PTR_s_../Export/ValueDB/Sound/ps2/Base_003bd2cc undefined_*
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL PTR_s_Level.awd_003bd43c undefined_*
+// GLOBAL null char
 
 /* Strings referenciadas:
      "Level.awd"
@@ -7256,6 +7497,7 @@ switchD_001e38dc_caseD_3:
 
 
 // ==== FUN_001e3b48 @ 001e3b48 ====
+// GLOBAL DAT_0040f4d0 int
 
 void FUN_001e3b48(int param_1)
 
@@ -7276,6 +7518,7 @@ void FUN_001e3b48(int param_1)
 
 
 // ==== FUN_001e3bb0 @ 001e3bb0 ====
+// GLOBAL DAT_0040f510 undefined4
 
 undefined4 FUN_001e3bb0(undefined8 param_1)
 
@@ -7336,6 +7579,19 @@ switchD_001e3be8_caseD_0:
 
 
 // ==== FUN_001e3c90 @ 001e3c90 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd448 undefined4
+// GLOBAL DAT_003bd440 undefined4
+// GLOBAL DAT_003bd444 undefined4
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_003bd41c float
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_003bd414 float
+// GLOBAL DAT_003bd418 float
+// GLOBAL DAT_003bd44c undefined4
+// GLOBAL DAT_003bd454 undefined4
+// GLOBAL DAT_003bd450 undefined4
+// GLOBAL null undefined1
 
 void FUN_001e3c90(undefined4 param_1,float param_2,int param_3,undefined8 param_4,undefined8 param_5
                  )
@@ -7458,6 +7714,13 @@ void FUN_001e3fa0(int param_1,int param_2)
 
 
 // ==== FUN_001e3ff8 @ 001e3ff8 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_003bd430 float
+// GLOBAL DAT_003bd434 float
+// GLOBAL DAT_003bd42c float
+// GLOBAL DAT_003bd428 float
+// GLOBAL DAT_003bd424 float
+// GLOBAL DAT_003bd438 float
 
 void FUN_001e3ff8(undefined8 param_1,undefined4 param_2,undefined4 param_3)
 
@@ -7575,6 +7838,7 @@ void FUN_001e3ff8(undefined8 param_1,undefined4 param_2,undefined4 param_3)
 
 
 // ==== FUN_001e4260 @ 001e4260 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e4260(undefined8 param_1,undefined8 param_2,long param_3)
 
@@ -7594,6 +7858,17 @@ void FUN_001e4260(undefined8 param_1,undefined8 param_2,long param_3)
 
 
 // ==== FUN_001e42d0 @ 001e42d0 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
+// GLOBAL DAT_004432a8 undefined4
+// GLOBAL DAT_004432ac undefined4
+// GLOBAL DAT_004432a0 undefined
+// GLOBAL DAT_003bd418 float
+// GLOBAL DAT_003bd458 undefined4
+// GLOBAL DAT_003bd460 undefined4
+// GLOBAL DAT_003bd45c undefined4
+// GLOBAL DAT_0040da24 undefined1
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 
@@ -7677,6 +7952,11 @@ void FUN_001e42d0(undefined8 param_1)
 
 
 // ==== FUN_001e44a0 @ 001e44a0 ====
+// GLOBAL DAT_003bd464 undefined4
+// GLOBAL DAT_003bd46c undefined4
+// GLOBAL DAT_003bd420 undefined4
+// GLOBAL DAT_003bd468 undefined4
+// GLOBAL DAT_0040da25 undefined1
 
 void FUN_001e44a0(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
@@ -7753,6 +8033,7 @@ void FUN_001e44a0(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
 
 // ==== FUN_001e45a8 @ 001e45a8 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e45a8(undefined4 *param_1)
 
@@ -7828,6 +8109,7 @@ LAB_001e4700:
 
 
 // ==== FUN_001e4720 @ 001e4720 ====
+// GLOBAL PTR_LAB_003f8260 undefined_*
 
 void FUN_001e4720(int param_1)
 
@@ -7850,6 +8132,7 @@ void FUN_001e4720(int param_1)
 
 
 // ==== FUN_001e49d0 @ 001e49d0 ====
+// GLOBAL DAT_003bd470 int
 
 int FUN_001e49d0(int param_1,ulong param_2)
 
@@ -7949,6 +8232,7 @@ undefined4 FUN_001e4b38(int param_1)
 
 
 // ==== FUN_001e4b70 @ 001e4b70 ====
+// GLOBAL DAT_0040f510 int
 
 undefined4 FUN_001e4b70(undefined8 param_1)
 
@@ -8009,6 +8293,7 @@ LAB_001e4ba0:
 
 
 // ==== FUN_001e4ca0 @ 001e4ca0 ====
+// GLOBAL DAT_0040f510 int
 
 void FUN_001e4ca0(undefined4 *param_1)
 
@@ -8085,6 +8370,12 @@ LAB_001e4e14:
 
 
 // ==== FUN_001e4e50 @ 001e4e50 ====
+// GLOBAL DAT_0040f510 int
+// GLOBAL DAT_003bd4c0 undefined4
+// GLOBAL DAT_003bd4c4 undefined4
+// GLOBAL DAT_003bd4c8 undefined4
+// GLOBAL DAT_003bd4cc undefined4
+// GLOBAL DAT_0040da28 undefined1
 
 void FUN_001e4e50(undefined8 param_1,int param_2,long param_3)
 
@@ -8157,6 +8448,7 @@ void FUN_001e4f40(undefined1 *param_1)
 
 
 // ==== FUN_001e4f60 @ 001e4f60 ====
+// GLOBAL DAT_0040f4c4 int
 
 /* Strings referenciadas:
      "%s.slb"
@@ -8326,6 +8618,8 @@ long * FUN_001e51e0(int param_1,long *param_2,long *param_3)
 
 
 // ==== FUN_001e5270 @ 001e5270 ====
+// GLOBAL DAT_0040eb30 uint
+// GLOBAL DAT_0040eb34 int
 
 void FUN_001e5270(undefined8 param_1,int *param_2,long param_3,int param_4)
 
@@ -8383,6 +8677,7 @@ void FUN_001e5360(int param_1)
 
 
 // ==== FUN_001e5408 @ 001e5408 ====
+// GLOBAL PTR_DAT_003bd478 undefined_*
 
 undefined * FUN_001e5408(undefined8 param_1,int param_2)
 
@@ -8392,6 +8687,13 @@ undefined * FUN_001e5408(undefined8 param_1,int param_2)
 
 
 // ==== FUN_001e5420 @ 001e5420 ====
+// GLOBAL DAT_0040f0e0 int
+// GLOBAL DAT_0040eae4 int
+// GLOBAL DAT_0040f510 int
+// GLOBAL PTR_s_levels/global/speech_003bd474 undefined_*
+// GLOBAL PTR_DAT_003bd478 undefined_*
+// GLOBAL DAT_003f9290 undefined
+// GLOBAL DAT_003f92b0 undefined
 
 /* Strings referenciadas:
      "levels/global/speech"
@@ -8550,6 +8852,8 @@ switchD_001e546c_caseD_a:
 
 
 // ==== FUN_001e5830 @ 001e5830 ====
+// GLOBAL DAT_0040f4d0 int
+// GLOBAL DAT_003f9208 undefined8
 
 void FUN_001e5830(int param_1)
 
@@ -8601,6 +8905,7 @@ void FUN_001e5900(undefined8 param_1)
 
 
 // ==== FUN_001e5940 @ 001e5940 ====
+// GLOBAL DAT_0040f510 int
 
 undefined4 FUN_001e5940(undefined8 param_1)
 
@@ -8825,6 +9130,7 @@ undefined4 FUN_001e5cd8(void)
 
 
 // ==== FUN_001e5ce0 @ 001e5ce0 ====
+// GLOBAL DAT_0040f4d0 undefined4
 
 int FUN_001e5ce0(int param_1,undefined8 param_2)
 
@@ -9064,6 +9370,7 @@ void FUN_001e6088(int param_1)
 
 
 // ==== FUN_001e60a8 @ 001e60a8 ====
+// GLOBAL DAT_003f9208 undefined8
 
 undefined4 FUN_001e60a8(undefined8 param_1,long param_2)
 
@@ -9085,6 +9392,7 @@ undefined4 FUN_001e60a8(undefined8 param_1,long param_2)
 
 
 // ==== FUN_001e60e0 @ 001e60e0 ====
+// GLOBAL DAT_003f9270 undefined8
 
 undefined4 FUN_001e60e0(undefined8 param_1,long param_2)
 

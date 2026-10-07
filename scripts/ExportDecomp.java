@@ -33,7 +33,17 @@ public class ExportDecomp extends GhidraScript {
             idx.printf("%s,%s,%d,%d%n", f.getEntryPoint(), f.getName(), f.getBody().getNumAddresses(), i / BATCH);
             DecompileResults r = di.decompileFunction(f, 30, monitor);
             w.printf("// ==== %s @ %s ====%n", f.getName(), f.getEntryPoint());
-            if (r.decompileCompleted()) w.println(r.getDecompiledFunction().getC());
+            if (r.decompileCompleted()) {
+                // Tipos de los globales referenciados, segun el decompilador: "// GLOBAL <nombre> <tipo>"
+                try {
+                    java.util.Iterator<ghidra.program.model.pcode.HighSymbol> it = r.getHighFunction().getGlobalSymbolMap().getSymbols();
+                    while (it.hasNext()) {
+                        ghidra.program.model.pcode.HighSymbol hs = it.next();
+                        if (hs.getDataType() != null) w.println("// GLOBAL " + hs.getName() + " " + hs.getDataType().getDisplayName().replace(' ', '_'));
+                    }
+                } catch (Exception ex) { }
+                w.println(r.getDecompiledFunction().getC());
+            }
             else { w.println("// DECOMPILE FAILED: " + r.getErrorMessage()); fail++; }
         }
         if (w != null) w.close();

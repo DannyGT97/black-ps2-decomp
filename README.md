@@ -1,7 +1,7 @@
 # black-ps2-decomp
 
 <!-- PROGRESS:START -->
-**Decompilacion verificada: 17.98% (funciones) / 2.30% (bytes)** | Identificadas: 3.67% | actualizado 2026-10-08
+**Decompilacion verificada: 18.60% (funciones) / 2.48% (bytes)** | Identificadas: 3.67% | actualizado 2026-10-08
 <!-- PROGRESS:END -->
 
 Proyecto de decompilacion de **Black** (Criterion, 2006), version PS2 NTSC-U (`SLUS_213.76`).

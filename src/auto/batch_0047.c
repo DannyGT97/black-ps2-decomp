@@ -74,6 +74,8 @@ void FUN_00388e70(void)
 
 
 // ==== FUN_00388e88 @ 00388e88 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00388e88(undefined4 *param_1,ulong param_2)
 
@@ -97,6 +99,7 @@ ulong FUN_00388ed0(int param_1,ulong param_2)
 
 
 // ==== FUN_00388ef8 @ 00388ef8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
 
 void FUN_00388ef8(undefined8 param_1,ulong param_2)
 
@@ -146,6 +149,7 @@ undefined8 FUN_00388f48(int *param_1,int param_2)
 
 
 // ==== FUN_00388fe8 @ 00388fe8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
 
 void FUN_00388fe8(undefined8 param_1,ulong param_2)
 
@@ -193,6 +197,7 @@ uint FUN_00389060(int param_1,int *param_2)
 
 
 // ==== Kaim_CObject_00389100 @ 00389100 ====
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject" */
@@ -217,6 +222,8 @@ float FUN_00389140(float *param_1)
 
 
 // ==== FUN_00389178 @ 00389178 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389178(undefined4 *param_1,ulong param_2)
 
@@ -230,6 +237,7 @@ void FUN_00389178(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CGraphPoint_003891b0 @ 003891b0 ====
+// GLOBAL DAT_0049a8f8 int
 
 /* Strings referenciadas:
      "Q24Kaim11CGraphPoint" */
@@ -246,6 +254,7 @@ undefined8 Kaim_CGraphPoint_003891b0(void)
 
 
 // ==== Kaim_CFleeAgent_00389240 @ 00389240 ====
+// GLOBAL DAT_0049a908 int
 
 /* Strings referenciadas:
      "Q24Kaim10CFleeAgent" */
@@ -262,6 +271,8 @@ undefined8 Kaim_CFleeAgent_00389240(void)
 
 
 // ==== FUN_003892e0 @ 003892e0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_003892e0(undefined4 *param_1,ulong param_2)
 
@@ -275,6 +286,7 @@ void FUN_003892e0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_RecursiveFlightTraversal_00389318 @ 00389318 ====
+// GLOBAL DAT_0049a918 int
 
 /* Strings referenciadas:
      "Q24Kaim24RecursiveFlightTraversal" */
@@ -300,6 +312,7 @@ void FUN_00389368(void)
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim6CAgentZPFPQ24Kaim6CBrain_PQ24Kaim6CAgent_00389370 @ 00389370 ====
+// GLOBAL DAT_0040ebc8 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim6CAgentZPFPQ24Kaim6CBrain_PQ24Kaim6CAgent" */
@@ -315,6 +328,7 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim6CAgentZPFPQ24Kaim6CBrain_PQ24Kaim6CAgent_00
 
 
 // ==== Kaim_CPointWrapper_003893b0 @ 003893b0 ====
+// GLOBAL DAT_0049a928 int
 
 /* Strings referenciadas:
      "Q24Kaim13CPointWrapper" */
@@ -331,6 +345,7 @@ undefined8 Kaim_CPointWrapper_003893b0(void)
 
 
 // ==== Kaim_CVertexTraversal_00389400 @ 00389400 ====
+// GLOBAL DAT_0049a938 int
 
 /* Strings referenciadas:
      "Q24Kaim16CVertexTraversal" */
@@ -347,6 +362,7 @@ undefined8 Kaim_CVertexTraversal_00389400(void)
 
 
 // ==== FUN_00389450 @ 00389450 ====
+// GLOBAL DAT_003e2ae0 undefined
 
 void FUN_00389450(int param_1,ulong param_2)
 
@@ -360,6 +376,7 @@ void FUN_00389450(int param_1,ulong param_2)
 
 
 // ==== Kaim_CFollowerAgent_00389480 @ 00389480 ====
+// GLOBAL DAT_0049a958 int
 
 /* Strings referenciadas:
      "Q24Kaim14CFollowerAgent" */
@@ -376,6 +393,7 @@ undefined8 Kaim_CFollowerAgent_00389480(void)
 
 
 // ==== Kaim_CGotoAgent_00389500 @ 00389500 ====
+// GLOBAL DAT_0049a968 int
 
 /* Strings referenciadas:
      "Q24Kaim10CGotoAgent" */
@@ -392,6 +410,7 @@ undefined8 Kaim_CGotoAgent_00389500(void)
 
 
 // ==== Kaim_CHideAgent_00389578 @ 00389578 ====
+// GLOBAL DAT_0049a978 int
 
 /* Strings referenciadas:
      "Q24Kaim10CHideAgent" */
@@ -408,6 +427,7 @@ undefined8 Kaim_CHideAgent_00389578(void)
 
 
 // ==== Kaim_CPathWayAgent_00389618 @ 00389618 ====
+// GLOBAL DAT_0049a988 int
 
 /* Strings referenciadas:
      "Q24Kaim13CPathWayAgent" */
@@ -424,6 +444,8 @@ undefined8 Kaim_CPathWayAgent_00389618(void)
 
 
 // ==== Kaim_CObject_003896a8 @ 003896a8 ====
+// GLOBAL DAT_0049a998 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -443,6 +465,7 @@ undefined4 * Kaim_CObject_003896a8(void)
 
 
 // ==== Kaim_CShooterAgent_00389720 @ 00389720 ====
+// GLOBAL DAT_0049a9a8 int
 
 /* Strings referenciadas:
      "Q24Kaim13CShooterAgent" */
@@ -459,6 +482,7 @@ undefined8 Kaim_CShooterAgent_00389720(void)
 
 
 // ==== Kaim_CWanderAgent_003897c8 @ 003897c8 ====
+// GLOBAL DAT_0049a9b8 int
 
 /* Strings referenciadas:
      "Q24Kaim12CWanderAgent" */
@@ -475,6 +499,7 @@ undefined8 Kaim_CWanderAgent_003897c8(void)
 
 
 // ==== Kaim_CActionAcceleration_00389840 @ 00389840 ====
+// GLOBAL DAT_0049a9c8 int
 
 /* Strings referenciadas:
      "Q24Kaim19CActionAcceleration" */
@@ -491,6 +516,8 @@ undefined8 Kaim_CActionAcceleration_00389840(void)
 
 
 // ==== FUN_003898a8 @ 003898a8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_003898a8(undefined4 *param_1,ulong param_2)
 
@@ -504,6 +531,8 @@ void FUN_003898a8(undefined4 *param_1,ulong param_2)
 
 
 // ==== FUN_00389908 @ 00389908 ====
+// GLOBAL DAT_0049a9d8 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -523,6 +552,7 @@ undefined4 * FUN_00389908(void)
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim16CActionAttributeZPFv_PQ24Kaim16CActionAttribute_00389980 @ 00389980 ====
+// GLOBAL DAT_0040ebd0 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim16CActionAttributeZPFv_PQ24Kaim16CActionAttribute" */
@@ -538,6 +568,7 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim16CActionAttributeZPFv_PQ24Kaim16CActionAttr
 
 
 // ==== FUN_003899c0 @ 003899c0 ====
+// GLOBAL DAT_003e3d38 undefined
 
 void FUN_003899c0(int param_1,ulong param_2)
 
@@ -551,6 +582,7 @@ void FUN_003899c0(int param_1,ulong param_2)
 
 
 // ==== Kaim_CActionCrouch_003899f0 @ 003899f0 ====
+// GLOBAL DAT_0049a9e8 int
 
 /* Strings referenciadas:
      "Q24Kaim13CActionCrouch" */
@@ -567,6 +599,8 @@ undefined8 Kaim_CActionCrouch_003899f0(void)
 
 
 // ==== FUN_00389a58 @ 00389a58 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389a58(undefined4 *param_1,ulong param_2)
 
@@ -580,6 +614,7 @@ void FUN_00389a58(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionJump_00389ab8 @ 00389ab8 ====
+// GLOBAL DAT_0049a9f8 int
 
 /* Strings referenciadas:
      "Q24Kaim11CActionJump" */
@@ -596,6 +631,8 @@ undefined8 Kaim_CActionJump_00389ab8(void)
 
 
 // ==== FUN_00389b20 @ 00389b20 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389b20(undefined4 *param_1,ulong param_2)
 
@@ -609,6 +646,7 @@ void FUN_00389b20(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionRotate_00389b80 @ 00389b80 ====
+// GLOBAL DAT_0049aa08 int
 
 /* Strings referenciadas:
      "Q24Kaim13CActionRotate" */
@@ -625,6 +663,8 @@ undefined8 Kaim_CActionRotate_00389b80(void)
 
 
 // ==== FUN_00389be8 @ 00389be8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389be8(undefined4 *param_1,ulong param_2)
 
@@ -638,6 +678,7 @@ void FUN_00389be8(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionShoot_00389c48 @ 00389c48 ====
+// GLOBAL DAT_0049aa18 int
 
 /* Strings referenciadas:
      "Q24Kaim12CActionShoot" */
@@ -654,6 +695,8 @@ undefined8 Kaim_CActionShoot_00389c48(void)
 
 
 // ==== FUN_00389cb0 @ 00389cb0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389cb0(undefined4 *param_1,ulong param_2)
 
@@ -667,6 +710,7 @@ void FUN_00389cb0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionSpeed_00389d40 @ 00389d40 ====
+// GLOBAL DAT_0049aa28 int
 
 /* Strings referenciadas:
      "Q24Kaim12CActionSpeed" */
@@ -683,6 +727,8 @@ undefined8 Kaim_CActionSpeed_00389d40(void)
 
 
 // ==== FUN_00389da8 @ 00389da8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389da8(undefined4 *param_1,ulong param_2)
 
@@ -696,6 +742,7 @@ void FUN_00389da8(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionSteering_00389e08 @ 00389e08 ====
+// GLOBAL DAT_0049aa38 int
 
 /* Strings referenciadas:
      "Q24Kaim15CActionSteering" */
@@ -712,6 +759,8 @@ undefined8 Kaim_CActionSteering_00389e08(void)
 
 
 // ==== FUN_00389e70 @ 00389e70 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389e70(undefined4 *param_1,ulong param_2)
 
@@ -725,6 +774,7 @@ void FUN_00389e70(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityCanFly_00389ed0 @ 00389ed0 ====
+// GLOBAL DAT_0049aa48 int
 
 /* Strings referenciadas:
      "Q24Kaim13CEntityCanFly" */
@@ -741,6 +791,8 @@ undefined8 Kaim_CEntityCanFly_00389ed0(void)
 
 
 // ==== FUN_00389f38 @ 00389f38 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_00389f38(undefined4 *param_1,ulong param_2)
 
@@ -754,6 +806,8 @@ void FUN_00389f38(undefined4 *param_1,ulong param_2)
 
 
 // ==== FUN_00389f90 @ 00389f90 ====
+// GLOBAL DAT_0049aa58 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -773,6 +827,7 @@ undefined4 * FUN_00389f90(void)
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim16CEntityAttributeZPFv_PQ24Kaim16CEntityAttribute_0038a008 @ 0038a008 ====
+// GLOBAL DAT_0040ebd8 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim16CEntityAttributeZPFv_PQ24Kaim16CEntityAttribute" */
@@ -788,6 +843,7 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim16CEntityAttributeZPFv_PQ24Kaim16CEntityAttr
 
 
 // ==== FUN_0038a048 @ 0038a048 ====
+// GLOBAL DAT_003e4728 undefined
 
 void FUN_0038a048(int param_1,ulong param_2)
 
@@ -801,6 +857,7 @@ void FUN_0038a048(int param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityEyePosition_0038a078 @ 0038a078 ====
+// GLOBAL DAT_0049aa68 int
 
 /* Strings referenciadas:
      "Q24Kaim18CEntityEyePosition" */
@@ -817,6 +874,8 @@ undefined8 Kaim_CEntityEyePosition_0038a078(void)
 
 
 // ==== FUN_0038a0e0 @ 0038a0e0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a0e0(undefined4 *param_1,ulong param_2)
 
@@ -830,6 +889,7 @@ void FUN_0038a0e0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityGunPosition_0038a170 @ 0038a170 ====
+// GLOBAL DAT_0049aa78 int
 
 /* Strings referenciadas:
      "Q24Kaim18CEntityGunPosition" */
@@ -846,6 +906,8 @@ undefined8 Kaim_CEntityGunPosition_0038a170(void)
 
 
 // ==== FUN_0038a1d8 @ 0038a1d8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a1d8(undefined4 *param_1,ulong param_2)
 
@@ -859,6 +921,7 @@ void FUN_0038a1d8(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityHeadDirection_0038a268 @ 0038a268 ====
+// GLOBAL DAT_0049aa88 int
 
 /* Strings referenciadas:
      "Q24Kaim20CEntityHeadDirection" */
@@ -875,6 +938,8 @@ undefined8 Kaim_CEntityHeadDirection_0038a268(void)
 
 
 // ==== FUN_0038a2d0 @ 0038a2d0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a2d0(undefined4 *param_1,ulong param_2)
 
@@ -888,6 +953,7 @@ void FUN_0038a2d0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityHearingAcuteness_0038a360 @ 0038a360 ====
+// GLOBAL DAT_0049aa98 int
 
 /* Strings referenciadas:
      "Q24Kaim23CEntityHearingAcuteness" */
@@ -904,6 +970,8 @@ undefined8 Kaim_CEntityHearingAcuteness_0038a360(void)
 
 
 // ==== FUN_0038a3c8 @ 0038a3c8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a3c8(undefined4 *param_1,ulong param_2)
 
@@ -917,6 +985,7 @@ void FUN_0038a3c8(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityHeight_0038a440 @ 0038a440 ====
+// GLOBAL DAT_0049aaa8 int
 
 /* Strings referenciadas:
      "Q24Kaim13CEntityHeight" */
@@ -933,6 +1002,8 @@ undefined8 Kaim_CEntityHeight_0038a440(void)
 
 
 // ==== FUN_0038a4d0 @ 0038a4d0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a4d0(undefined4 *param_1,ulong param_2)
 
@@ -946,6 +1017,7 @@ void FUN_0038a4d0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityKneePosition_0038a528 @ 0038a528 ====
+// GLOBAL DAT_0049aab8 int
 
 /* Strings referenciadas:
      "Q24Kaim19CEntityKneePosition" */
@@ -962,6 +1034,8 @@ undefined8 Kaim_CEntityKneePosition_0038a528(void)
 
 
 // ==== FUN_0038a590 @ 0038a590 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a590(undefined4 *param_1,ulong param_2)
 
@@ -975,6 +1049,7 @@ void FUN_0038a590(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityLength_0038a620 @ 0038a620 ====
+// GLOBAL DAT_0049aac8 int
 
 /* Strings referenciadas:
      "Q24Kaim13CEntityLength" */
@@ -991,6 +1066,8 @@ undefined8 Kaim_CEntityLength_0038a620(void)
 
 
 // ==== FUN_0038a6b0 @ 0038a6b0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a6b0(undefined4 *param_1,ulong param_2)
 
@@ -1004,6 +1081,7 @@ void FUN_0038a6b0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityMaxSpeed_0038a708 @ 0038a708 ====
+// GLOBAL DAT_0049aad8 int
 
 /* Strings referenciadas:
      "Q24Kaim15CEntityMaxSpeed" */
@@ -1020,6 +1098,8 @@ undefined8 Kaim_CEntityMaxSpeed_0038a708(void)
 
 
 // ==== FUN_0038a790 @ 0038a790 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a790(undefined4 *param_1,ulong param_2)
 
@@ -1033,6 +1113,7 @@ void FUN_0038a790(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityTeamSide_0038a7e8 @ 0038a7e8 ====
+// GLOBAL DAT_0049aae8 int
 
 /* Strings referenciadas:
      "Q24Kaim15CEntityTeamSide" */
@@ -1049,6 +1130,8 @@ undefined8 Kaim_CEntityTeamSide_0038a7e8(void)
 
 
 // ==== FUN_0038a858 @ 0038a858 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a858(undefined4 *param_1,ulong param_2)
 
@@ -1062,6 +1145,7 @@ void FUN_0038a858(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityTorsoOrientation_0038a8b0 @ 0038a8b0 ====
+// GLOBAL DAT_0049aaf8 int
 
 /* Strings referenciadas:
      "Q24Kaim23CEntityTorsoOrientation" */
@@ -1078,6 +1162,8 @@ undefined8 Kaim_CEntityTorsoOrientation_0038a8b0(void)
 
 
 // ==== FUN_0038a918 @ 0038a918 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038a918(undefined4 *param_1,ulong param_2)
 
@@ -1091,6 +1177,7 @@ void FUN_0038a918(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityVisualAcuteness_0038a988 @ 0038a988 ====
+// GLOBAL DAT_0049ab08 int
 
 /* Strings referenciadas:
      "Q24Kaim22CEntityVisualAcuteness" */
@@ -1107,6 +1194,8 @@ undefined8 Kaim_CEntityVisualAcuteness_0038a988(void)
 
 
 // ==== FUN_0038aa20 @ 0038aa20 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038aa20(undefined4 *param_1,ulong param_2)
 
@@ -1120,6 +1209,7 @@ void FUN_0038aa20(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityWidth_0038aaa0 @ 0038aaa0 ====
+// GLOBAL DAT_0049ab18 int
 
 /* Strings referenciadas:
      "Q24Kaim12CEntityWidth" */
@@ -1136,6 +1226,8 @@ undefined8 Kaim_CEntityWidth_0038aaa0(void)
 
 
 // ==== FUN_0038ab30 @ 0038ab30 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038ab30(undefined4 *param_1,ulong param_2)
 
@@ -1149,6 +1241,7 @@ void FUN_0038ab30(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionActivate_0038ab88 @ 0038ab88 ====
+// GLOBAL DAT_0049ab28 int
 
 /* Strings referenciadas:
      "Q24Kaim15CActionActivate" */
@@ -1165,6 +1258,8 @@ undefined8 Kaim_CActionActivate_0038ab88(void)
 
 
 // ==== FUN_0038abf0 @ 0038abf0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038abf0(undefined4 *param_1,ulong param_2)
 
@@ -1178,6 +1273,7 @@ void FUN_0038abf0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionHeadRotate_0038ac50 @ 0038ac50 ====
+// GLOBAL DAT_0049ab38 int
 
 /* Strings referenciadas:
      "Q24Kaim17CActionHeadRotate" */
@@ -1194,6 +1290,8 @@ undefined8 Kaim_CActionHeadRotate_0038ac50(void)
 
 
 // ==== FUN_0038acb8 @ 0038acb8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038acb8(undefined4 *param_1,ulong param_2)
 
@@ -1207,6 +1305,7 @@ void FUN_0038acb8(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionTorsoRotate_0038ad30 @ 0038ad30 ====
+// GLOBAL DAT_0049ab48 int
 
 /* Strings referenciadas:
      "Q24Kaim18CActionTorsoRotate" */
@@ -1223,6 +1322,8 @@ undefined8 Kaim_CActionTorsoRotate_0038ad30(void)
 
 
 // ==== FUN_0038ad98 @ 0038ad98 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038ad98(undefined4 *param_1,ulong param_2)
 
@@ -1236,6 +1337,7 @@ void FUN_0038ad98(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CActionVerticalSpeed_0038ae10 @ 0038ae10 ====
+// GLOBAL DAT_0049ab58 int
 
 /* Strings referenciadas:
      "Q24Kaim20CActionVerticalSpeed" */
@@ -1252,6 +1354,8 @@ undefined8 Kaim_CActionVerticalSpeed_0038ae10(void)
 
 
 // ==== FUN_0038ae78 @ 0038ae78 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038ae78(undefined4 *param_1,ulong param_2)
 
@@ -1265,6 +1369,8 @@ void FUN_0038ae78(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038aee0 @ 0038aee0 ====
+// GLOBAL DAT_0049ab68 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -1284,6 +1390,7 @@ undefined4 * Kaim_CObject_0038aee0(void)
 
 
 // ==== Kaim_CPathWayManager_0038af58 @ 0038af58 ====
+// GLOBAL DAT_0049ab78 int
 
 /* Strings referenciadas:
      "Q24Kaim15CPathWayManager" */
@@ -1300,6 +1407,7 @@ undefined8 Kaim_CPathWayManager_0038af58(void)
 
 
 // ==== Kaim_CWorldService_0038afb8 @ 0038afb8 ====
+// GLOBAL DAT_0049ab88 int
 
 /* Strings referenciadas:
      "Q24Kaim13CWorldService" */
@@ -1316,6 +1424,7 @@ undefined8 Kaim_CWorldService_0038afb8(void)
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim13CWorldServiceZPFv_PQ24Kaim13CWorldService_0038b008 @ 0038b008 ====
+// GLOBAL DAT_0040ebe0 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim13CWorldServiceZPFv_PQ24Kaim13CWorldService" */
@@ -1331,6 +1440,7 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim13CWorldServiceZPFv_PQ24Kaim13CWorldService_
 
 
 // ==== FUN_0038b048 @ 0038b048 ====
+// GLOBAL DAT_003e5e40 undefined
 
 void FUN_0038b048(int param_1,ulong param_2)
 
@@ -1344,6 +1454,7 @@ void FUN_0038b048(int param_1,ulong param_2)
 
 
 // ==== FUN_0038b078 @ 0038b078 ====
+// GLOBAL DAT_003e6430 char
 
 undefined8 FUN_0038b078(undefined8 param_1)
 
@@ -1357,6 +1468,8 @@ undefined8 FUN_0038b078(undefined8 param_1)
 
 
 // ==== FUN_0038b098 @ 0038b098 ====
+// GLOBAL DAT_00450fd0 int
+// GLOBAL DAT_003e6028 undefined
 
 undefined * FUN_0038b098(void)
 
@@ -1371,6 +1484,7 @@ undefined * FUN_0038b098(void)
 
 
 // ==== Kaim_CPointMapper_0038b0f0 @ 0038b0f0 ====
+// GLOBAL DAT_0049aba8 int
 
 /* Strings referenciadas:
      "Q24Kaim12CPointMapper" */
@@ -1419,6 +1533,8 @@ int FUN_0038b150(long param_1)
 
 
 // ==== Kaim_CObject_0038b1f0 @ 0038b1f0 ====
+// GLOBAL DAT_0049abb8 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -1438,6 +1554,7 @@ undefined4 * Kaim_CObject_0038b1f0(void)
 
 
 // ==== Kaim_CScriptManager_0038b268 @ 0038b268 ====
+// GLOBAL DAT_0049abc8 int
 
 /* Strings referenciadas:
      "Q24Kaim14CScriptManager" */
@@ -1454,6 +1571,8 @@ undefined8 Kaim_CScriptManager_0038b268(void)
 
 
 // ==== FUN_0038b2c8 @ 0038b2c8 ====
+// GLOBAL DAT_0049abd8 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -1473,6 +1592,8 @@ undefined4 * FUN_0038b2c8(void)
 
 
 // ==== FUN_0038b340 @ 0038b340 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038b340(undefined4 *param_1,ulong param_2)
 
@@ -1486,6 +1607,8 @@ void FUN_0038b340(undefined4 *param_1,ulong param_2)
 
 
 // ==== FUN_0038b378 @ 0038b378 ====
+// GLOBAL DAT_0049abe8 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -1505,6 +1628,7 @@ undefined4 * FUN_0038b378(void)
 
 
 // ==== Kaim_CScript_0038b3f8 @ 0038b3f8 ====
+// GLOBAL DAT_0049abf8 int
 
 /* Strings referenciadas:
      "Q24Kaim7CScript" */
@@ -1521,6 +1645,7 @@ undefined8 Kaim_CScript_0038b3f8(void)
 
 
 // ==== FUN_0038b448 @ 0038b448 ====
+// GLOBAL DAT_003e6cf0 char
 
 undefined8 FUN_0038b448(undefined8 param_1)
 
@@ -1534,6 +1659,8 @@ undefined8 FUN_0038b448(undefined8 param_1)
 
 
 // ==== FUN_0038b468 @ 0038b468 ====
+// GLOBAL DAT_0045120c int
+// GLOBAL DAT_003e68e8 undefined
 
 undefined * FUN_0038b468(void)
 
@@ -1548,6 +1675,8 @@ undefined * FUN_0038b468(void)
 
 
 // ==== FUN_0038b4c0 @ 0038b4c0 ====
+// GLOBAL DAT_0049b010 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -1567,6 +1696,8 @@ undefined4 * FUN_0038b4c0(void)
 
 
 // ==== FUN_0038b538 @ 0038b538 ====
+// GLOBAL DAT_00451208 int
+// GLOBAL DAT_0049ac08 undefined
 
 undefined * FUN_0038b538(void)
 
@@ -1581,6 +1712,7 @@ undefined * FUN_0038b538(void)
 
 
 // ==== FUN_0038b590 @ 0038b590 ====
+// GLOBAL DAT_003e0128 undefined
 
 void FUN_0038b590(int param_1,ulong param_2)
 
@@ -1594,6 +1726,7 @@ void FUN_0038b590(int param_1,ulong param_2)
 
 
 // ==== Kaim_CActionClass_0038b5c0 @ 0038b5c0 ====
+// GLOBAL DAT_0049b020 int
 
 /* Strings referenciadas:
      "Q24Kaim12CActionClass" */
@@ -1610,6 +1743,7 @@ undefined8 Kaim_CActionClass_0038b5c0(void)
 
 
 // ==== FUN_0038b610 @ 0038b610 ====
+// GLOBAL DAT_003e3d38 undefined
 
 void FUN_0038b610(int param_1,ulong param_2)
 
@@ -1623,6 +1757,7 @@ void FUN_0038b610(int param_1,ulong param_2)
 
 
 // ==== Kaim_CActionAttributeClass_0038b640 @ 0038b640 ====
+// GLOBAL DAT_0049b030 int
 
 /* Strings referenciadas:
      "Q24Kaim21CActionAttributeClass" */
@@ -1639,6 +1774,7 @@ undefined8 Kaim_CActionAttributeClass_0038b640(void)
 
 
 // ==== FUN_0038b690 @ 0038b690 ====
+// GLOBAL DAT_003c7784 char
 
 undefined8 FUN_0038b690(undefined8 param_1)
 
@@ -1652,6 +1788,8 @@ undefined8 FUN_0038b690(undefined8 param_1)
 
 
 // ==== FUN_0038b6b0 @ 0038b6b0 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e0128 undefined
 
 undefined8
 FUN_0038b6b0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -1723,6 +1861,8 @@ LAB_0038b7a4:
 
 
 // ==== FUN_0038b840 @ 0038b840 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e3d38 undefined
 
 undefined8
 FUN_0038b840(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -1794,6 +1934,7 @@ LAB_0038b934:
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim7CActionZPFv_PQ24Kaim7CAction_0038b9d0 @ 0038b9d0 ====
+// GLOBAL DAT_0040ebe8 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim7CActionZPFv_PQ24Kaim7CAction" */
@@ -1809,6 +1950,7 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim7CActionZPFv_PQ24Kaim7CAction_0038b9d0(void)
 
 
 // ==== FUN_0038ba10 @ 0038ba10 ====
+// GLOBAL DAT_003e7550 char
 
 undefined8 FUN_0038ba10(undefined8 param_1)
 
@@ -1822,6 +1964,8 @@ undefined8 FUN_0038ba10(undefined8 param_1)
 
 
 // ==== FUN_0038ba30 @ 0038ba30 ====
+// GLOBAL DAT_00451210 int
+// GLOBAL DAT_003e7148 undefined
 
 undefined * FUN_0038ba30(void)
 
@@ -1836,6 +1980,7 @@ undefined * FUN_0038ba30(void)
 
 
 // ==== Kaim_CAgent_0038ba88 @ 0038ba88 ====
+// GLOBAL DAT_0049a948 int
 
 /* Strings referenciadas:
      "Q24Kaim6CAgent" */
@@ -1874,6 +2019,7 @@ undefined4 FUN_0038bad8(undefined8 param_1,long param_2)
 
 
 // ==== FUN_0038bb30 @ 0038bb30 ====
+// GLOBAL DAT_003e2ae0 undefined
 
 void FUN_0038bb30(int param_1,ulong param_2)
 
@@ -1887,6 +2033,7 @@ void FUN_0038bb30(int param_1,ulong param_2)
 
 
 // ==== Kaim_CAgentClass_0038bb60 @ 0038bb60 ====
+// GLOBAL DAT_0049b040 int
 
 /* Strings referenciadas:
      "Q24Kaim11CAgentClass" */
@@ -1903,6 +2050,8 @@ undefined8 Kaim_CAgentClass_0038bb60(void)
 
 
 // ==== FUN_0038bbb0 @ 0038bbb0 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e2ae0 undefined
 
 undefined8
 FUN_0038bbb0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -1974,6 +2123,7 @@ LAB_0038bca4:
 
 
 // ==== FUN_0038bd40 @ 0038bd40 ====
+// GLOBAL DAT_003e7c08 char
 
 undefined8 FUN_0038bd40(undefined8 param_1)
 
@@ -1987,6 +2137,8 @@ undefined8 FUN_0038bd40(undefined8 param_1)
 
 
 // ==== FUN_0038bd60 @ 0038bd60 ====
+// GLOBAL DAT_00451214 int
+// GLOBAL DAT_003e7800 undefined
 
 undefined * FUN_0038bd60(void)
 
@@ -2001,6 +2153,7 @@ undefined * FUN_0038bd60(void)
 
 
 // ==== FUN_0038bdb8 @ 0038bdb8 ====
+// GLOBAL DAT_003e8018 char
 
 undefined8 FUN_0038bdb8(undefined8 param_1)
 
@@ -2014,6 +2167,8 @@ undefined8 FUN_0038bdb8(undefined8 param_1)
 
 
 // ==== FUN_0038bdd8 @ 0038bdd8 ====
+// GLOBAL DAT_00451218 int
+// GLOBAL DAT_003e7c10 undefined
 
 undefined * FUN_0038bdd8(void)
 
@@ -2028,6 +2183,7 @@ undefined * FUN_0038bdd8(void)
 
 
 // ==== FUN_0038be30 @ 0038be30 ====
+// GLOBAL DAT_003e8428 char
 
 undefined8 FUN_0038be30(undefined8 param_1)
 
@@ -2041,6 +2197,8 @@ undefined8 FUN_0038be30(undefined8 param_1)
 
 
 // ==== FUN_0038be50 @ 0038be50 ====
+// GLOBAL DAT_0045121c int
+// GLOBAL DAT_003e8020 undefined
 
 undefined * FUN_0038be50(void)
 
@@ -2055,6 +2213,7 @@ undefined * FUN_0038be50(void)
 
 
 // ==== FUN_0038bea8 @ 0038bea8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
 
 void FUN_0038bea8(undefined8 param_1,ulong param_2)
 
@@ -2068,6 +2227,7 @@ void FUN_0038bea8(undefined8 param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityDefinition_0038bef8 @ 0038bef8 ====
+// GLOBAL DAT_0049b050 int
 
 /* Strings referenciadas:
      "Q24Kaim17CEntityDefinition" */
@@ -2084,6 +2244,7 @@ undefined8 Kaim_CEntityDefinition_0038bef8(void)
 
 
 // ==== FUN_0038bf48 @ 0038bf48 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
 
 void FUN_0038bf48(undefined8 param_1,ulong param_2)
 
@@ -2097,6 +2258,7 @@ void FUN_0038bf48(undefined8 param_1,ulong param_2)
 
 
 // ==== Kaim_CTeamDefinition_0038bf98 @ 0038bf98 ====
+// GLOBAL DAT_0049b060 int
 
 /* Strings referenciadas:
      "Q24Kaim15CTeamDefinition" */
@@ -2113,6 +2275,8 @@ undefined8 Kaim_CTeamDefinition_0038bf98(void)
 
 
 // ==== FUN_0038bfe8 @ 0038bfe8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038bfe8(undefined4 *param_1,ulong param_2)
 
@@ -2126,6 +2290,8 @@ void FUN_0038bfe8(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038c020 @ 0038c020 ====
+// GLOBAL DAT_0049b070 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2273,6 +2439,8 @@ int FUN_0038c278(long param_1)
 
 
 // ==== FUN_0038c318 @ 0038c318 ====
+// GLOBAL DAT_0049b090 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2314,6 +2482,8 @@ undefined4 FUN_0038c390(undefined8 param_1,long param_2)
 
 
 // ==== FUN_0038c3e0 @ 0038c3e0 ====
+// GLOBAL DAT_00451220 int
+// GLOBAL DAT_003eab88 undefined
 
 undefined * FUN_0038c3e0(void)
 
@@ -2392,6 +2562,7 @@ int FUN_0038c4d8(long param_1)
 
 
 // ==== FUN_0038c578 @ 0038c578 ====
+// GLOBAL DAT_003e0110 undefined
 
 void FUN_0038c578(int param_1,ulong param_2)
 
@@ -2405,6 +2576,7 @@ void FUN_0038c578(int param_1,ulong param_2)
 
 
 // ==== Kaim_CBrainClass_0038c5a8 @ 0038c5a8 ====
+// GLOBAL DAT_0049b0a0 int
 
 /* Strings referenciadas:
      "Q24Kaim11CBrainClass" */
@@ -2422,6 +2594,7 @@ undefined8 Kaim_CBrainClass_0038c5a8(void)
 
 
 // ==== FUN_0038c5f8 @ 0038c5f8 ====
+// GLOBAL DAT_003c7fa1 char
 
 undefined8 FUN_0038c5f8(undefined8 param_1)
 
@@ -2435,6 +2608,8 @@ undefined8 FUN_0038c5f8(undefined8 param_1)
 
 
 // ==== FUN_0038c618 @ 0038c618 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e0110 undefined
 
 undefined8
 FUN_0038c618(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -2506,6 +2681,7 @@ LAB_0038c70c:
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim6CBrainZPFPQ24Kaim7CEntityRQ24Kaim12CActionClass_PQ24Kaim6CBrain_0038c7a8 @ 0038c7a8 ====
+// GLOBAL DAT_0040ebf0 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim6CBrainZPFPQ24Kaim7CEntityRQ24Kaim12CActionClass_PQ24Kaim6CBrain"
@@ -2524,6 +2700,8 @@ Kaimt_CMetaClass2ZQ24Kaim6CBrainZPFPQ24Kaim7CEntityRQ24Kaim12CActionClass_PQ24Ka
 
 
 // ==== FUN_0038c7e8 @ 0038c7e8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038c7e8(undefined4 *param_1,ulong param_2)
 
@@ -2537,6 +2715,8 @@ void FUN_0038c7e8(undefined4 *param_1,ulong param_2)
 
 
 // ==== FUN_0038c820 @ 0038c820 ====
+// GLOBAL DAT_0049b0b0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2556,6 +2736,8 @@ undefined4 * FUN_0038c820(void)
 
 
 // ==== FUN_0038c898 @ 0038c898 ====
+// GLOBAL DAT_0049b080 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2575,6 +2757,8 @@ undefined4 * FUN_0038c898(void)
 
 
 // ==== Kaim_CObject_0038c928 @ 0038c928 ====
+// GLOBAL DAT_0049b0c0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2594,6 +2778,8 @@ undefined4 * Kaim_CObject_0038c928(void)
 
 
 // ==== FUN_0038c9a0 @ 0038c9a0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038c9a0(undefined4 *param_1,ulong param_2)
 
@@ -2607,6 +2793,8 @@ void FUN_0038c9a0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038c9d8 @ 0038c9d8 ====
+// GLOBAL DAT_0049b0d0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2626,6 +2814,9 @@ undefined4 * Kaim_CObject_0038c9d8(void)
 
 
 // ==== FUN_0038ca50 @ 0038ca50 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
+// GLOBAL DAT_003e8ee8 undefined
 
 void FUN_0038ca50(undefined8 param_1,ulong param_2)
 
@@ -2660,6 +2851,8 @@ void FUN_0038ca50(undefined8 param_1,ulong param_2)
 
 
 // ==== FUN_0038cb28 @ 0038cb28 ====
+// GLOBAL DAT_0049b4e8 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2679,6 +2872,8 @@ undefined4 * FUN_0038cb28(void)
 
 
 // ==== Kaim_CObject_0038cba8 @ 0038cba8 ====
+// GLOBAL DAT_0049b4f8 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2698,6 +2893,8 @@ undefined4 * Kaim_CObject_0038cba8(void)
 
 
 // ==== FUN_0038cc20 @ 0038cc20 ====
+// GLOBAL DAT_004512a0 int
+// GLOBAL DAT_0049b0e0 undefined
 
 undefined * FUN_0038cc20(void)
 
@@ -2712,6 +2909,8 @@ undefined * FUN_0038cc20(void)
 
 
 // ==== FUN_0038cc78 @ 0038cc78 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038cc78(undefined4 *param_1,ulong param_2)
 
@@ -2725,6 +2924,8 @@ void FUN_0038cc78(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038ccb0 @ 0038ccb0 ====
+// GLOBAL DAT_0049b508 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -2744,6 +2945,9 @@ undefined4 * Kaim_CObject_0038ccb0(void)
 
 
 // ==== FUN_0038cd28 @ 0038cd28 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
+// GLOBAL DAT_003e90a8 undefined
 
 void FUN_0038cd28(undefined8 param_1,ulong param_2)
 
@@ -2778,6 +2982,7 @@ void FUN_0038cd28(undefined8 param_1,ulong param_2)
 
 
 // ==== FUN_0038ce00 @ 0038ce00 ====
+// GLOBAL DAT_003e00f8 undefined
 
 void FUN_0038ce00(int param_1,ulong param_2)
 
@@ -2791,6 +2996,7 @@ void FUN_0038ce00(int param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityClass_0038ce30 @ 0038ce30 ====
+// GLOBAL DAT_0049b518 int
 
 /* Strings referenciadas:
      "Q24Kaim12CEntityClass" */
@@ -2807,6 +3013,7 @@ undefined8 Kaim_CEntityClass_0038ce30(void)
 
 
 // ==== FUN_0038ce80 @ 0038ce80 ====
+// GLOBAL DAT_003e4728 undefined
 
 void FUN_0038ce80(int param_1,ulong param_2)
 
@@ -2820,6 +3027,7 @@ void FUN_0038ce80(int param_1,ulong param_2)
 
 
 // ==== Kaim_CEntityAttributeClass_0038ceb0 @ 0038ceb0 ====
+// GLOBAL DAT_0049b528 int
 
 /* Strings referenciadas:
      "Q24Kaim21CEntityAttributeClass" */
@@ -2836,6 +3044,7 @@ undefined8 Kaim_CEntityAttributeClass_0038ceb0(void)
 
 
 // ==== FUN_0038cf00 @ 0038cf00 ====
+// GLOBAL DAT_003c8980 char
 
 undefined8 FUN_0038cf00(undefined8 param_1)
 
@@ -2849,6 +3058,8 @@ undefined8 FUN_0038cf00(undefined8 param_1)
 
 
 // ==== FUN_0038cf20 @ 0038cf20 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e00f8 undefined
 
 undefined8
 FUN_0038cf20(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -2920,6 +3131,8 @@ LAB_0038d014:
 
 
 // ==== FUN_0038d0b0 @ 0038d0b0 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e4728 undefined
 
 undefined8
 FUN_0038d0b0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -2991,6 +3204,7 @@ LAB_0038d1a4:
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim7CEntityZPFPCcPv_PQ24Kaim7CEntity_0038d240 @ 0038d240 ====
+// GLOBAL DAT_0040ebf8 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim7CEntityZPFPCcPv_PQ24Kaim7CEntity" */
@@ -3006,6 +3220,7 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim7CEntityZPFPCcPv_PQ24Kaim7CEntity_0038d240(v
 
 
 // ==== Kaim_IPathFinder_0038d280 @ 0038d280 ====
+// GLOBAL DAT_0049b940 int
 
 /* Strings referenciadas:
      "Q24Kaim11IPathFinder" */
@@ -3039,6 +3254,8 @@ void FUN_0038d2d0(int *param_1,int *param_2)
 
 
 // ==== FUN_0038d338 @ 0038d338 ====
+// GLOBAL DAT_004512a8 int
+// GLOBAL DAT_0049b538 undefined
 
 undefined * FUN_0038d338(void)
 
@@ -3053,6 +3270,7 @@ undefined * FUN_0038d338(void)
 
 
 // ==== Kaim_CBrainService_0038d390 @ 0038d390 ====
+// GLOBAL DAT_0049b950 int
 
 /* Strings referenciadas:
      "Q24Kaim13CBrainService" */
@@ -3069,6 +3287,7 @@ undefined8 Kaim_CBrainService_0038d390(void)
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim13CBrainServiceZPFPQ24Kaim6CBrain_PQ24Kaim13CBrainService_0038d3e0 @ 0038d3e0 ====
+// GLOBAL DAT_0040ec00 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim13CBrainServiceZPFPQ24Kaim6CBrain_PQ24Kaim13CBrainService" */
@@ -3085,6 +3304,7 @@ Kaimt_CMetaClass2ZQ24Kaim13CBrainServiceZPFPQ24Kaim6CBrain_PQ24Kaim13CBrainServi
 
 
 // ==== FUN_0038d420 @ 0038d420 ====
+// GLOBAL DAT_003e00c8 undefined
 
 void FUN_0038d420(int param_1,ulong param_2)
 
@@ -3098,6 +3318,7 @@ void FUN_0038d420(int param_1,ulong param_2)
 
 
 // ==== Kaim_IConstraintClass_0038d450 @ 0038d450 ====
+// GLOBAL DAT_0049b960 int
 
 /* Strings referenciadas:
      "Q24Kaim16IConstraintClass" */
@@ -3114,6 +3335,7 @@ undefined8 Kaim_IConstraintClass_0038d450(void)
 
 
 // ==== FUN_0038d4a0 @ 0038d4a0 ====
+// GLOBAL DAT_003c8c00 char
 
 undefined8 FUN_0038d4a0(undefined8 param_1)
 
@@ -3127,6 +3349,8 @@ undefined8 FUN_0038d4a0(undefined8 param_1)
 
 
 // ==== FUN_0038d4c0 @ 0038d4c0 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003e00c8 undefined
 
 undefined8
 FUN_0038d4c0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6
@@ -3198,6 +3422,7 @@ LAB_0038d5b4:
 
 
 // ==== Kaimt_CMetaClass2ZQ24Kaim11IConstraintZPFv_PQ24Kaim11IConstraint_0038d650 @ 0038d650 ====
+// GLOBAL DAT_0040ec08 int
 
 /* Strings referenciadas:
      "Q24Kaimt10CMetaClass2ZQ24Kaim11IConstraintZPFv_PQ24Kaim11IConstraint" */
@@ -3213,6 +3438,10 @@ undefined8 Kaimt_CMetaClass2ZQ24Kaim11IConstraintZPFv_PQ24Kaim11IConstraint_0038
 
 
 // ==== FUN_0038d690 @ 0038d690 ====
+// GLOBAL DAT_0049b990 undefined4
+// GLOBAL DAT_0049b980 int
+// GLOBAL DAT_0049b970 int
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3240,6 +3469,10 @@ undefined4 * FUN_0038d690(void)
 
 
 // ==== FUN_0038d760 @ 0038d760 ====
+// GLOBAL DAT_0049b9a0 undefined4
+// GLOBAL DAT_0049b980 int
+// GLOBAL DAT_0049b970 int
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3267,6 +3500,8 @@ undefined4 * FUN_0038d760(void)
 
 
 // ==== FUN_0038d830 @ 0038d830 ====
+// GLOBAL DAT_0049b970 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3286,6 +3521,9 @@ undefined4 * FUN_0038d830(void)
 
 
 // ==== FUN_0038d8a8 @ 0038d8a8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
+// GLOBAL DAT_003e9c60 undefined
 
 void FUN_0038d8a8(undefined8 param_1,ulong param_2)
 
@@ -3308,6 +3546,9 @@ void FUN_0038d8a8(undefined8 param_1,ulong param_2)
 
 
 // ==== FUN_0038d928 @ 0038d928 ====
+// GLOBAL DAT_0049b980 undefined4
+// GLOBAL DAT_0049b970 int
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3331,6 +3572,8 @@ undefined4 * FUN_0038d928(void)
 
 
 // ==== Kaim_CObject_0038d9e0 @ 0038d9e0 ====
+// GLOBAL DAT_0049b9b0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3350,6 +3593,9 @@ undefined4 * Kaim_CObject_0038d9e0(void)
 
 
 // ==== FUN_0038da58 @ 0038da58 ====
+// GLOBAL DAT_0049b9c0 undefined4
+// GLOBAL DAT_0049b970 int
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3373,6 +3619,8 @@ undefined4 * FUN_0038da58(void)
 
 
 // ==== FUN_0038db00 @ 0038db00 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038db00(undefined4 *param_1,ulong param_2)
 
@@ -3386,6 +3634,8 @@ void FUN_0038db00(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038db38 @ 0038db38 ====
+// GLOBAL DAT_0049b9d0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3405,6 +3655,8 @@ undefined4 * Kaim_CObject_0038db38(void)
 
 
 // ==== FUN_0038dbb0 @ 0038dbb0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038dbb0(undefined8 param_1,ulong param_2)
 
@@ -3419,6 +3671,7 @@ void FUN_0038dbb0(undefined8 param_1,ulong param_2)
 
 
 // ==== Kaim_CFreeListBlock_0038dc08 @ 0038dc08 ====
+// GLOBAL DAT_0049b9e0 int
 
 /* Strings referenciadas:
      "Q24Kaim14CFreeListBlock" */
@@ -3435,6 +3688,8 @@ undefined8 Kaim_CFreeListBlock_0038dc08(void)
 
 
 // ==== Kaim_CObject_0038dc58 @ 0038dc58 ====
+// GLOBAL DAT_0049b9f0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3454,6 +3709,8 @@ undefined4 * Kaim_CObject_0038dc58(void)
 
 
 // ==== FUN_0038dcd0 @ 0038dcd0 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038dcd0(undefined4 *param_1,ulong param_2)
 
@@ -3467,6 +3724,8 @@ void FUN_0038dcd0(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038dd08 @ 0038dd08 ====
+// GLOBAL DAT_0049ba00 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3486,6 +3745,9 @@ undefined4 * Kaim_CObject_0038dd08(void)
 
 
 // ==== FUN_0038dd80 @ 0038dd80 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
+// GLOBAL DAT_003e9a80 undefined
 
 void FUN_0038dd80(undefined8 param_1,ulong param_2)
 
@@ -3520,6 +3782,8 @@ void FUN_0038dd80(undefined8 param_1,ulong param_2)
 
 
 // ==== FUN_0038de58 @ 0038de58 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038de58(undefined4 *param_1,ulong param_2)
 
@@ -3533,6 +3797,8 @@ void FUN_0038de58(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038de90 @ 0038de90 ====
+// GLOBAL DAT_0049ba10 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3552,6 +3818,8 @@ undefined4 * Kaim_CObject_0038de90(void)
 
 
 // ==== FUN_0038df08 @ 0038df08 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
 
 void FUN_0038df08(undefined4 *param_1,ulong param_2)
 
@@ -3565,6 +3833,8 @@ void FUN_0038df08(undefined4 *param_1,ulong param_2)
 
 
 // ==== Kaim_CObject_0038df40 @ 0038df40 ====
+// GLOBAL DAT_0049ba20 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
@@ -3584,6 +3854,9 @@ undefined4 * Kaim_CObject_0038df40(void)
 
 
 // ==== FUN_0038dfb8 @ 0038dfb8 ====
+// GLOBAL PTR_FUN_003c87e0 undefined_*
+// GLOBAL DAT_003e0040 undefined
+// GLOBAL DAT_003e9b40 undefined
 
 void FUN_0038dfb8(undefined8 param_1,ulong param_2)
 
@@ -3618,6 +3891,7 @@ void FUN_0038dfb8(undefined8 param_1,ulong param_2)
 
 
 // ==== FUN_0038e090 @ 0038e090 ====
+// GLOBAL DAT_003ea770 char
 
 undefined8 FUN_0038e090(undefined8 param_1)
 
@@ -3631,6 +3905,8 @@ undefined8 FUN_0038e090(undefined8 param_1)
 
 
 // ==== FUN_0038e0b0 @ 0038e0b0 ====
+// GLOBAL DAT_004513d4 int
+// GLOBAL DAT_003ea368 undefined
 
 undefined * FUN_0038e0b0(void)
 
@@ -3645,6 +3921,8 @@ undefined * FUN_0038e0b0(void)
 
 
 // ==== FUN_0038e108 @ 0038e108 ====
+// GLOBAL DAT_003c7a20 uint
+// GLOBAL DAT_003ea790 undefined
 
 undefined8
 FUN_0038e108(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char param_5,char param_6

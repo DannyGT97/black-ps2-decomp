@@ -24,6 +24,8 @@ undefined8 FUN_00394e20(undefined8 param_1,undefined1 (*param_2) [16],undefined1
 
 
 // ==== FUN_00394e58 @ 00394e58 ====
+// GLOBAL DAT_003f15b4 undefined4
+// GLOBAL DAT_003f15d0 undefined
 
 void FUN_00394e58(undefined4 *param_1,ulong param_2)
 
@@ -566,6 +568,7 @@ void FUN_003959a0(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_003959e8 @ 003959e8 ====
+// GLOBAL DAT_0046c608 undefined4
 
 undefined4 *
 FUN_003959e8(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
@@ -849,6 +852,7 @@ void FUN_00395e20(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_00395e68 @ 00395e68 ====
+// GLOBAL DAT_0046c608 undefined4
 
 undefined4 *
 FUN_00395e68(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
@@ -1132,6 +1136,7 @@ void FUN_003962a0(undefined8 param_1,undefined8 param_2)
 
 
 // ==== FUN_003962e8 @ 003962e8 ====
+// GLOBAL DAT_0046c608 undefined4
 
 undefined4 *
 FUN_003962e8(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
@@ -1781,6 +1786,7 @@ undefined4 FUN_00396b68(undefined8 param_1,int *param_2)
 
 
 // ==== Kaim_CXmlDataReader_00396e78 @ 00396e78 ====
+// GLOBAL DAT_0049bfa0 int
 
 /* Strings referenciadas:
      "Q24Kaim14CXmlDataReader" */
@@ -1797,6 +1803,8 @@ undefined8 Kaim_CXmlDataReader_00396e78(void)
 
 
 // ==== FUN_00396ec8 @ 00396ec8 ====
+// GLOBAL DAT_0049bfb0 undefined4
+// GLOBAL DAT_0040ebc0 int
 
 /* Strings referenciadas:
      "Q24Kaim7CObject"
