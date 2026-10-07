@@ -4,7 +4,7 @@ Actualizado: 2026-10-08
 
 | Metrica | Funciones | Bytes de codigo |
 |---|---|---|
-| **Reconstruidas y verificadas (decompilacion real)** | 683 / 9838 (**6.94%**) | 11056 / 2584744 (**0.43%**) |
+| **Reconstruidas y verificadas (decompilacion real)** | 1723 / 9838 (**17.51%**) | 57444 / 2584744 (**2.22%**) |
 | Identificadas (con nombre, aun sin reconstruir) | 361 / 9838 (3.67%) | 93072 / 2584744 (3.60%) |
 
 - *Reconstruidas*: tienen codigo C/C++ propio en el repo que reproduce el original (listadas en `matched.txt`).

@@ -87,3 +87,49 @@ int fn_0026f560(int param_1)
   }
   return *(int *)(param_1 + 0xd8) << 10;
 }
+
+
+/* ADDR 00260f80 */
+void fn_00260f80(void)
+
+{
+  fn_002611c8();
+  return;
+}
+
+
+/* ADDR 002667e8 */
+void fn_002667e8(undefined8 param_1)
+
+{
+  fn_00266808(param_1,0);
+  return;
+}
+
+
+/* ADDR 00265c18 */
+void fn_00265c18(void)
+
+{
+  fn_00264130(1,0xffff);
+  return;
+}
+
+
+/* ADDR 00269a90 */
+void fn_00269a90(int param_1)
+
+{
+  *(undefined4 *)(param_1 + 0x18) = 0;
+  fn_0036bfb0(*(undefined4 *)(param_1 + 0x30));
+  return;
+}
+
+
+/* ADDR 00263360 */
+undefined4 fn_00263360(int param_1,undefined8 param_2)
+
+{
+  fn_0032cde0(param_2,*(undefined4 *)(param_1 + 8));
+  return 1;
+}

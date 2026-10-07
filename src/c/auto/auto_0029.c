@@ -87,3 +87,38 @@ undefined4 fn_00294d30(int param_1)
   }
   return 1;
 }
+
+
+/* ADDR 00294f28 */
+undefined4 fn_00294f28(int param_1)
+
+{
+  fn_00371610(*(int *)(param_1 + 0x40) + 0x68);
+  return 1;
+}
+
+
+/* ADDR 00294f50 */
+undefined4 fn_00294f50(int param_1)
+
+{
+  fn_003716f8(*(int *)(param_1 + 0x40) + 0x68);
+  return 1;
+}
+
+
+/* ADDR 0029c5e8 */
+uint fn_0029c5e8(uint *param_1,long param_2)
+
+{
+  uint uVar1;
+  
+  if (param_2 == 1) {
+    uVar1 = *param_1 >> 8 & 1;
+  }
+  else {
+    fn_0029c138();
+    uVar1 = 0;
+  }
+  return uVar1;
+}

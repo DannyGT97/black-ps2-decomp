@@ -207,3 +207,133 @@ ushort fn_00155140(int param_1,int param_2,ushort param_3)
   *puVar2 = *puVar2 - param_3;
   return param_3;
 }
+
+
+/* ADDR 00153058 */
+void fn_00153058(void)
+
+{
+  fn_0014b8a0();
+  return;
+}
+
+
+/* ADDR 00153098 */
+void fn_00153098(void)
+
+{
+  fn_0014ba80();
+  return;
+}
+
+
+/* ADDR 00153710 */
+void fn_00153710(int param_1)
+
+{
+  fn_00154530(*(undefined4 *)(param_1 + 0x18));
+  return;
+}
+
+
+/* ADDR 00156d60 */
+void fn_00156d60(int param_1)
+
+{
+  fn_0015a830(*(undefined4 *)(param_1 + 0xf4));
+  return;
+}
+
+
+/* ADDR 001580c0 */
+void fn_001580c0(int param_1)
+
+{
+  fn_0015a938(*(undefined4 *)(param_1 + 0xf4));
+  return;
+}
+
+
+/* ADDR 00151e60 */
+void fn_00151e60(int param_1)
+
+{
+  fn_001afd80(param_1 + 0x1a0,*(undefined4 *)(param_1 + 0x118));
+  return;
+}
+
+
+/* ADDR 001530b8 */
+undefined4 fn_001530b8(void)
+
+{
+  fn_0014ba58();
+  return 1;
+}
+
+
+/* ADDR 00153730 */
+undefined4 fn_00153730(void)
+
+{
+  fn_00165b98();
+  return 1;
+}
+
+
+/* ADDR 001536b8 */
+void fn_001536b8(int param_1)
+
+{
+  fn_00165ae0();
+  *(undefined4 *)(param_1 + 0x18) = 0;
+  return;
+}
+
+extern int DAT_0040f4e4;
+/* ADDR 0015cec8 */
+void fn_0015cec8(undefined4 *param_1)
+
+{
+  fn_00288790(*param_1);
+  fn_00127060(DAT_0040f4e4);
+  return;
+}
+
+
+/* ADDR 001536e0 */
+undefined4 fn_001536e0(int param_1)
+
+{
+  fn_00165af8();
+  *(undefined4 *)(param_1 + 0x18) = 0;
+  return 1;
+}
+
+
+/* ADDR 00155088 */
+void fn_00155088(int param_1,undefined1 param_2)
+
+{
+  undefined4 uVar1;
+  
+  *(undefined1 *)(param_1 + 0x18) = param_2;
+  uVar1 = fn_00107d20(param_2);
+  *(undefined4 *)(param_1 + 0x14) = uVar1;
+  return;
+}
+
+
+/* ADDR 00152930 */
+void fn_00152930(int param_1,undefined4 param_2,undefined8 param_3)
+
+{
+  undefined1 uVar1;
+  
+  *(undefined4 *)(param_1 + 0x11c) = param_2;
+  fn_0014cdb8(*(undefined4 *)(param_1 + 0x120));
+  uVar1 = fn_0014c888(*(undefined4 *)(param_1 + 0x11c),param_3);
+  *(undefined1 *)(*(int *)(param_1 + 0x120) + 0x60) = uVar1;
+  *(undefined1 *)(param_1 + 0x13d) = 1;
+  return;
+}

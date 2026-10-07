@@ -79,3 +79,13 @@ function Compare-Func([string]$Obj, [string]$Func, [string]$Addr, $Asm) {
     $res.Diffs = $diffs.ToArray(); $res.Ok = ($diffs.Count -eq 0)
     $res
 }
+
+# Resuelve un compilador EE-GCC bajo tools/<Rel> (ej. "ee-gcc/cc", "ee-gcc2.95.3-136"). Devuelve Exe, B1, B2.
+function Get-EeCompiler([string]$Root, [string]$Rel = "ee-gcc/cc") {
+    $cc = (Resolve-Path (Join-Path $Root "../tools/$Rel")).Path
+    $gl = Get-ChildItem (Join-Path $cc "lib/gcc-lib/ee") -Directory | Select-Object -First 1
+    $b1 = $gl.FullName
+    $b2 = if (Test-Path (Join-Path $cc "ee/bin")) { Join-Path $cc "ee/bin" } else { $b1 }
+    $env:PATH = "$cc\bin;$b2;$b1;$env:PATH"
+    [pscustomobject]@{ Exe = (Join-Path $cc "bin/ee-gcc.exe"); B1 = ($b1.Replace('\','/') + "/"); B2 = ($b2.Replace('\','/') + "/") }
+}

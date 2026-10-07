@@ -556,3 +556,299 @@ int fn_00103358(int param_1,ulong param_2)
   }
   return 0;
 }
+
+
+/* ADDR 00101040 */
+void fn_00101040(void)
+
+{
+  fn_0027c348();
+  return;
+}
+
+
+/* ADDR 00101f90 */
+void fn_00101f90(void)
+
+{
+  fn_001080c0();
+  return;
+}
+
+
+/* ADDR 00106ed8 */
+void fn_00106ed8(int param_1)
+
+{
+  fn_001536b0(param_1 + 0xc);
+  return;
+}
+
+
+/* ADDR 00107cc8 */
+void fn_00107cc8(int param_1)
+
+{
+  fn_00274f58(*(undefined4 *)(param_1 + 0x3ac));
+  return;
+}
+
+
+/* ADDR 00100470 */
+void fn_00100470(void)
+
+{
+  fn_00100338(1,0xffff);
+  return;
+}
+
+
+/* ADDR 00100490 */
+void fn_00100490(void)
+
+{
+  fn_00100338(0,0xffff);
+  return;
+}
+
+
+/* ADDR 00107b78 */
+void fn_00107b78(int param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  fn_00274f58(*(undefined4 *)(param_1 + 0x3ac),param_3);
+  return;
+}
+
+
+/* ADDR 0010b590 */
+bool fn_0010b590(int param_1)
+
+{
+  long lVar1;
+  
+  lVar1 = fn_00275340(param_1 + 0x4ca);
+  return 0 < lVar1;
+}
+
+
+/* ADDR 0010e720 */
+void fn_0010e720(int param_1)
+
+{
+  *(undefined1 *)(param_1 + 0x515) = 1;
+  fn_0010b5b0();
+  return;
+}
+
+extern int DAT_0040f544;
+/* ADDR 00104050 */
+void fn_00104050(void)
+
+{
+  fn_0020b8e8(DAT_0040f544);
+  return;
+}
+
+extern int DAT_0040f4c4;
+/* ADDR 0010bb80 */
+bool fn_0010bb80(void)
+
+{
+  long lVar1;
+  
+  lVar1 = fn_00108458(DAT_0040f4c4,0xd,0);
+  return lVar1 != 0;
+}
+
+extern int DAT_0040f0e0;
+/* ADDR 00105228 */
+void fn_00105228(int param_1,undefined4 param_2)
+
+{
+  *(undefined4 *)(param_1 + 0x48) = param_2;
+  fn_001034b0(DAT_0040f0e0,DAT_0040f0e0 + 0x20220);
+  return;
+}
+
+extern int DAT_0040f510;
+/* ADDR 00105cb8 */
+bool fn_00105cb8(void)
+
+{
+  long lVar1;
+  
+  lVar1 = fn_001e8900(*(undefined4 *)(DAT_0040f510 + 0xcbd8));
+  return lVar1 != 0;
+}
+
+
+/* ADDR 00107c98 */
+void fn_00107c98(undefined8 param_1,undefined4 *param_2)
+
+{
+  fn_00107cc8(param_1,param_2[1]);
+  fn_00107d20(*param_2);
+  return;
+}
+
+extern int DAT_0040f4c4;
+/* ADDR 001080c0 */
+bool fn_001080c0(void)
+
+{
+  int iVar1;
+  
+  iVar1 = GetThreadId();
+  return iVar1 == *(int *)(DAT_0040f4c4 + 0xe08);
+}
+
+extern int DAT_0040f4c4;
+/* ADDR 001080f0 */
+bool fn_001080f0(void)
+
+{
+  int iVar1;
+  
+  iVar1 = GetThreadId();
+  return iVar1 == *(int *)(DAT_0040f4c4 + 0xe0c);
+}
+
+
+/* ADDR 00106830 */
+void fn_00106830(undefined4 *param_1)
+
+{
+  *param_1 = 1;
+  param_1[1] = 0;
+  param_1[0x12] = 0;
+  *(undefined8 *)(param_1 + 0xc) = 0;
+  fn_00153420(param_1 + 3);
+  return;
+}
+
+extern int DAT_0040f510;
+/* ADDR 00109cc0 */
+undefined4 fn_00109cc0(void)
+
+{
+  fn_001d9250(*(undefined4 *)(*(int *)(DAT_0040f510 + 0xcbd8) + 0x3c));
+  return 1;
+}
+
+
+/* ADDR 0010f648 */
+void fn_0010f648(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  fn_001240b0(param_1 + 0xe0,1);
+  uVar1 = fn_0010f6d8(param_1 + 0x18);
+  *(undefined4 *)(param_1 + 0x788) = uVar1;
+  return;
+}
+
+
+/* ADDR 00108008 */
+undefined8 fn_00108008(int param_1)
+
+{
+  undefined8 uVar1;
+  
+  uVar1 = ChangeThreadPriority(*(undefined4 *)(param_1 + 0xe08),3);
+  ChangeThreadPriority(*(undefined4 *)(param_1 + 0xe08),uVar1);
+  return uVar1;
+}
+
+extern int PTR_DAT_003bc5e0;
+/* ADDR 00109fb0 */
+void fn_00109fb0(undefined1 *param_1)
+
+{
+  *(undefined4 *)(param_1 + 4) = 0;
+  *param_1 = 0;
+  param_1[8] = 0;
+  *(undefined4 *)(param_1 + 0x14) = 0;
+  fn_002789c0(param_1 + 0x20,2,0x28,0x28,PTR_DAT_003bc5e0,0x2000);
+  return;
+}
+
+
+/* ADDR 0010b160 */
+long fn_0010b160(int param_1)
+
+{
+  long lVar1;
+  
+  lVar1 = fn_0026f7e0(param_1 + 0x9b0,0,0);
+  if ((lVar1 != 0) && (lVar1 != 0xd)) {
+    lVar1 = fn_0026f7e0(param_1 + 0x9b0,1,0);
+  }
+  return lVar1;
+}
+
+
+/* ADDR 00107bc0 */
+int fn_00107bc0(int param_1,undefined8 param_2)
+
+{
+  long lVar1;
+  int iVar2;
+  
+  param_1 = param_1 + 4;
+  iVar2 = 0;
+  do {
+    lVar1 = fn_00274fd8(param_1,param_2);
+    if (lVar1 != 0) {
+      return iVar2;
+    }
+    iVar2 = iVar2 + 1;
+    param_1 = param_1 + 0x24;
+  } while (iVar2 < 0x1a);
+  return -1;
+}
+
+
+/* ADDR 0010b530 */
+undefined4 fn_0010b530(int param_1,long param_2)
+
+{
+  long lVar1;
+  
+  *(undefined2 *)(param_1 + 0x4ca) = 0;
+  *(undefined2 *)(param_1 + 0x4cc) = 0;
+  if (param_2 != 0) {
+    lVar1 = fn_00275340(param_2);
+    if (0 < lVar1) {
+      fn_00275398(param_1 + 0x4ca,0x14,param_2);
+      return 1;
+    }
+  }
+  return 0;
+}
+
+extern int DAT_0040f4f0;
+/* ADDR 0010c2f8 */
+void fn_0010c2f8(undefined4 param_1)
+
+{
+  switch(param_1) {
+  case 1:
+    fn_0010b2a8(DAT_0040f4f0);
+    break;
+  case 3:
+    fn_0010b238(DAT_0040f4f0);
+    break;
+  case 4:
+    fn_0010b270(DAT_0040f4f0);
+    break;
+  case 5:
+    fn_0010b2c0(DAT_0040f4f0,0);
+    break;
+  case 9:
+    fn_0010b2d8(DAT_0040f4f0);
+  default:
+  }
+  return;
+}

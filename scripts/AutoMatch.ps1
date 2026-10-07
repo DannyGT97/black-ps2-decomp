@@ -1,12 +1,10 @@
 # Intenta reconstruir automaticamente funciones pequenas: pseudo-C de Ghidra -> C limpio -> EE-GCC -> comparar.
 # Las que coinciden byte a byte se guardan en src/c/auto/auto_<bloque>.c y se anaden a matched.txt.
 # Uso: powershell -File scripts/AutoMatch.ps1 [-MaxBytes 64] [-MinBytes 0] [-Limit 0] [-Flags "-O2 -G0"]
-param([int]$MaxBytes = 64, [int]$MinBytes = 0, [int]$Limit = 0, [string]$Flags = "-O2 -G0")
+param([int]$MaxBytes = 64, [int]$MinBytes = 0, [int]$Limit = 0, [string]$Flags = "-O2 -G0", [switch]$Diag, [string]$CC = "ee-gcc2.95.3-136", [switch]$NoSave)
 $root = Split-Path $PSScriptRoot -Parent
 . (Join-Path $PSScriptRoot "MatchLib.ps1")
-$cc = (Resolve-Path (Join-Path $root "../tools/ee-gcc/cc")).Path
-$env:PATH = "$cc\bin;$cc\ee\bin;$env:PATH"
-$B1 = ($cc + "/lib/gcc-lib/ee/2.95.2/").Replace('\', '/'); $B2 = ($cc + "/ee/bin/").Replace('\', '/')
+$comp = Get-EeCompiler $root $CC
 $tmp = Join-Path $root "build/auto_tmp"; New-Item -ItemType Directory -Force $tmp | Out-Null
 $autoDir = Join-Path $root "src/c/auto"; New-Item -ItemType Directory -Force $autoDir | Out-Null
 $mf = Join-Path $root "matched.txt"
@@ -62,11 +60,19 @@ foreach ($c in $cands) {
     $body = "#include `"auto_types.h`"`n" + ($ext -join "`n") + "`n/* ADDR $addr */`n" + $src + "`n"
     [IO.File]::WriteAllText($file, $body)
     if (Test-Path $obj) { Remove-Item $obj }
-    & "$cc\bin\ee-gcc.exe" "-B$B1" "-B$B2" -w -c ($Flags -split ' ') -I (Join-Path $root "include") $file -o $obj 2>&1 | Out-Null
+    $clog = & $comp.Exe "-B$($comp.B1)" "-B$($comp.B2)" -w -c ($Flags -split ' ') -I (Join-Path $root "include") $file -o $obj 2>&1
     $tried++
-    if (-not (Test-Path $obj)) { continue }
+    if (-not (Test-Path $obj)) {
+        if ($Diag) { Write-Host ("COMPILE  {0} ({1}b): {2}" -f $addr, $c.size_bytes, (($clog | Select-Object -First 1) -replace '^.*t\.c:', '')) }
+        continue
+    }
     $r = Compare-Func -Obj $obj -Func $newName -Addr $addr -Asm $asm
-    if ($r.Ok) {
+    if ($Diag -and -not $r.Ok) {
+        Write-Host ("DIFF     {0} ({1}b) ours={2} orig={3}" -f $addr, $c.size_bytes, $r.N, $asm[$addr].Hex.Count)
+        $r.Diffs | Select-Object -First 3 | ForEach-Object { Write-Host $_ }
+    }
+    if ($r.Ok -and $NoSave) { $ok++ }
+    elseif ($r.Ok) {
         $ok++
         $bucket = $addr.Substring(0, 4)
         $af = Join-Path $autoDir "auto_$bucket.c"

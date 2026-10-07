@@ -77,3 +77,60 @@ undefined4 fn_0024f538(uint *param_1)
     return 0;
   }
 }
+
+
+/* ADDR 002406e0 */
+void fn_002406e0(undefined8 param_1,undefined4 *param_2)
+
+{
+  fn_002406a0(param_1,*param_2);
+  return;
+}
+
+
+/* ADDR 00241270 */
+void fn_00241270(undefined8 param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  fn_002405e8(param_1,param_3);
+  return;
+}
+
+
+/* ADDR 0024f790 */
+void fn_0024f790(int param_1)
+
+{
+  fn_002487e0(param_1 + 8);
+  return;
+}
+
+
+/* ADDR 0024f7b0 */
+void fn_0024f7b0(void)
+
+{
+  fn_0024b3b0();
+  return;
+}
+
+
+/* ADDR 00249cc8 */
+undefined8 fn_00249cc8(undefined8 param_1)
+
+{
+  fn_00249cf0();
+  return param_1;
+}
+
+
+/* ADDR 00241c48 */
+void fn_00241c48(undefined8 param_1,uint *param_2)
+
+{
+  if (((int)*param_2 >> 1 & 1U) == 0) {
+    *param_2 = *param_2 | 2;
+    (**(code **)(param_2[1] + 0x74))((int)param_2 + (int)*(short *)(param_2[1] + 0x70));
+  }
+  return;
+}

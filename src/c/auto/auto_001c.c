@@ -129,3 +129,64 @@ void fn_001c4f08(int param_1,uint param_2)
   }
   return;
 }
+
+
+/* ADDR 001c05d8 */
+void fn_001c05d8(undefined8 param_1,undefined8 param_2)
+
+{
+  fn_001d0010(param_2);
+  return;
+}
+
+
+/* ADDR 001c50e0 */
+void fn_001c50e0(void)
+
+{
+  fn_001ae538();
+  return;
+}
+
+
+/* ADDR 001c65e8 */
+void fn_001c65e8(void)
+
+{
+  fn_001afde0();
+  return;
+}
+
+
+/* ADDR 001cfb30 */
+undefined4 fn_001cfb30(void)
+
+{
+  fn_001c2248();
+  return 1;
+}
+
+extern int DAT_0040f4c0;
+/* ADDR 001c4d00 */
+void fn_001c4d00(void)
+
+{
+  fn_001c4f08(DAT_0040f4c0);
+  return;
+}
+
+extern int DAT_0040f4c0;
+/* ADDR 001c67c0 */
+void fn_001c67c0(int param_1,undefined8 param_2)
+
+{
+  int iVar1;
+  
+  iVar1 = param_1 + 0x70;
+  do {
+    fn_001c6fa0(param_1,param_2);
+    param_1 = param_1 + 0x38;
+  } while (param_1 < iVar1);
+  fn_001c5f48(DAT_0040f4c0);
+  return;
+}

@@ -269,3 +269,260 @@ void fn_00135e68(int param_1,int param_2)
   *(undefined4 *)(param_1 + 0x3a0) = 0;
   return;
 }
+
+
+/* ADDR 001310b8 */
+void fn_001310b8(void)
+
+{
+  fn_0013ee30();
+  return;
+}
+
+
+/* ADDR 00133f80 */
+void fn_00133f80(int param_1)
+
+{
+  fn_0015c100(param_1 + 0x280);
+  return;
+}
+
+
+/* ADDR 00139150 */
+void fn_00139150(undefined8 param_1,int param_2)
+
+{
+  fn_0015c100(param_2 + 0x280);
+  return;
+}
+
+
+/* ADDR 0013daf0 */
+void fn_0013daf0(int param_1)
+
+{
+  fn_00183ef8(param_1 + 0x6f0);
+  return;
+}
+
+
+/* ADDR 0013df38 */
+void fn_0013df38(void)
+
+{
+  fn_0013ee30();
+  return;
+}
+
+
+/* ADDR 0013f2c8 */
+void fn_0013f2c8(void)
+
+{
+  fn_0013ee30();
+  return;
+}
+
+
+/* ADDR 0013d2b0 */
+undefined4 fn_0013d2b0(void)
+
+{
+  fn_0013ee28();
+  return 1;
+}
+
+
+/* ADDR 0013d8b8 */
+void fn_0013d8b8(int param_1,int param_2)
+
+{
+  fn_00189b90(param_1 + 0x150,*(undefined4 *)(param_2 + 0x30));
+  return;
+}
+
+extern int DAT_0040f508;
+/* ADDR 00135c50 */
+void fn_00135c50(undefined8 param_1)
+
+{
+  fn_0011cfd8(DAT_0040f508,param_1);
+  return;
+}
+
+extern int DAT_0040f540;
+/* ADDR 00138970 */
+bool fn_00138970(void)
+
+{
+  long lVar1;
+  
+  lVar1 = fn_001437d8(DAT_0040f540);
+  return lVar1 != 0;
+}
+
+
+/* ADDR 0013b9d0 */
+void fn_0013b9d0(undefined8 param_1)
+
+{
+  fn_0013bb38();
+  fn_00133fa0(param_1);
+  return;
+}
+
+
+/* ADDR 0013bac8 */
+void fn_0013bac8(int param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = *(int *)(*(int *)(param_1 + 0x32c) + 0x84);
+  (**(code **)(iVar1 + 0xc))(*(int *)(param_1 + 0x32c) + (int)*(short *)(iVar1 + 8));
+  return;
+}
+
+
+/* ADDR 0013c950 */
+void fn_0013c950(int param_1)
+
+{
+  if (*(int *)(param_1 + 0x32c) == param_1 + 0x4f0) {
+    fn_00140ab0(*(int *)(param_1 + 0x32c));
+  }
+  return;
+}
+
+
+/* ADDR 00135b28 */
+void fn_00135b28(int param_1)
+
+{
+  if (*(int *)(*(int *)(param_1 + 0x32c) + 0x80) == 1) {
+    fn_00188b68(*(int *)(param_1 + 0x32c) + 0x290);
+  }
+  return;
+}
+
+
+/* ADDR 0013b9a0 */
+undefined4 fn_0013b9a0(undefined8 param_1)
+
+{
+  fn_0013baf8();
+  fn_00133ed8(param_1);
+  return 1;
+}
+
+
+/* ADDR 0013ba00 */
+void fn_0013ba00(int param_1)
+
+{
+  fn_0013f328(param_1 + 0x4f0);
+  fn_001306a0(param_1 + 0x620);
+  fn_0013f0a8(param_1 + 0x730);
+  fn_0013db40(param_1 + 2000);
+  return;
+}
+
+
+/* ADDR 0013baf8 */
+void fn_0013baf8(int param_1)
+
+{
+  fn_00140008(param_1 + 0x4f0);
+  fn_00131078(param_1 + 0x620);
+  fn_0013f298(param_1 + 0x730);
+  fn_0013def0(param_1 + 2000);
+  return;
+}
+
+
+/* ADDR 0013bb38 */
+void fn_0013bb38(int param_1)
+
+{
+  fn_00140048(param_1 + 0x4f0);
+  fn_001310b8(param_1 + 0x620);
+  fn_0013f2c8(param_1 + 0x730);
+  fn_0013df38(param_1 + 2000);
+  return;
+}
+
+
+/* ADDR 0013dab0 */
+void fn_0013dab0(int param_1)
+
+{
+  fn_00182a40(param_1 + 0x810);
+  fn_00180678(param_1 + 0xb30);
+  fn_00185e38(param_1 + 0x90);
+  fn_00181470(param_1 + 0xec0);
+  return;
+}
+
+
+/* ADDR 00136b50 */
+undefined4 fn_00136b50(int param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = fn_00135b60();
+  memcpy(*(undefined4 *)(param_1 + 0x354),*(undefined4 *)(iVar1 + 0x38),
+         *(undefined4 *)(iVar1 + 0x3c));
+  memcpy(*(undefined4 *)(param_1 + 0x358),*(undefined4 *)(iVar1 + 0x40),
+         *(undefined4 *)(iVar1 + 0x44));
+  *(undefined8 *)(param_1 + 0x370) = 0;
+  return 1;
+}
+
+
+/* ADDR 001354e0 */
+void fn_001354e0(int param_1,int param_2)
+
+{
+  int iVar1;
+  
+  iVar1 = *(int *)(param_1 + 0x32c);
+  if (iVar1 != param_2) {
+    if (iVar1 != 0) {
+      (**(code **)(*(int *)(iVar1 + 0x84) + 0x1c))
+                (iVar1 + *(short *)(*(int *)(iVar1 + 0x84) + 0x18));
+    }
+    *(int *)(param_1 + 0x32c) = param_2;
+    if (param_2 != 0) {
+      (**(code **)(*(int *)(param_2 + 0x84) + 0x14))
+                (param_2 + *(short *)(*(int *)(param_2 + 0x84) + 0x10));
+    }
+  }
+  return;
+}
+
+
+/* ADDR 00139780 */
+void fn_00139780(undefined4 *param_1,int param_2,undefined4 param_3)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  int iVar3;
+  
+  uVar1 = fn_00107d20(param_2 << 2);
+  param_1[3] = uVar1;
+  iVar3 = 0;
+  param_1[1] = param_2;
+  param_1[2] = 0;
+  if (0 < param_2) {
+    do {
+      iVar2 = iVar3 * 4;
+      iVar3 = iVar3 + 1;
+      *(undefined4 *)(iVar2 + param_1[3]) = 0;
+    } while (iVar3 < param_2);
+  }
+  *param_1 = param_3;
+  return;
+}

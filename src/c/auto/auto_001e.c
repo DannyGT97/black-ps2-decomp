@@ -199,3 +199,269 @@ undefined4 fn_001e4b38(int param_1)
   }
   return uVar2;
 }
+
+
+/* ADDR 001e9640 */
+void fn_001e9640(int param_1)
+
+{
+  fn_001ea510(*(undefined4 *)(param_1 + 0x174));
+  return;
+}
+
+
+/* ADDR 001e9c48 */
+void fn_001e9c48(int param_1)
+
+{
+  fn_001ef6f0(*(undefined4 *)(param_1 + 0x1a0));
+  return;
+}
+
+
+/* ADDR 001ecad8 */
+void fn_001ecad8(int param_1)
+
+{
+  fn_001ed4f0(param_1 + 0x7b0);
+  return;
+}
+
+
+/* ADDR 001ed3a0 */
+void fn_001ed3a0(void)
+
+{
+  fn_00282218();
+  return;
+}
+
+
+/* ADDR 001ef6f0 */
+void fn_001ef6f0(void)
+
+{
+  fn_00280a80();
+  return;
+}
+
+
+/* ADDR 001e5fa8 */
+bool fn_001e5fa8(int param_1)
+
+{
+  long lVar1;
+  
+  lVar1 = fn_001e4b70(param_1 + 0x858);
+  return lVar1 != 0;
+}
+
+
+/* ADDR 001ea4f0 */
+undefined4 fn_001ea4f0(undefined8 param_1)
+
+{
+  fn_001e9ee8(param_1,0);
+  return 1;
+}
+
+
+/* ADDR 001ed478 */
+undefined4 fn_001ed478(void)
+
+{
+  fn_00282628();
+  return 1;
+}
+
+
+/* ADDR 001e16e0 */
+void fn_001e16e0(int param_1)
+
+{
+  undefined1 uVar1;
+  
+  uVar1 = fn_00281120();
+  *(undefined1 *)(param_1 + 0x18) = uVar1;
+  return;
+}
+
+
+/* ADDR 001e8b38 */
+void fn_001e8b38(int param_1)
+
+{
+  fn_001e8120();
+  *(undefined4 *)(param_1 + 0x1b4) = 0;
+  return;
+}
+
+
+/* ADDR 001e9660 */
+void fn_001e9660(int param_1)
+
+{
+  fn_001e8120();
+  *(undefined4 *)(param_1 + 0x1b8) = 0;
+  return;
+}
+
+
+/* ADDR 001e9b30 */
+void fn_001e9b30(int param_1)
+
+{
+  fn_001e8120();
+  *(undefined4 *)(param_1 + 0x1b4) = 0;
+  return;
+}
+
+
+/* ADDR 001e8980 */
+void fn_001e8980(int param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = *(int *)(*(int *)(param_1 + 0x40) + 0x1b0);
+  (**(code **)(iVar1 + 0x14))(*(int *)(param_1 + 0x40) + (int)*(short *)(iVar1 + 0x10));
+  return;
+}
+
+extern int DAT_0040f510;
+/* ADDR 001eaac8 */
+void fn_001eaac8(void)
+
+{
+  fn_001ebfc0(*(undefined4 *)(*(int *)(DAT_0040f510 + 0xcbd8) + 0x24));
+  return;
+}
+
+
+/* ADDR 001eed58 */
+undefined4 fn_001eed58(int param_1)
+
+{
+  fn_00280b10();
+  *(undefined1 *)(param_1 + 0x291) = 0;
+  *(undefined4 *)(param_1 + 0x250) = 2;
+  return 1;
+}
+
+
+/* ADDR 001ee850 */
+void fn_001ee850(int param_1)
+
+{
+  fn_001edd80();
+  *(float *)(param_1 + 8) = *(float *)(param_1 + 4);
+  *(float *)(param_1 + 0x10) = *(float *)(param_1 + 0x20) / *(float *)(param_1 + 4);
+  return;
+}
+
+
+/* ADDR 001e0440 */
+void fn_001e0440(undefined8 param_1)
+
+{
+  fn_001dfc78();
+  fn_001e0fe8(param_1);
+  fn_001e10c0(param_1);
+  fn_001e1068(param_1);
+  return;
+}
+
+
+/* ADDR 001e10c0 */
+void fn_001e10c0(undefined8 param_1)
+
+{
+  fn_001e0d28();
+  fn_001e0f28(param_1);
+  fn_001e0e70(param_1);
+  fn_001e0a30(param_1);
+  return;
+}
+
+
+/* ADDR 001e1ba0 */
+undefined4 fn_001e1ba0(int param_1)
+
+{
+  memset(param_1 + 0x20,0,0x28);
+  *(undefined4 *)(param_1 + 0x5c) = 7;
+  return 1;
+}
+
+
+/* ADDR 001ea780 */
+void fn_001ea780(int param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = param_1 + 0x260;
+  do {
+    fn_001eaaf8(param_1);
+    param_1 = param_1 + 0x4c;
+  } while (param_1 < iVar1);
+  return;
+}
+
+
+/* ADDR 001ea898 */
+undefined4 fn_001ea898(int param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = param_1 + 0x260;
+  do {
+    fn_001eaba0(param_1);
+    param_1 = param_1 + 0x4c;
+  } while (param_1 < iVar1);
+  return 1;
+}
+
+extern int DAT_0040f50c;
+extern int DAT_0040f510;
+/* ADDR 001e79f0 */
+undefined4 fn_001e79f0(int param_1)
+
+{
+  if (*(int *)(param_1 + 8) != 3) {
+    fn_00280100(DAT_0040f510,*(undefined4 *)(param_1 + 4));
+    *(undefined4 *)(param_1 + 4) = 0;
+    *(undefined4 *)(DAT_0040f50c + 0x948) = 0;
+    *(undefined4 *)(param_1 + 8) = 3;
+  }
+  return 1;
+}
+
+extern int DAT_0040f4d0;
+/* ADDR 001e5ce0 */
+int fn_001e5ce0(int param_1,undefined8 param_2)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  long lVar3;
+  int iVar4;
+  
+  iVar1 = -1;
+  uVar2 = fn_00135570(param_2);
+  iVar4 = 0;
+  lVar3 = fn_00138320(uVar2);
+  if (0x23 < lVar3) {
+    if (lVar3 < 0x26) {
+      iVar4 = *(int *)(param_1 + 0x594);
+      iVar1 = 2;
+    }
+    else if (lVar3 < 0x2b) {
+      iVar4 = *(int *)(param_1 + 0x590);
+      iVar1 = 1;
+    }
+  }
+  iVar1 = fn_0012d158(DAT_0040f4d0,0,iVar1 + -1);
+  return iVar1 * 400 + iVar4;
+}

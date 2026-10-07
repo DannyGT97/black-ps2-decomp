@@ -98,3 +98,12 @@ undefined4 fn_002ce110(undefined4 param_1)
   DAT_003c40b8 = param_1;
   return 1;
 }
+
+
+/* ADDR 002ce980 */
+undefined8 fn_002ce980(undefined8 param_1)
+
+{
+  fn_002cea78();
+  return param_1;
+}
