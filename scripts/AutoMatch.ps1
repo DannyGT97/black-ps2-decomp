@@ -1,10 +1,13 @@
 # Intenta reconstruir automaticamente funciones pequenas: pseudo-C de Ghidra -> C limpio -> EE-GCC -> comparar.
 # Las que coinciden byte a byte se guardan en src/c/auto/auto_<bloque>.c y se anaden a matched.txt.
 # Uso: powershell -File scripts/AutoMatch.ps1 [-MaxBytes 64] [-MinBytes 0] [-Limit 0] [-Flags "-O2 -G0"]
-param([int]$MaxBytes = 64, [int]$MinBytes = 0, [int]$Limit = 0, [string]$Flags = "-O2 -G0", [switch]$Diag, [string]$CC = "ee-gcc2.95.3-136", [switch]$NoSave)
+param([int]$MaxBytes = 64, [int]$MinBytes = 0, [int]$Limit = 0, [string]$Flags = "-O2 -G0", [switch]$Diag, [string]$CC = "ee-gcc2.95.3-136", [switch]$NoSave, [string]$Variant = "A")
 $root = Split-Path $PSScriptRoot -Parent
 . (Join-Path $PSScriptRoot "MatchLib.ps1")
 $comp = Get-EeCompiler $root $CC
+if ($Variant -match "S") { $Flags += " -funsigned-char" }
+$hdr = if ($Variant -match "U") { "auto_types_u.h" } else { "auto_types.h" }
+$tag = if ($Variant -eq "A") { "" } else { $Variant.ToLower() + "_" }
 $tmp = Join-Path $root "build/auto_tmp"; New-Item -ItemType Directory -Force $tmp | Out-Null
 $autoDir = Join-Path $root "src/c/auto"; New-Item -ItemType Directory -Force $autoDir | Out-Null
 $mf = Join-Path $root "matched.txt"
@@ -53,11 +56,12 @@ foreach ($c in $cands) {
     $newName = "fn_$addr"
     $src = $src -replace ("\b" + [regex]::Escape($oldName) + "\b"), $newName
     $src = [regex]::Replace($src, '\bFUN_([0-9a-f]{8})\b', 'fn_$1')
+    if ($Variant -match "F") { if ($src -match '\bfloat\b' -and $src -notmatch '\bdouble\b') { $src = [regex]::Replace($src, '(?<![\w.])(\d+\.\d+(?:[eE][+-]?\d+)?)(?![\w.])', '$1f') } }
     $ext = New-Object System.Collections.Generic.List[string]
     foreach ($d in ([regex]::Matches($src, '\b(?:PTR_)?DAT_[0-9a-f]{8}\b') | ForEach-Object { $_.Value } | Sort-Object -Unique)) { $ext.Add("extern int $d;") }
     foreach ($d in ([regex]::Matches($src, '\bLAB_[0-9a-f]{8}\b') | ForEach-Object { $_.Value } | Sort-Object -Unique)) { }
     $file = Join-Path $tmp "t.c"; $obj = Join-Path $tmp "t.o"
-    $body = "#include `"auto_types.h`"`n" + ($ext -join "`n") + "`n/* ADDR $addr */`n" + $src + "`n"
+    $body = "#include `"$hdr`"`n" + ($ext -join "`n") + "`n/* ADDR $addr */`n" + $src + "`n"
     [IO.File]::WriteAllText($file, $body)
     if (Test-Path $obj) { Remove-Item $obj }
     $clog = & $comp.Exe "-B$($comp.B1)" "-B$($comp.B2)" -w -c ($Flags -split ' ') -I (Join-Path $root "include") $file -o $obj 2>&1
@@ -75,8 +79,8 @@ foreach ($c in $cands) {
     elseif ($r.Ok) {
         $ok++
         $bucket = $addr.Substring(0, 4)
-        $af = Join-Path $autoDir "auto_$bucket.c"
-        if (-not (Test-Path $af)) { [IO.File]::WriteAllText($af, "/* Funciones reconstruidas automaticamente (AutoMatch.ps1) a partir del pseudo-C de Ghidra; verificadas byte a byte. */`n#include `"auto_types.h`"`n") }
+        $af = Join-Path $autoDir ("auto_" + $tag + $bucket + ".c")
+        if (-not (Test-Path $af)) { [IO.File]::WriteAllText($af, "/* Funciones reconstruidas automaticamente (AutoMatch.ps1) a partir del pseudo-C de Ghidra; verificadas byte a byte. */`n#include `"$hdr`"`n") }
         [IO.File]::AppendAllText($af, "`n" + ($ext -join "`n") + "`n/* ADDR $addr */`n" + $src + "`n")
         Add-Content $mf ("{0}  # auto" -f $addr); $have[$addr] = 1
     }
