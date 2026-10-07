@@ -1,0 +1,12 @@
+﻿# Material con copyright del juego original: NO subir
+*.iso
+extracted/
+*.elf
+SLUS_*
+GLOBDATA.BIN
+
+# Herramientas y proyectos locales de Ghidra
+tools/
+ghidra_project/
+*.gpr
+*.rep/

@@ -1,0 +1,2 @@
+# Direcciones (hex, una por linea) de funciones ya reconstruidas y verificadas. Admite comentarios con #.
+# Ejemplo: 00389c48  # Kaim_CActionShoot
