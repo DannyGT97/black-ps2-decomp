@@ -5862,9 +5862,8 @@ void FUN_001b3f50(int param_1)
           auStack_340 = _sqc2(auVar17);
           auStack_330 = _sqc2(auVar16);
           auStack_2c0 = _sqc2(auVar17);
-          fVar8 = (float)FUN_0029e0d8((int)fVar8 * (uint)(fVar8 < 1.0) |
-                                      (uint)(fVar8 >= 1.0) * 0x3f800000,0x4432c0,0xffffffffc2255de0,
-                                      0x42a33457,0x3e800000);
+          fVar8 = (float)acosf((int)fVar8 * (uint)(fVar8 < 1.0) | (uint)(fVar8 >= 1.0) * 0x3f800000,
+                               0x4432c0,0xffffffffc2255de0,0x42a33457,0x3e800000);
           auVar25 = _pextlw(0,0);
           auVar13 = _lqc2(_auStack_170);
           auVar12 = _pextlw(0x3fc00000,auVar25._0_8_);

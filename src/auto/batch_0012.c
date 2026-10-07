@@ -2557,7 +2557,7 @@ LAB_0018b89c:
             auVar18 = _vminibc(auVar18,in_vf0);
             auVar15 = _sqc2(auVar15);
             auVar18 = _qmfc2(auVar18._0_4_);
-            fVar8 = (float)FUN_0029e0d8(auVar18._0_4_);
+            fVar8 = (float)acosf(auVar18._0_4_);
             auVar17 = _lqc2(auVar17);
             auVar13 = _lqc2(auVar13);
             _vopmula(auVar17,auVar13);
@@ -2649,7 +2649,7 @@ LAB_0018b89c:
               auVar11 = _sqc2(auVar12);
               auVar12 = _vminibc(auVar13,in_vf0);
               auVar12 = _qmfc2(auVar12._0_4_);
-              fVar8 = (float)FUN_0029e0d8(auVar12._0_4_);
+              fVar8 = (float)acosf(auVar12._0_4_);
               auVar12 = _lqc2(auVar11);
               if (fVar8 * 57.29578 < 10.0) {
                 fVar10 = fVar10 * 0.5;
@@ -3242,7 +3242,7 @@ void FUN_0018c688(int *param_1,undefined1 (*param_2) [16])
   auVar8 = _sqc2(auVar10);
   *(undefined1 (*) [16])(param_1 + 0x18) = auVar8;
   auVar8 = _sqc2(auVar11);
-  fVar5 = (float)FUN_0029e0d8(auVar9._0_4_);
+  fVar5 = (float)acosf(auVar9._0_4_);
   auVar8 = _lqc2(auVar8);
   auVar7 = _lqc2(auVar7);
   _vopmula(auVar8,auVar7);
@@ -3537,7 +3537,7 @@ void FUN_0018cc20(int *param_1,undefined1 (*param_2) [16])
   auVar8 = _sqc2(auVar12);
   *(undefined1 (*) [16])(param_1 + 0x1c) = auVar8;
   auVar8 = _sqc2(auVar10);
-  fVar5 = (float)FUN_0029e0d8(auVar9._0_4_);
+  fVar5 = (float)acosf(auVar9._0_4_);
   auVar7 = _lqc2(auVar7);
   auVar8 = _lqc2(auVar8);
   _vopmula(auVar8,auVar7);

@@ -1696,7 +1696,7 @@ bool FUN_001917a0(float param_1,float param_2,float *param_3,undefined4 param_4,
   auVar9 = _vminibc(auVar9,in_vf0);
   auVar10 = _qmfc2(auVar9._0_4_);
   auVar9 = _sqc2(auVar12);
-  fVar5 = (float)FUN_0029e0d8(auVar10._0_4_);
+  fVar5 = (float)acosf(auVar10._0_4_);
   auVar8 = _lqc2(auVar8);
   auVar9 = _lqc2(auVar9);
   _vopmula(auVar8,auVar9);
@@ -4077,7 +4077,7 @@ void FUN_00194610(int *param_1)
     auVar4 = _vmax(auVar4,auVar5);
     auVar4 = _vminibc(auVar4,in_vf0);
     auVar4 = _qmfc2(auVar4._0_4_);
-    fVar3 = (float)FUN_0029e0d8(auVar4._0_4_);
+    fVar3 = (float)acosf(auVar4._0_4_);
     if (fVar3 * 57.29578 <= 35.0) {
       auVar4 = _lqc2(*(undefined1 (*) [16])(iVar1 + 0x70));
       auVar5 = _qmtc2(0x3f800000);
@@ -6319,7 +6319,7 @@ void FUN_00196e58(undefined8 param_1)
       auVar12 = _vmax(auVar12,auVar15);
       auVar12 = _vminibc(auVar12,in_vf0);
       auVar12 = _qmfc2(auVar12._0_4_);
-      fVar7 = (float)FUN_0029e0d8(auVar12._0_4_);
+      fVar7 = (float)acosf(auVar12._0_4_);
       auVar11 = _lqc2(auVar11);
       auVar10 = _lqc2(auVar10);
       _vopmula(auVar10,auVar11);
@@ -6720,7 +6720,7 @@ void FUN_00197678(int *param_1)
     auVar9 = _sqc2(auVar12);
     auVar11 = _vminibc(auVar11,in_vf0);
     auVar11 = _qmfc2(auVar11._0_4_);
-    fVar6 = (float)FUN_0029e0d8(auVar11._0_4_);
+    fVar6 = (float)acosf(auVar11._0_4_);
     auVar9 = _lqc2(auVar9);
     auVar8 = _lqc2(auVar8);
     _vopmula(auVar8,auVar9);

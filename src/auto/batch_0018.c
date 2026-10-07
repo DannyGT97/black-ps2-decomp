@@ -1811,7 +1811,7 @@ void FUN_001cd650(undefined8 param_1,int param_2)
     cVar1 = *(char *)(param_2 + 1);
     auVar14 = _sqc2(auVar22);
     if (CONCAT44(cVar1 >> 7,(int)cVar1) != 0) {
-      uVar21 = FUN_0029e400(((float)(int)cVar1 / 100.0) * (float)DAT_003c0e04,0x3f800000);
+      uVar21 = fmodf(((float)(int)cVar1 / 100.0) * (float)DAT_003c0e04,0x3f800000);
       _lqc2(auVar14);
       auVar14 = _qmtc2(uVar21);
       auVar14 = _vaddbc(in_vf0,auVar14);

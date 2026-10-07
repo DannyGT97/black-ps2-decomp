@@ -2052,8 +2052,8 @@ void FUN_001f3aa0(float param_1,int param_2)
             fVar19 = fVar19 * fVar18;
             fVar19 = (float)((int)fVar19 * (uint)(-1.0 < fVar19) |
                             (uint)(-1.0 >= fVar19) * -0x40800000);
-            fVar19 = (float)FUN_0029e0d8((int)fVar19 * (uint)(fVar19 < 1.0) |
-                                         (uint)(fVar19 >= 1.0) * 0x3f800000);
+            fVar19 = (float)acosf((int)fVar19 * (uint)(fVar19 < 1.0) |
+                                  (uint)(fVar19 >= 1.0) * 0x3f800000);
             fVar19 = fVar19 * 57.29578;
             if (fVar17 * fVar18 < 0.0) {
               fVar19 = -fVar19;

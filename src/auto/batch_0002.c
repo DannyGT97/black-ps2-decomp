@@ -313,7 +313,7 @@ undefined8 FUN_0011afb0(undefined8 param_1,undefined8 param_2)
   auStack_f0 = _sqc2(auVar10);
   auStack_e0 = _sqc2(auVar31);
   auStack_d0 = _sqc2(auVar32);
-  fVar7 = (float)FUN_0029e2d8(fVar5,fVar6);
+  fVar7 = (float)atan2f(fVar5,fVar6);
   _lqc2(auStack_f0);
   auVar10 = _lqc2(auStack_e0);
   auVar14 = _lqc2(auStack_d0);
@@ -2181,7 +2181,7 @@ FUN_0011d5a8(float param_1,undefined8 param_2,undefined8 param_3,undefined8 para
         uStack_64 = DAT_004432cc;
         auVar4 = _vminibc(auVar4,in_vf0);
         auVar4 = _qmfc2(auVar4._0_4_);
-        fVar3 = (float)FUN_0029e0d8(auVar4._0_4_);
+        fVar3 = (float)acosf(auVar4._0_4_);
         auVar4 = _lqc2(auStack_40);
         auVar5 = _lqc2(auStack_50);
         _vopmula(auVar4,auVar5);
@@ -3107,7 +3107,7 @@ void FUN_0011e6d0(undefined8 param_1)
     auVar10 = _sqc2(auVar12);
     auVar12 = _qmfc2(auVar11._0_4_);
     auVar11 = _sqc2(auVar13);
-    fVar7 = (float)FUN_0029e0d8(auVar12._0_4_);
+    fVar7 = (float)acosf(auVar12._0_4_);
     auVar10 = _lqc2(auVar10);
     auVar8 = _lqc2(auVar8);
     _vopmula(auVar10,auVar8);
@@ -3558,7 +3558,7 @@ void FUN_0011f070(undefined8 param_1)
   auVar13 = _vminibc(auVar11,in_vf0);
   auVar11 = _sqc2(auVar14);
   auVar13 = _qmfc2(auVar13._0_4_);
-  fVar8 = (float)FUN_0029e0d8(auVar13._0_4_);
+  fVar8 = (float)acosf(auVar13._0_4_);
   auVar11 = _lqc2(auVar11);
   auVar12 = _lqc2(auVar12);
   _vopmula(auVar12,auVar11);
@@ -3745,7 +3745,7 @@ FUN_0011f370(undefined8 param_1,undefined8 param_2,undefined1 param_3,undefined8
   auVar16 = _vminibc(auVar15,in_vf0);
   auVar15 = _sqc2(auVar17);
   auVar16 = _qmfc2(auVar16._0_4_);
-  fVar11 = (float)FUN_0029e0d8(auVar16._0_4_);
+  fVar11 = (float)acosf(auVar16._0_4_);
   auVar15 = _lqc2(auVar15);
   auVar14 = _lqc2(auVar14);
   _vopmula(auVar15,auVar14);
@@ -4447,7 +4447,7 @@ void FUN_001204b0(undefined8 param_1)
     auStack_a0 = _sqc2(auVar8);
     auVar6 = _vminibc(auVar6,in_vf0);
     auVar6 = _qmfc2(auVar6._0_4_);
-    fVar4 = (float)FUN_0029e0d8(auVar6._0_4_);
+    fVar4 = (float)acosf(auVar6._0_4_);
     auVar6 = _lqc2(auStack_50);
     auVar5 = _lqc2(auStack_a0);
     _vopmula(auVar6,auVar5);
@@ -4503,7 +4503,7 @@ void FUN_001204b0(undefined8 param_1)
     uStack_78 = DAT_004432c8;
     uStack_74 = DAT_004432cc;
     auVar6 = _qmfc2(auVar6._0_4_);
-    fVar4 = (float)FUN_0029e0d8(auVar6._0_4_);
+    fVar4 = (float)acosf(auVar6._0_4_);
     auVar6 = _lqc2(auStack_50);
     auVar5 = _lqc2(auStack_70);
     _vopmula(auVar6,auVar5);
@@ -4836,7 +4836,7 @@ void FUN_00120af0(undefined8 param_1)
   uStack_7c = (undefined4)((ulong)_DAT_004432c0 >> 0x20);
   uStack_78 = DAT_004432c8;
   uStack_74 = DAT_004432cc;
-  fVar4 = (float)FUN_0029e0d8(auVar5._0_4_);
+  fVar4 = (float)acosf(auVar5._0_4_);
   auVar6 = _lqc2(auStack_50);
   auVar5 = _lqc2(auStack_70);
   _vopmula(auVar6,auVar5);
@@ -5293,7 +5293,7 @@ void FUN_00120ec0(undefined8 param_1)
         auStack_b0 = _sqc2(auVar13);
         auVar10 = _qmfc2(auVar10._0_4_);
         auStack_e0 = _sqc2(auVar5);
-        fVar9 = (float)FUN_0029e0d8(auVar10._0_4_);
+        fVar9 = (float)acosf(auVar10._0_4_);
         auVar11 = _lqc2(auStack_b0);
         auVar10 = _lqc2(auStack_e0);
         _vopmula(auVar11,auVar10);
@@ -5348,7 +5348,7 @@ void FUN_00120ec0(undefined8 param_1)
         auStack_100 = _sqc2(auVar13);
         auVar10 = _qmfc2(auVar10._0_4_);
         auStack_b0 = _sqc2(auVar5);
-        fVar9 = (float)FUN_0029e0d8(auVar10._0_4_);
+        fVar9 = (float)acosf(auVar10._0_4_);
         auVar10 = _lqc2(auStack_b0);
         auVar11 = _lqc2(auStack_100);
         _vopmula(auVar10,auVar11);

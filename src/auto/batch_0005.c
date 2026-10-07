@@ -9113,7 +9113,7 @@ float FUN_0014ce68(float param_1,undefined1 (*param_2) [16],undefined1 (*param_3
     _sqc2(auVar11);
   }
   auVar15 = _sqc2(in_vf22);
-  fVar4 = (float)FUN_0029e2d8(fVar1,fVar2);
+  fVar4 = (float)atan2f(fVar1,fVar2);
   _lqc2(auVar15);
   fVar5 = fVar4 * 57.295776;
   if (0.01 < fVar1) goto LAB_0014d1f0;
@@ -10414,7 +10414,7 @@ void FUN_0014e278(undefined1 (*param_1) [16],int param_2,undefined1 (*param_3) [
         auVar5 = _lqc2(auStack_150);
         auVar5 = _qmfc2(auVar5._0_4_);
         uVar4 = FUN_00291f58(auVar5._0_4_);
-        uVar3 = FUN_0029dd90(uVar3,uVar4);
+        uVar3 = atan2(uVar3,uVar4);
         uVar4 = FUN_00291f58((float)iVar1);
         uVar3 = FUN_00291410(uVar4,uVar3);
         fVar13 = (float)FUN_00291c68(uVar3);
@@ -10521,7 +10521,7 @@ void FUN_0014e278(undefined1 (*param_1) [16],int param_2,undefined1 (*param_3) [
             auVar5 = _vmax(auVar5,auVar28);
             auVar5 = _vminibc(auVar5,in_vf0);
             auVar5 = _qmfc2(auVar5._0_4_);
-            fVar13 = (float)FUN_0029e0d8(auVar5._0_4_);
+            fVar13 = (float)acosf(auVar5._0_4_);
             auVar30 = _lqc2(auStack_140);
             auVar22 = _lqc2(auStack_130);
             auVar5 = _lqc2(auStack_120);

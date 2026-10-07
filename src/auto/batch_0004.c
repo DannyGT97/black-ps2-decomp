@@ -848,7 +848,7 @@ void FUN_001368f0(undefined8 param_1,undefined8 param_2)
   puVar6 = (undefined8 *)param_2;
   fVar7 = *(float *)((int)puVar6 + 0x24);
   fVar7 = (float)((int)fVar7 * (uint)(-1.0 < fVar7) | (uint)(-1.0 >= fVar7) * -0x40800000);
-  fVar7 = (float)FUN_0029e1d8((int)fVar7 * (uint)(fVar7 < 1.0) | (uint)(fVar7 >= 1.0) * 0x3f800000);
+  fVar7 = (float)asinf((int)fVar7 * (uint)(fVar7 < 1.0) | (uint)(fVar7 >= 1.0) * 0x3f800000);
   auVar8 = _qmtc2(0);
   iVar5 = (int)param_1;
   auVar10 = _vaddbc(in_vf0,in_vf0);
@@ -905,7 +905,7 @@ void FUN_001368f0(undefined8 param_1,undefined8 param_2)
     auVar11 = _vminibc(auVar10,in_vf0);
     auVar10 = _sqc2(auVar12);
     auVar11 = _qmfc2(auVar11._0_4_);
-    fVar7 = (float)FUN_0029e0d8(auVar11._0_4_,*puVar6,param_2);
+    fVar7 = (float)acosf(auVar11._0_4_,*puVar6,param_2);
     auVar10 = _lqc2(auVar10);
     auVar9 = _lqc2(auVar9);
     _vopmula(auVar9,auVar10);
@@ -5643,7 +5643,7 @@ void FUN_0013c528(float param_1,int param_2,undefined8 param_3,undefined8 param_
   *(undefined1 *)(*(int *)(param_2 + 0x32c) + 0x35) = 0;
   auVar6 = _vsub(in_vf0,auVar6);
   auStack_70 = _sqc2(auVar6);
-  fVar5 = (float)FUN_0029e0d8(auStack_70._8_4_);
+  fVar5 = (float)acosf(auStack_70._8_4_);
   auVar1._4_4_ = uStack_4c;
   auVar1._0_4_ = uStack_50;
   auVar1._8_4_ = uStack_48;
@@ -7150,7 +7150,7 @@ bool FUN_0013df58(int param_1)
   auStack_c0 = _sqc2(auVar29);
   uStack_360 = uStack_3a0;
   uStack_35c = uStack_39c;
-  fStack_120 = (float)FUN_0029e2d8(fVar6,fVar8);
+  fStack_120 = (float)atan2f(fVar6,fVar8);
   fStack_120 = fStack_120 * 57.295776;
   _lqc2(auStack_d0);
   auVar29 = _lqc2(auStack_c0);
@@ -7759,7 +7759,7 @@ undefined8 FUN_0013ec38(float *param_1,float param_2)
   auVar8 = _vminibc(auVar8,in_vf0);
   auVar10 = _qmfc2(auVar8._0_4_);
   auVar8 = _sqc2(auVar9);
-  fVar5 = (float)FUN_0029e0d8(auVar10._0_4_);
+  fVar5 = (float)acosf(auVar10._0_4_);
   auVar8 = _lqc2(auVar8);
   auVar7 = _lqc2(auVar7);
   _vopmula(auVar7,auVar8);
@@ -8016,7 +8016,7 @@ undefined4 FUN_0013ef28(int param_1)
     auVar9 = _vminibc(auVar9,in_vf0);
     auVar8 = _qmfc2(auVar9._0_4_);
     auVar9 = _sqc2(auVar10);
-    fVar5 = (float)FUN_0029e0d8(auVar8._0_4_);
+    fVar5 = (float)acosf(auVar8._0_4_);
     auVar9 = _lqc2(auVar9);
     auVar7 = _lqc2(auVar7);
     _vopmula(auVar7,auVar9);

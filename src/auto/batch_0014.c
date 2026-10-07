@@ -826,7 +826,7 @@ bool FUN_001985b8(int *param_1)
       fVar4 = auVar10._0_4_;
       auVar10 = _vminibc(auVar11,in_vf0);
       auVar10 = _qmfc2(auVar10._0_4_);
-      fVar8 = (float)FUN_0029e0d8(auVar10._0_4_);
+      fVar8 = (float)acosf(auVar10._0_4_);
       if (5.0 < fVar4) {
         fVar9 = (float)FUN_00185438(*param_1 + 0x6f0,iVar7);
         if (fVar9 < fVar8 * 57.29578) {
@@ -2107,7 +2107,7 @@ undefined8 FUN_00199f70(int *param_1)
         uStack_a8 = DAT_004432c8;
         uStack_a4 = DAT_004432cc;
         auVar10 = _qmfc2(auVar10._0_4_);
-        fVar9 = (float)FUN_0029e0d8(auVar10._0_4_);
+        fVar9 = (float)acosf(auVar10._0_4_);
         auVar11 = _lqc2(auStack_70);
         auVar10 = _lqc2(auStack_a0);
         _vopmula(auVar11,auVar10);
@@ -3853,7 +3853,7 @@ void FUN_0019c330(undefined8 param_1)
     auVar6 = _vmax(auVar6,auVar7);
     auVar6 = _vminibc(auVar6,in_vf0);
     auVar6 = _qmfc2(auVar6._0_4_);
-    fVar5 = (float)FUN_0029e0d8(auVar6._0_4_);
+    fVar5 = (float)acosf(auVar6._0_4_);
     if (fVar5 * 57.29578 <= 35.0) {
       auVar6 = _lqc2(*(undefined1 (*) [16])(iVar3 + 0x70));
       auVar7 = _qmtc2(0x40000000);
@@ -5333,7 +5333,7 @@ undefined8 FUN_0019e060(int *param_1)
     auVar8 = _vmax(auVar8,auVar13);
     auVar8 = _vminibc(auVar8,in_vf0);
     auVar8 = _qmfc2(auVar8._0_4_);
-    fVar6 = (float)FUN_0029e0d8(auVar8._0_4_);
+    fVar6 = (float)acosf(auVar8._0_4_);
     uVar4 = 0;
     if (fVar6 * 57.29578 <= 35.0) {
       auVar9 = _qmtc2(0x40600000);
@@ -5592,7 +5592,7 @@ void FUN_0019e510(undefined8 param_1)
         auVar14 = _vmax(auVar14,auVar12);
         auVar14 = _vminibc(auVar14,in_vf0);
         auVar14 = _qmfc2(auVar14._0_4_);
-        FUN_0029e0d8(auVar14._0_4_);
+        acosf(auVar14._0_4_);
       }
     }
     if (bVar2) {
@@ -5690,7 +5690,7 @@ void FUN_0019e510(undefined8 param_1)
         auVar14 = _vmax(auVar14,auVar16);
         auVar14 = _vminibc(auVar14,in_vf0);
         auVar14 = _qmfc2(auVar14._0_4_);
-        fVar11 = (float)FUN_0029e0d8(auVar14._0_4_);
+        fVar11 = (float)acosf(auVar14._0_4_);
         if ((fVar11 * 57.29578 < 35.0) || (fVar10 < 4.0)) {
           piVar9[0x10] = 4;
           piVar9[4] = iStack_b0;
@@ -6565,7 +6565,7 @@ void FUN_0019fb20(int *param_1)
     auVar5 = _vmax(auVar5,auVar6);
     auVar5 = _vminibc(auVar5,in_vf0);
     auVar5 = _qmfc2(auVar5._0_4_);
-    fVar4 = (float)FUN_0029e0d8(auVar5._0_4_);
+    fVar4 = (float)acosf(auVar5._0_4_);
     if (fVar4 * 57.29578 <= 35.0) {
       auVar5 = _lqc2(*(undefined1 (*) [16])(iVar1 + 0x70));
       auVar6 = _qmtc2(0x3f800000);
@@ -7085,7 +7085,7 @@ undefined8 FUN_001a04a8(int *param_1)
     auVar6 = _vmax(auVar6,auVar7);
     auVar6 = _vminibc(auVar6,in_vf0);
     auVar6 = _qmfc2(auVar6._0_4_);
-    fVar5 = (float)FUN_0029e0d8(auVar6._0_4_);
+    fVar5 = (float)acosf(auVar6._0_4_);
     uVar3 = 0;
     if (fVar5 * 57.29578 <= 35.0) {
       auVar6 = _lqc2(*(undefined1 (*) [16])(iVar4 + 0x70));

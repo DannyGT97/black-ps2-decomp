@@ -8536,7 +8536,7 @@ LAB_001312a4:
   fVar7 = (float)(auStack_70._4_4_ * (uint)(-1.0 < (float)auStack_70._4_4_) |
                  (uint)(-1.0 >= (float)auStack_70._4_4_) * -0x40800000);
   auStack_50 = _sqc2(auVar11);
-  fVar7 = (float)FUN_0029e1d8((int)fVar7 * (uint)(fVar7 < 1.0) | (uint)(fVar7 >= 1.0) * 0x3f800000);
+  fVar7 = (float)asinf((int)fVar7 * (uint)(fVar7 < 1.0) | (uint)(fVar7 >= 1.0) * 0x3f800000);
   auVar11 = _lqc2(auStack_50);
   _auStack_70 = _sqc2(auVar11);
   *(float *)(iVar5 + 0xc4) = -(fVar7 * fVar8);
@@ -8561,7 +8561,7 @@ LAB_001312a4:
     _auStack_70 = _sqc2(auVar11);
     auVar11 = _sqc2(auVar11);
     *(undefined1 (*) [16])(iVar5 + 0xa0) = auVar11;
-    fVar7 = (float)FUN_0029e0d8(uStack_68);
+    fVar7 = (float)acosf(uStack_68);
     auVar12._4_4_ = uStack_ac;
     auVar12._0_4_ = uStack_b0;
     auVar12._8_4_ = uStack_a8;
@@ -11622,7 +11622,7 @@ void FUN_00134c98(float param_1,undefined4 param_2,undefined8 param_3,undefined8
           auVar12 = _vmax(auVar12,auVar15);
           auVar12 = _vminibc(auVar12,in_vf0);
           auVar12 = _qmfc2(auVar12._0_4_);
-          fVar8 = (float)FUN_0029e0d8(auVar12._0_4_);
+          fVar8 = (float)acosf(auVar12._0_4_);
           if (fVar8 * 57.29578 < 20.0) {
             bVar2 = false;
           }

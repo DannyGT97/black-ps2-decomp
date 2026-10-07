@@ -2585,7 +2585,7 @@ void FUN_002832a0(undefined1 (*param_1) [12],int param_2,uint *param_3,uint *par
   auVar10 = _sqc2(auVar11);
   auVar12 = _vminibc(auVar12,in_vf0);
   auVar12 = _qmfc2(auVar12._0_4_);
-  fVar6 = (float)FUN_0029e0d8(auVar12._0_4_);
+  fVar6 = (float)acosf(auVar12._0_4_);
   auVar10 = _lqc2(auVar10);
   auVar7 = _lqc2(auVar7);
   _vopmula(auVar10,auVar7);

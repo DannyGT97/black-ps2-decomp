@@ -4487,8 +4487,7 @@ void FUN_00352210(float *param_1,undefined4 *param_2,float *param_3,float *param
   *param_2 = puVar3;
   fVar1 = fVar1 + fVar1;
   fVar1 = (float)((int)fVar1 * (uint)(fVar1 < 1.0) | (uint)(fVar1 >= 1.0) * 0x3f800000);
-  fVar1 = (float)FUN_0029e1d8((int)fVar1 * (uint)(-1.0 < fVar1) |
-                              (uint)(-1.0 >= fVar1) * -0x40800000);
+  fVar1 = (float)asinf((int)fVar1 * (uint)(-1.0 < fVar1) | (uint)(-1.0 >= fVar1) * -0x40800000);
   *param_3 = -fVar1;
   fVar11 = fVar11 + fVar4 * fVar7;
   fVar1 = 1.0 - (fVar9 + fVar10 + fVar9 + fVar10);

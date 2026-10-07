@@ -5492,7 +5492,7 @@ void FUN_00110c90(float param_1,undefined8 param_2,float *param_3,int param_4)
       auStack_f0 = _sqc2(auVar24);
       auStack_e0 = _sqc2(auVar20);
       auStack_d0 = _sqc2(auVar25);
-      fVar12 = (float)FUN_0029e0d8();
+      fVar12 = (float)acosf();
       fVar14 = fVar12 * fVar12;
       fVar15 = 1.0 / (fVar12 + fVar14 * fVar12 *
                                (fVar14 * (fVar14 * (fVar14 * (fVar14 * (fVar14 * 1.589691e-10 +
@@ -9242,7 +9242,7 @@ void FUN_00116a78(undefined4 param_1,undefined8 param_2,float *param_3)
     if (fVar6 < 0.999) {
       auVar12 = _sqc2(auVar14);
       auVar13 = _sqc2(auVar19);
-      fVar6 = (float)FUN_0029e0d8();
+      fVar6 = (float)acosf();
       fVar7 = fVar6 * fVar6;
       fVar7 = 1.0 / (fVar6 + fVar7 * fVar6 *
                              (fVar7 * (fVar7 * (fVar7 * (fVar7 * (fVar7 * 1.589691e-10 +

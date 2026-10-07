@@ -4722,7 +4722,7 @@ void FUN_0031b030(int param_1,float *param_2,float *param_3,undefined4 param_4,u
       if (fVar3 < -1.0) {
         fVar3 = -1.0;
       }
-      fVar3 = (float)FUN_0029e0d8(fVar3);
+      fVar3 = (float)acosf(fVar3);
       param_3[2] = fVar3;
       if (0.0 < (uStack_b0._4_4_ * *(float *)(param_1 + 0x6c) -
                 fStack_a8 * *(float *)(param_1 + 0x68)) * *(float *)(param_1 + 0x58) +

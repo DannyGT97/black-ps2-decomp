@@ -12302,7 +12302,7 @@ LAB_0030050c:
         iVar5 = *(int *)(param_1 + 4);
       }
       else {
-        fVar6 = (float)FUN_0029e0d8();
+        fVar6 = (float)acosf();
         iVar5 = *(int *)(param_1 + 4);
       }
       if (0.0 < *(float *)(*(int *)(iVar5 + 0x14) + 0x50) * fStack_70 -

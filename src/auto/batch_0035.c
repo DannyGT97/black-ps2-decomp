@@ -1412,7 +1412,7 @@ undefined8 FUN_002e1e18(float param_1,undefined8 param_2,undefined8 param_3)
   pfVar1 = (float *)param_3;
   fVar4 = pfVar1[2] / fVar3;
   fVar2 = *pfVar1 / fVar3;
-  uVar5 = FUN_0029e1d8(pfVar1[1] / fVar3);
+  uVar5 = asinf(pfVar1[1] / fVar3);
   if (fVar4 == 0.0) {
     if (0.0 < fVar2) {
       param_1 = param_1 + 1.5707964;
@@ -6377,7 +6377,7 @@ undefined8 FUN_002e9f40(undefined8 param_1,undefined8 param_2)
       puVar6 = (undefined *)((float)puVar6 + 3.1415927);
     }
   }
-  fVar2 = (float)FUN_0029e1d8(fVar2 / fVar3);
+  fVar2 = (float)asinf(fVar2 / fVar3);
   pfVar1 = (float *)param_1;
   pfVar1[1] = (float)puVar6 / 0.017453292;
   pfVar1[2] = 0.0;
@@ -6423,7 +6423,7 @@ void FUN_002ea090(float *param_1,float *param_2)
   }
   param_2[2] = 0.0;
   param_2[1] = (float)puVar5 / 0.017453292;
-  fVar1 = (float)FUN_0029e1d8(fVar1 / fVar2);
+  fVar1 = (float)asinf(fVar1 / fVar2);
   *param_2 = fVar1 / 0.017453292;
   return;
 }

@@ -6012,12 +6012,11 @@ float FUN_0029dd08(float param_1)
 }
 
 
-// ==== FUN_0029dd90 @ 0029dd90 ====
+// ==== atan2 @ 0029dd90 ====
 
-/* Strings referenciadas:
-     "atan2" */
+/* libm con manejador de error */
 
-undefined8 FUN_0029dd90(undefined8 param_1,undefined8 param_2)
+undefined8 atan2(undefined8 param_1,undefined8 param_2)
 
 {
   int iVar1;
@@ -6143,12 +6142,11 @@ undefined8 FUN_0029dfc8(undefined8 param_1)
 }
 
 
-// ==== FUN_0029e0d8 @ 0029e0d8 ====
+// ==== acosf @ 0029e0d8 ====
 
-/* Strings referenciadas:
-     "acosf" */
+/* libm con manejador de error */
 
-undefined4 FUN_0029e0d8(undefined4 param_1)
+undefined4 acosf(undefined4 param_1)
 
 {
   int iVar1;
@@ -6188,12 +6186,11 @@ undefined4 FUN_0029e0d8(undefined4 param_1)
 }
 
 
-// ==== FUN_0029e1d8 @ 0029e1d8 ====
+// ==== asinf @ 0029e1d8 ====
 
-/* Strings referenciadas:
-     "asinf" */
+/* libm con manejador de error */
 
-undefined4 FUN_0029e1d8(undefined4 param_1)
+undefined4 asinf(undefined4 param_1)
 
 {
   int iVar1;
@@ -6233,12 +6230,11 @@ undefined4 FUN_0029e1d8(undefined4 param_1)
 }
 
 
-// ==== FUN_0029e2d8 @ 0029e2d8 ====
+// ==== atan2f @ 0029e2d8 ====
 
-/* Strings referenciadas:
-     "atan2f" */
+/* libm con manejador de error */
 
-undefined4 FUN_0029e2d8(float param_1,float param_2)
+undefined4 atan2f(float param_1,float param_2)
 
 {
   int iVar1;
@@ -6277,12 +6273,11 @@ undefined4 FUN_0029e2d8(float param_1,float param_2)
 }
 
 
-// ==== FUN_0029e400 @ 0029e400 ====
+// ==== fmodf @ 0029e400 ====
 
-/* Strings referenciadas:
-     "fmodf" */
+/* libm con manejador de error */
 
-undefined4 FUN_0029e400(undefined4 param_1,float param_2)
+undefined4 fmodf(undefined4 param_1,float param_2)
 
 {
   int iVar1;
@@ -6583,12 +6578,11 @@ LAB_0029eb38:
 }
 
 
-// ==== FUN_0029eb90 @ 0029eb90 ====
+// ==== sqrtf @ 0029eb90 ====
 
-/* Strings referenciadas:
-     "sqrtf" */
+/* libm con manejador de error (cadena sqrtf) */
 
-undefined4 FUN_0029eb90(float param_1)
+undefined4 sqrtf(float param_1)
 
 {
   int iVar1;
