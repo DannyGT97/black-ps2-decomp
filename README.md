@@ -1,7 +1,7 @@
 # black-ps2-decomp
 
 <!-- PROGRESS:START -->
-**Decompilacion verificada: 0.00% (funciones) / 0.00% (bytes)** | Identificadas: 3.67% | actualizado 2026-10-08
+**Decompilacion verificada: 6.94% (funciones) / 0.43% (bytes)** | Identificadas: 3.67% | actualizado 2026-10-08
 <!-- PROGRESS:END -->
 
 Proyecto de decompilacion de **Black** (Criterion, 2006), version PS2 NTSC-U (`SLUS_213.76`).
@@ -52,6 +52,16 @@ Scripts en `scripts/` (se ejecutan con `analyzeHeadless ... -process SLUS_213.76
 | `ProbeClass.java` | Exploracion de una cadena concreta (salida muy larga si hay muchas copias) |
 
 Las salidas generadas estan en `src/auto/` y se regeneran en cualquier momento.
+
+## Matching (reconstruccion verificada)
+
+Compilador: **EE-GCC 2.95.2 (SN v2.73a)** con `-O2 -G0` (comprobado: reproduce bytes exactos del original). Se descarga en `tools/ee-gcc` (no versionado); trae `as.exe` y `ld.exe`, no hace falta binutils aparte.
+Fuente: https://bordplate.no/ee-gcc2.95.2-SN-v2.73a.tar.gz (extraer en `tools/ee-gcc`). En Windows hay que pasar `-B<ruta>/lib/gcc-lib/ee/2.95.2/` y `-B<ruta>/ee/bin/` al compilador (lo hace `scripts/build.ps1`).
+
+- `src/c/**/*.c`: codigo reconstruido. Cada funcion lleva antes `/* ADDR xxxxxxxx */`.
+- `scripts/build.ps1 [-Mark]`: compila y compara con el original (enmascara relocaciones). `-Mark` anade las que coinciden a `matched.txt`.
+- `scripts/AutoMatch.ps1`: intenta reconstruir en bloque funciones a partir del pseudo-C de Ghidra (tipos en `include/auto_types.h`); solo conserva las que coinciden byte a byte (`src/c/auto/`).
+- Tipos: `int` y punteros de 32 bits, `long` de 64 bits.
 
 ## Hoja de ruta
 
