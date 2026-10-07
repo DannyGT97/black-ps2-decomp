@@ -10,3 +10,6 @@ tools/
 ghidra_project/
 *.gpr
 *.rep/
+
+# Salida de compilacion
+build/
