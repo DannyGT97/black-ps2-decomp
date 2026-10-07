@@ -1,7 +1,7 @@
 # black-ps2-decomp
 
 <!-- PROGRESS:START -->
-**Decompilacion verificada: 0.00% (funciones) / 0.00% (bytes)** | Identificadas: 3.41% | actualizado 2026-10-07
+**Decompilacion verificada: 0.00% (funciones) / 0.00% (bytes)** | Identificadas: 3.50% | actualizado 2026-10-08
 <!-- PROGRESS:END -->
 
 Proyecto de decompilacion de **Black** (Criterion, 2006), version PS2 NTSC-U (`SLUS_213.76`).
@@ -42,6 +42,9 @@ Scripts en `scripts/` (se ejecutan con `analyzeHeadless ... -process SLUS_213.76
 | `ApplyStringNames.java` | Comenta y renombra funciones segun las cadenas que usan |
 | `ExportClasses.java` | Llamadas de registro de clases (`classes.csv`) |
 | `ApplyClassNames.java` | Renombra segun `classes.csv` |
+| `ApplyManualNames.java` | Aplica `names/manual_names.csv` (nombres curados a mano; aqui se anotan los hallazgos) |
+| `ExportCallCounts.java` | Llamadas entrantes por funcion (`callcounts.csv`); sirve para priorizar que nombrar |
+| `update_progress.ps1` | Recalcula `PROGRESS.md` y la cabecera del README (ejecutar antes de cada commit) |
 | `ProbeClass.java` | Exploracion de una cadena concreta (salida muy larga si hay muchas copias) |
 
 Las salidas generadas estan en `src/auto/` y se regeneran en cualquier momento.

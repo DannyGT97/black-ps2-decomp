@@ -2668,7 +2668,7 @@ undefined8 FUN_00350060(undefined8 param_1)
 
 {
   *(undefined4 *)((int)param_1 + 0x118) = 0;
-  FUN_0035c6ec(param_1,0,0x118);
+  memset(param_1,0,0x118);
   return param_1;
 }
 
@@ -2690,7 +2690,7 @@ void FUN_003500a8(long param_1,long param_2)
 {
   if (param_1 != param_2) {
     *(undefined4 *)((int)param_1 + 0x118) = *(undefined4 *)((int)param_2 + 0x118);
-    FUN_0035c544(param_1,param_2,*(int *)((int)param_2 + 0x118) << 2);
+    memcpy(param_1,param_2,*(int *)((int)param_2 + 0x118) << 2);
   }
   return;
 }
@@ -5123,12 +5123,12 @@ FUN_00352d50(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8
   puVar1 = (undefined4 *)param_1;
   *puVar1 = 0;
   puVar1[1] = 0;
-  FUN_0035c6ec(puVar1 + 2,0,0x28);
-  FUN_0035c6ec(puVar1 + 0xc,0,0x400);
-  FUN_0035c6ec(puVar1 + 0x10c,0,0x10);
+  memset(puVar1 + 2,0,0x28);
+  memset(puVar1 + 0xc,0,0x400);
+  memset(puVar1 + 0x10c,0,0x10);
   puVar1[0x110] = 0;
   puVar1[0x111] = 0;
-  FUN_0035c6ec(puVar1 + 0x112,0,0x2c);
+  memset(puVar1 + 0x112,0,0x2c);
   puVar1[0x11d] = 0;
   puVar1[0x11e] = 0;
   puVar1[0x120] = 0;
@@ -5144,7 +5144,7 @@ FUN_00352d50(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8
   puVar1[0x11f] = 1;
   *(undefined1 *)(puVar1 + 0x121) = 9;
   *(undefined1 *)((int)puVar1 + 0x485) = 10;
-  FUN_0035c6ec(puVar1 + 299,0,0x10);
+  memset(puVar1 + 299,0,0x10);
   puVar1[0x12f] = 0;
   puVar1[0x130] = 0;
   puVar1[0x132] = 0;
@@ -5160,7 +5160,7 @@ FUN_00352d50(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8
   puVar1[0x139] = 0x1000;
   puVar1[0x13a] = 0x400000;
   puVar1[0x13b] = 0x100000;
-  FUN_0035c6ec(puVar1 + 0x13e,0,0x20);
+  memset(puVar1 + 0x13e,0,0x20);
   *(undefined1 *)(puVar1 + 0x146) = 0xdd;
   *(undefined1 *)((int)puVar1 + 0x519) = 0xde;
   *(undefined1 *)((int)puVar1 + 0x51a) = 0xcd;
@@ -5200,9 +5200,9 @@ FUN_00352f30(undefined8 param_1,long param_2,long param_3,undefined8 param_4,und
     }
     piVar5[1] = 0x40;
     piVar4 = piVar5 + 0xc;
-    FUN_0035c6ec(piVar5 + 2,0,0x28);
+    memset(piVar5 + 2,0,0x28);
     piVar6 = piVar5 + 0x112;
-    FUN_0035c6ec(piVar4,0,0x400);
+    memset(piVar4,0,0x400);
     piVar7 = piVar5 + 299;
     iVar3 = 0x7e;
     piVar2 = piVar4;
@@ -5212,10 +5212,10 @@ FUN_00352f30(undefined8 param_1,long param_2,long param_3,undefined8 param_4,und
       piVar2[3] = (int)piVar2;
       piVar2 = piVar2 + 2;
     } while (-1 < iVar3);
-    FUN_0035c6ec(piVar5 + 0x10c,0,0x10);
+    memset(piVar5 + 0x10c,0,0x10);
     piVar5[0x110] = (int)piVar4;
     piVar5[0x111] = 0;
-    FUN_0035c6ec(piVar6,0,0x2c);
+    memset(piVar6,0,0x2c);
     piVar5[0x11c] = (int)piVar6;
     piVar5[0x11b] = (int)piVar6;
     piVar5[0x11d] = 0;
@@ -5226,7 +5226,7 @@ FUN_00352f30(undefined8 param_1,long param_2,long param_3,undefined8 param_4,und
     piVar5[0x129] = 0x20000;
     piVar5[0x12a] = 0;
     piVar5[1] = piVar5[1] & 1U | 0x48;
-    FUN_0035c6ec(piVar7,0,0x10);
+    memset(piVar7,0,0x10);
     piVar5[0x12e] = (int)piVar7;
     piVar5[0x136] = 0x20000;
     piVar5[0x137] = 0x10000;
@@ -6807,13 +6807,13 @@ undefined4 FUN_00355708(undefined8 param_1,undefined8 param_2,undefined4 param_3
       uVar1 = 0x81018002;
     }
     else {
-      uVar3 = FUN_0035ccd8(param_2);
+      uVar3 = strlen(param_2);
       if (uVar3 < 0x80) {
         WaitSema(DAT_0046cb6c);
         if (DAT_0046c644 == 0) {
           DAT_0046c640 = (undefined4)lVar2;
           DAT_0046c644 = 0xe;
-          FUN_0035cbc0(0x46ca5c,param_2);
+          strcpy(0x46ca5c,param_2);
           DAT_0046c64c = param_3;
           SignalSema(DAT_0046cb64);
           SignalSema(DAT_0046cb6c);
@@ -6853,13 +6853,13 @@ FUN_00355808(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined4
       uVar1 = 0x81018002;
     }
     else {
-      uVar3 = FUN_0035ccd8(param_2);
+      uVar3 = strlen(param_2);
       if (uVar3 < 0x80) {
         WaitSema(DAT_0046cb6c);
         if (DAT_0046c644 == 0) {
           DAT_0046c640 = (undefined4)lVar2;
           DAT_0046c644 = 5;
-          FUN_0035cbc0(0x46ca5c,param_2);
+          strcpy(0x46ca5c,param_2);
           DAT_0046c64c = param_3;
           DAT_0046c650 = param_4;
           DAT_0046c654 = param_5;
@@ -6901,13 +6901,13 @@ FUN_00355928(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined4
       uVar1 = 0x81018002;
     }
     else {
-      uVar3 = FUN_0035ccd8(param_2);
+      uVar3 = strlen(param_2);
       if (uVar3 < 0x80) {
         WaitSema(DAT_0046cb6c);
         if (DAT_0046c644 == 0) {
           DAT_0046c640 = (undefined4)lVar2;
           DAT_0046c644 = 6;
-          FUN_0035cbc0(0x46ca5c,param_2);
+          strcpy(0x46ca5c,param_2);
           DAT_0046c64c = param_3;
           DAT_0046c650 = param_4;
           DAT_0046c654 = param_5;
@@ -6947,13 +6947,13 @@ undefined4 FUN_00355a48(undefined8 param_1,undefined8 param_2)
       uVar1 = 0x81018002;
     }
     else {
-      uVar3 = FUN_0035ccd8(param_2);
+      uVar3 = strlen(param_2);
       if (uVar3 < 0x80) {
         WaitSema(DAT_0046cb6c);
         if (DAT_0046c644 == 0) {
           DAT_0046c640 = (undefined4)lVar2;
           DAT_0046c644 = 7;
-          FUN_0035cbc0(0x46ca5c,param_2);
+          strcpy(0x46ca5c,param_2);
           DAT_0046c64c = 0x8417;
           SignalSema(DAT_0046cb64);
           SignalSema(DAT_0046cb6c);
@@ -6993,13 +6993,13 @@ FUN_00355b40(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined4
       uVar1 = 0x81018002;
     }
     else {
-      uVar3 = FUN_0035ccd8(param_2);
+      uVar3 = strlen(param_2);
       if (uVar3 < 0x80) {
         WaitSema(DAT_0046cb6c);
         if (DAT_0046c644 == 0) {
           DAT_0046c640 = (undefined4)lVar2;
           DAT_0046c644 = 10;
-          FUN_0035cbc0(0x46ca5c,param_2);
+          strcpy(0x46ca5c,param_2);
           DAT_0046c64c = param_3;
           DAT_0046c650 = param_4;
           DAT_0046c654 = param_5;
@@ -7040,13 +7040,13 @@ undefined4 FUN_00355c70(undefined8 param_1,undefined8 param_2)
       uVar1 = 0x81018002;
     }
     else {
-      uVar3 = FUN_0035ccd8(param_2);
+      uVar3 = strlen(param_2);
       if (uVar3 < 0x80) {
         WaitSema(DAT_0046cb6c);
         if (DAT_0046c644 == 0) {
           DAT_0046c640 = (undefined4)lVar2;
           DAT_0046c644 = 0xb;
-          FUN_0035cbc0(0x46ca5c,param_2);
+          strcpy(0x46ca5c,param_2);
           DAT_0046c64c = 0x8427;
           SignalSema(DAT_0046cb64);
           SignalSema(DAT_0046cb6c);
@@ -7163,7 +7163,7 @@ undefined4 FUN_00356150(undefined8 param_1)
   
   lVar3 = FUN_0035c8d4(param_1,0x2f);
   if (lVar3 == 0) {
-    uVar4 = FUN_0035ccd8(param_1);
+    uVar4 = strlen(param_1);
     uVar2 = 0;
     if (uVar4 < 0x20) {
       uVar2 = 1;
@@ -7171,7 +7171,7 @@ undefined4 FUN_00356150(undefined8 param_1)
   }
   else {
     iVar1 = FUN_00360a00(param_1,0x2f);
-    uVar4 = FUN_0035ccd8(iVar1 + 1);
+    uVar4 = strlen(iVar1 + 1);
     uVar2 = 1;
     if (0x1f < uVar4) {
       uVar2 = 0;
@@ -7219,7 +7219,7 @@ bool FUN_00356220(char *param_1,char *param_2)
     lVar4 = FUN_003560f0(param_2,0x3f);
     lVar5 = FUN_003560f0(param_2,0x2a);
     if ((lVar4 < 0) && (lVar5 < 0)) {
-      lVar4 = FUN_0035ca74(param_2,param_1);
+      lVar4 = strcmp(param_2,param_1);
       return lVar4 == 0;
     }
     lVar6 = lVar5;
@@ -7288,7 +7288,7 @@ char * FUN_003563a0(long param_1,undefined8 param_2)
     pcVar4 = DAT_00478b80;
   }
   else {
-    FUN_0035cbc0(0x478b88,param_1);
+    strcpy(0x478b88,param_1);
     cVar2 = DAT_00478b88;
     pcVar4 = &DAT_00478b88;
   }
@@ -7378,9 +7378,9 @@ undefined4 FUN_00356508(int param_1,undefined8 param_2,undefined8 param_3)
   long lVar6;
   long lVar7;
   
-  uVar5 = FUN_0035ccd8(param_2);
+  uVar5 = strlen(param_2);
   if (uVar5 < 0x80) {
-    FUN_0035cbc0(param_3,&DAT_00479490 + param_1 * 0x898);
+    strcpy(param_3,&DAT_00479490 + param_1 * 0x898);
     uVar1 = DAT_0040a8c9;
     puVar3 = (undefined1 *)param_3;
     if (*(char *)param_2 == '/') {
@@ -7392,11 +7392,11 @@ undefined4 FUN_00356508(int param_1,undefined8 param_2,undefined8 param_3)
       lVar6 = FUN_003563a0(param_2,0x40a8c8);
     }
     while (lVar6 != 0) {
-      lVar7 = FUN_0035ca74(lVar6,0x40a8b0);
+      lVar7 = strcmp(lVar6,0x40a8b0);
       if (lVar7 != 0) {
-        lVar7 = FUN_0035ca74(lVar6,0x40a8b8);
+        lVar7 = strcmp(lVar6,0x40a8b8);
         if (lVar7 == 0) {
-          iVar2 = FUN_0035ccd8(param_3);
+          iVar2 = strlen(param_3);
           puVar3[iVar2 + -1] = 0;
           lVar6 = FUN_00360a00(param_3,0x2f);
           if (lVar6 == 0) goto LAB_00356540;
@@ -7409,7 +7409,7 @@ undefined4 FUN_00356508(int param_1,undefined8 param_2,undefined8 param_3)
       }
       lVar6 = FUN_003563a0(0,0x40a8c8);
     }
-    lVar6 = FUN_0035ca74(param_3,0x40a8c8);
+    lVar6 = strcmp(param_3,0x40a8c8);
     if (lVar6 != 0) {
       puVar3 = (undefined1 *)FUN_00360a00(param_3,0x2f);
       *puVar3 = 0;

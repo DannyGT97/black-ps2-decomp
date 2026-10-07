@@ -866,7 +866,7 @@ void FUN_002887f8(undefined8 param_1)
   undefined1 auStack_e0 [16];
   undefined1 auStack_d0 [48];
   
-  lVar2 = FUN_0035ccd8();
+  lVar2 = strlen();
   if (lVar2 == 0) {
     puVar3 = (undefined4 *)((int)param_1 + 0x28);
     iVar1 = 2;
@@ -881,11 +881,11 @@ void FUN_002887f8(undefined8 param_1)
     iVar4 = 0;
     do {
       iVar5 = iVar1;
-      FUN_0035d728(auStack_e0,0x400818,0x400828,param_1,0x400830,iVar5);
+      sprintf(auStack_e0,0x400818,0x400828,param_1,0x400830,iVar5);
       lVar2 = FUN_00108328(DAT_0040f4c4,auStack_e0);
       *(int *)((int)param_1 + 0x20 + iVar4 * 4) = (int)lVar2;
       if (lVar2 == 0) {
-        FUN_0035d728(auStack_d0,0x400838,auStack_e0);
+        sprintf(auStack_d0,0x400838,auStack_e0);
       }
       iVar1 = iVar5 + 1;
       iVar4 = iVar5;
@@ -1056,7 +1056,7 @@ uint FUN_00288c90(int param_1,undefined8 param_2,undefined8 param_3,uint param_4
   if (param_4 <= *(uint *)(param_1 + 8)) {
     uVar1 = param_4;
   }
-  FUN_0035c544(param_3,*(undefined4 *)(param_1 + 0xc),uVar1);
+  memcpy(param_3,*(undefined4 *)(param_1 + 0xc),uVar1);
   *(uint *)(param_1 + 0xc) = *(int *)(param_1 + 0xc) + uVar1;
   *(uint *)(param_1 + 8) = *(int *)(param_1 + 8) - uVar1;
   return uVar1;
@@ -1169,7 +1169,7 @@ undefined8 FUN_00288fb0(undefined8 param_1,undefined8 param_2,undefined8 param_3
   undefined1 auStack_60 [16];
   
   uVar1 = FUN_00291f58();
-  FUN_0035d728(auStack_60,0x400a00,uVar1);
+  sprintf(auStack_60,0x400a00,uVar1);
   FUN_00288ef8(param_1,param_2,param_3,auStack_60);
   return param_1;
 }
@@ -1182,7 +1182,7 @@ undefined8 FUN_00289028(undefined8 param_1,undefined8 param_2,undefined8 param_3
 {
   undefined1 auStack_50 [16];
   
-  FUN_0035d728(auStack_50,0x400a08,param_4);
+  sprintf(auStack_50,0x400a08,param_4);
   FUN_00288ef8(param_1,param_2,param_3,auStack_50);
   return param_1;
 }
@@ -7707,7 +7707,7 @@ undefined8 FUN_00291fd0(undefined8 param_1,undefined8 param_2,undefined8 param_3
 {
   long lVar1;
   
-  lVar1 = FUN_0035ca74();
+  lVar1 = strcmp();
   if (lVar1 != 0) {
     param_3 = 0;
   }
@@ -7726,7 +7726,7 @@ long FUN_00292008(void)
   if (lVar1 == 0) {
     FUN_00291fa8(0);
   }
-  FUN_0035c6ec(lVar1,0,0x18);
+  memset(lVar1,0,0x18);
   *(int *)((int)lVar1 + 4) = (int)lVar1 + 0x10;
   return lVar1;
 }
@@ -7772,7 +7772,7 @@ undefined * FUN_002920d8(void)
 {
   if (DAT_00443670 == 0) {
     DAT_00443670 = 1;
-    FUN_0035c6ec(0x443660,0,0x10);
+    memset(0x443660,0,0x10);
     DAT_00443664 = &DAT_00443678;
   }
   return &DAT_00443660;
@@ -7993,7 +7993,7 @@ void FUN_002926f8(long param_1,undefined8 param_2,undefined8 param_3)
       uVar3 = 4;
     }
   }
-  FUN_0035c544(uVar2,uVar1,uVar3);
+  memcpy(uVar2,uVar1,uVar3);
   return;
 }
 
@@ -8733,13 +8733,13 @@ byte * FUN_00293600(int param_1,int *param_2)
   
   iVar2 = (param_1 - *(int *)(param_1 + 4)) + 0xd;
   *param_2 = iVar2;
-  lVar4 = FUN_0035ca74(iVar2,0x4015f0);
-  if (((lVar4 == 0) || (lVar4 = FUN_0035ca74(*param_2,0x4015f8), lVar4 == 0)) ||
+  lVar4 = strcmp(iVar2,0x4015f0);
+  if (((lVar4 == 0) || (lVar4 = strcmp(*param_2,0x4015f8), lVar4 == 0)) ||
      (pbVar3 = (byte *)0x0, *(char *)*param_2 == 'z')) {
-    iVar2 = FUN_0035ccd8(*param_2);
+    iVar2 = strlen(*param_2);
     iVar2 = *param_2 + iVar2;
     piVar6 = (int *)(iVar2 + 1);
-    lVar4 = FUN_0035ca74(*param_2,0x4015f8);
+    lVar4 = strcmp(*param_2,0x4015f8);
     if (lVar4 == 0) {
       iVar1 = *piVar6;
       piVar6 = (int *)(iVar2 + 5);
@@ -9003,7 +9003,7 @@ undefined8 * FUN_00293b40(uint param_1,undefined8 *param_2)
   if (lVar5 != 0) {
     uVar2 = FUN_00293600(lVar5,apcStack_3c0);
     if (uVar2 != 0) {
-      FUN_0035c6ec(auStack_3a0,0,0x2f8);
+      memset(auStack_3a0,0,0x2f8);
       piVar12 = (int *)lVar5;
       piVar6 = (int *)((int)piVar12 - (piVar12[1] + -4));
       iVar3 = *piVar6;

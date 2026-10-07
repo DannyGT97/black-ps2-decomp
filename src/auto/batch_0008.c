@@ -1056,7 +1056,7 @@ LAB_0016af18:
     iVar9 = *(int *)(iVar1 + 0xc);
     while( true ) {
       iVar9 = *(int *)(iVar10 * 0x10 + iVar9 + 8);
-      lVar4 = FUN_00360838(iVar9 + 0xa8,puVar2);
+      lVar4 = stricmp(iVar9 + 0xa8,puVar2);
       if (lVar4 == 0) break;
       iVar10 = iVar10 + 1;
       if (*(int *)(iVar1 + 8) <= iVar10) goto LAB_0016af18;
@@ -1074,7 +1074,7 @@ LAB_0016af70:
     iVar9 = *(int *)(iVar1 + 0xc);
     while( true ) {
       iVar9 = *(int *)(iVar10 * 0x10 + iVar9 + 8);
-      lVar4 = FUN_00360838(iVar9 + 0xa8,puVar2);
+      lVar4 = stricmp(iVar9 + 0xa8,puVar2);
       if (lVar4 == 0) break;
       iVar10 = iVar10 + 1;
       if (*(int *)(iVar1 + 8) <= iVar10) goto LAB_0016af70;
@@ -2020,11 +2020,10 @@ LAB_0016c120:
   uGpffff81ce = *(undefined1 *)(*DAT_0040f4dc + 0x1a);
   uGpffff81d0 = *(undefined2 *)(*DAT_0040f4dc + 0x1c);
   uGpffff81d2 = *(undefined2 *)(*DAT_0040f4dc + 0x1e);
-  FUN_0035c544(DAT_003bcee8,*(undefined4 *)(DAT_0040f4d0 + 0x8f0),
-               *(int *)(DAT_0040f4d0 + 0x8f4) * 0xc);
-  FUN_0035c544(*(undefined4 *)(param_1 + 10),
-               *(undefined4 *)(*(int *)(param_1 + 9) * 0x8c0 + DAT_0040f4d0 + 0x2c4),
-               *(undefined1 *)(*DAT_0040f4e0 + 1));
+  memcpy(DAT_003bcee8,*(undefined4 *)(DAT_0040f4d0 + 0x8f0),*(int *)(DAT_0040f4d0 + 0x8f4) * 0xc);
+  memcpy(*(undefined4 *)(param_1 + 10),
+         *(undefined4 *)(*(int *)(param_1 + 9) * 0x8c0 + DAT_0040f4d0 + 0x2c4),
+         *(undefined1 *)(*DAT_0040f4e0 + 1));
   DAT_0040eafc = 1;
   FUN_001f2db0(DAT_0040f51c);
   return;
@@ -2049,8 +2048,8 @@ void FUN_0016c250(int param_1)
 
 {
   if (DAT_0040d9b8 != '\0') {
-    FUN_0035c544(*(undefined4 *)(*(int *)(param_1 + 0x48) * 0x8c0 + DAT_0040f4d0 + 0x2c4),
-                 *(undefined4 *)(param_1 + 0x50),*(undefined1 *)(*DAT_0040f4e0 + 1));
+    memcpy(*(undefined4 *)(*(int *)(param_1 + 0x48) * 0x8c0 + DAT_0040f4d0 + 0x2c4),
+           *(undefined4 *)(param_1 + 0x50),*(undefined1 *)(*DAT_0040f4e0 + 1));
   }
   return;
 }
@@ -2061,8 +2060,7 @@ void FUN_0016c250(int param_1)
 void FUN_0016c2a8(void)
 
 {
-  FUN_0035c544(*(undefined4 *)(DAT_0040f4d0 + 0x8f0),DAT_003bcee8,
-               *(int *)(DAT_0040f4d0 + 0x8f4) * 0xc);
+  memcpy(*(undefined4 *)(DAT_0040f4d0 + 0x8f0),DAT_003bcee8,*(int *)(DAT_0040f4d0 + 0x8f4) * 0xc);
   *(undefined1 *)(*DAT_0040f4dc + 0x15) = DAT_0040d9b9;
   *(undefined1 *)(*DAT_0040f4dc + 0x16) = DAT_0040d9ba;
   *(undefined1 *)(*DAT_0040f4dc + 0x17) = DAT_0040d9bb;

@@ -10791,7 +10791,7 @@ undefined4 FUN_0015ef48(undefined8 param_1,undefined8 param_2,undefined4 param_3
   iStack_e8 = 0;
   uStack_f0 = param_3;
   uStack_ec = param_4;
-  FUN_0035c6ec(auStack_280,0,400);
+  memset(auStack_280,0,400);
   iStack_e4 = 0;
   iStack_e0 = 0;
   iStack_dc = 0;

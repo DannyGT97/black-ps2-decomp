@@ -453,7 +453,7 @@ void FUN_00142e30(undefined4 *param_1,char param_2)
   *(char *)(param_1 + 1) = param_2;
   uVar1 = FUN_00107d20(param_2 * 0xc);
   *param_1 = (int)uVar1;
-  FUN_0035c6ec(uVar1,0,*(char *)(param_1 + 1) * 0xc);
+  memset(uVar1,0,*(char *)(param_1 + 1) * 0xc);
   return;
 }
 
@@ -1343,7 +1343,7 @@ void FUN_00143c80(undefined8 param_1,undefined8 param_2)
     *pcVar3 = '\0';
   }
 LAB_00143d24:
-  FUN_0035cbc0(auStack_160,(int)param_1 + 0x84);
+  strcpy(auStack_160,(int)param_1 + 0x84);
   FUN_0035c7a4(auStack_160,acStack_e0);
   FUN_0035c7a4(auStack_160,0x3f4b68);
   FUN_001093c0(DAT_0040f4c4,auStack_160,6,**(undefined4 **)((int)param_1 + 0x80),0x143fd8,param_1,1,
@@ -1885,8 +1885,8 @@ undefined4 FUN_001448c8(undefined8 param_1)
     }
   }
   iVar12 = 0;
-  FUN_0035c544(*(undefined4 *)((int)puVar16 + 0x1a4),*(undefined4 *)(*(int *)(puVar16 + 0x23) + 100)
-               ,(uint)*(byte *)(*(int *)(puVar16 + 0x23) + 0x69) << 2);
+  memcpy(*(undefined4 *)((int)puVar16 + 0x1a4),*(undefined4 *)(*(int *)(puVar16 + 0x23) + 100),
+         (uint)*(byte *)(*(int *)(puVar16 + 0x23) + 0x69) << 2);
   if (*(int *)(*(int *)(puVar16 + 0x23) + 0x5c) < 1) {
     uVar5 = puVar16[0x12];
     uVar6 = *(undefined4 *)(puVar16 + 0x13);
@@ -1963,11 +1963,10 @@ undefined4 FUN_001448c8(undefined8 param_1)
   *(undefined4 *)(puVar16 + 0x2f) = *(undefined4 *)(puVar16 + 0x15);
   *(undefined4 *)((int)puVar16 + 0x17c) = *(undefined4 *)((int)puVar16 + 0xac);
   FUN_001476d8(param_1);
-  FUN_0035c544(*(undefined4 *)((int)puVar16 + 0x1bc),
-               *(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x38),
-               *(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x3c));
-  FUN_0035c544(*(undefined4 *)(puVar16 + 0x38),*(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x40),
-               *(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x44));
+  memcpy(*(undefined4 *)((int)puVar16 + 0x1bc),*(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x38),
+         *(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x3c));
+  memcpy(*(undefined4 *)(puVar16 + 0x38),*(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x40),
+         *(undefined4 *)(*(int *)(puVar16 + 0x23) + 0x44));
   iVar12 = 0;
   if (*(char *)(*(int *)(puVar16 + 0x23) + 0x69) != '\0') {
     do {

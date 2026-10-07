@@ -52,7 +52,7 @@ undefined4 FUN_00293f60(undefined8 param_1,undefined8 param_2,int param_3)
   uint uVar4;
   undefined4 *puVar5;
   
-  FUN_0035c6ec(param_2,0);
+  memset(param_2,0);
   uVar2 = (int)param_2 + 3;
   uVar4 = uVar2 & 0xfffffffc;
   param_3 = param_3 - (uVar4 - (int)param_2);
@@ -5025,7 +5025,7 @@ uint FUN_0029c868(undefined8 param_1,undefined8 param_2)
     else {
       iVar3 = iRamffffffe8;
       if (iVar1 != -0x1c) {
-        FUN_0035c544(param_2);
+        memcpy(param_2);
         FUN_0029ce30(iVar1 + *(byte *)(iVar1 + 2) + 0x1c,&DAT_00445db4 + iVar5 * 0x334);
         iVar3 = *(int *)(iVar1 + 4);
       }
@@ -5056,7 +5056,7 @@ uint FUN_0029c940(undefined8 param_1,undefined8 param_2)
   }
   iVar1 = FUN_0029cd68(param_1);
   if ((*(char *)(iVar1 + 3) != '\0') && (iVar1 != -0x1c)) {
-    FUN_0035c544(param_2,(uint)*(byte *)(iVar1 + 2) + iVar1 + 0x1c);
+    memcpy(param_2,(uint)*(byte *)(iVar1 + 2) + iVar1 + 0x1c);
     FUN_0029ce30(iVar1 + *(byte *)(iVar1 + 2) + 0x1c,&DAT_00445db4 + (int)param_1 * 0x334);
   }
   if (*(int *)(iVar1 + 4) == 0) {
@@ -5162,7 +5162,7 @@ void FUN_0029cc30(int param_1)
     puVar2[2] = 0;
     *(undefined4 *)(puVar2 + 4) = 0;
     puVar2 = puVar2 + 0x80;
-    FUN_0035c6ec(puVar1,0xff,0x20);
+    memset(puVar1,0xff,0x20);
     if (iVar3 < 0) break;
     *puVar2 = 0;
   }
@@ -5678,9 +5678,9 @@ void FUN_0029d4c0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undef
   
   auStack_70[0] = 0x28;
   iStack_9c = (int)param_4;
-  FUN_0035c544((uint)&uStack_a0 | 8,param_5,param_4);
+  memcpy((uint)&uStack_a0 | 8,param_5,param_4);
   uStack_a0 = (undefined4)param_2;
-  FUN_0035c544(auStack_98 + (int)param_4,param_3,param_2);
+  memcpy(auStack_98 + (int)param_4,param_3,param_2);
   FUN_0029bce0(param_1,unaff_s4 & 0xffffffff00000000 | 0x103400b,auStack_70,&uStack_a0);
   return;
 }

@@ -6475,7 +6475,7 @@ LAB_001c1698:
       iVar5 = *(int *)(iVar2 + 0xc);
       while( true ) {
         iVar5 = *(int *)(iVar7 * 0x10 + iVar5 + 8);
-        lVar4 = FUN_00360838(iVar5 + 0xa8,iVar6 + iVar3);
+        lVar4 = stricmp(iVar5 + 0xa8,iVar6 + iVar3);
         if (lVar4 == 0) break;
         iVar7 = iVar7 + 1;
         if (*(int *)(iVar2 + 8) <= iVar7) goto LAB_001c1698;

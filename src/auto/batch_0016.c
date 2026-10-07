@@ -1163,7 +1163,7 @@ void FUN_001af298(int *param_1)
   auStack_d0 = _sqc2(auVar6);
   auStack_c0 = _sqc2(auVar7);
   auStack_b0 = _sqc2(auVar8);
-  FUN_0035c544(&DAT_70002d7c,auStack_e0,0x40);
+  memcpy(&DAT_70002d7c,auStack_e0,0x40);
   iVar3 = param_1[1];
   if (iVar3 == 0) {
     iVar3 = 0;
@@ -1332,7 +1332,7 @@ void FUN_001af798(int param_1)
   auStack_a0 = _sqc2(auVar5);
   auStack_90 = _sqc2(auVar6);
   auStack_80 = _sqc2(auVar7);
-  FUN_0035c544(0x70002d7c,auStack_b0,0x40);
+  memcpy(0x70002d7c,auStack_b0,0x40);
   *(undefined4 *)(DAT_0040f4c0 + 0xcd70) = 1;
   if (0 < *(int *)(param_1 + 0xcbc8)) {
     puVar2 = (undefined4 *)(param_1 + 0xcb00);
@@ -2617,7 +2617,7 @@ LAB_001b0ed8:
       iVar3 = *(int *)(iVar1 + 0xc);
       while( true ) {
         iVar3 = *(int *)(iVar5 * 0x10 + iVar3 + 8);
-        lVar4 = FUN_00360838(iVar3 + 0xa8,auStack_b0);
+        lVar4 = stricmp(iVar3 + 0xa8,auStack_b0);
         iVar5 = iVar5 + 1;
         if (lVar4 == 0) break;
         if (*(int *)(iVar1 + 8) <= iVar5) goto LAB_001b0ed8;
@@ -5002,8 +5002,8 @@ void FUN_001b3818(int param_1,int param_2,uint param_3,long param_4)
       uVar6 = auVar4._0_4_ & 0xffff;
       *puVar5 = auVar4._0_2_;
       puVar5[1] = (ushort)(uVar6 % CONCAT22(0,puVar5[3]));
-      FUN_0035c544((uint)puVar5[2] * 0x20 + param_1 + 0x1c0,(uint)puVar7[2] * 0x20 + param_1 + 0x1c0
-                   ,uVar6 << 5);
+      memcpy((uint)puVar5[2] * 0x20 + param_1 + 0x1c0,(uint)puVar7[2] * 0x20 + param_1 + 0x1c0,
+             uVar6 << 5);
     }
     FUN_001b37c8(param_1,uVar1);
   }

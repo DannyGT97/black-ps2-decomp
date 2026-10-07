@@ -3105,7 +3105,7 @@ void FUN_0036b5b8(int param_1)
   iVar11 = piVar13[1];
   piVar4 = (int *)piVar13[2];
   if (-1 < iVar1) {
-    FUN_0035c544(piVar4,piVar13 + 4,piVar13[3]);
+    memcpy(piVar4,piVar13 + 4,piVar13[3]);
   }
   switch(iVar11) {
   case 2:
@@ -3199,7 +3199,7 @@ void FUN_0036b5b8(int param_1)
     if (0x400 < uVar10) {
       uVar10 = 0x400;
     }
-    FUN_0035c544(piVar13[5],piVar13 + 7,uVar10);
+    memcpy(piVar13[5],piVar13 + 7,uVar10);
   }
 LAB_0036b8ec:
   if (iVar1 < 0) {
@@ -3352,7 +3352,7 @@ undefined8 FUN_0036bce8(void)
 
 {
   DAT_003d71f4 = 0;
-  FUN_0035c6ec(0x486ca8,0,4);
+  memset(0x486ca8,0,4);
   return 0;
 }
 
@@ -4068,7 +4068,7 @@ undefined8 FUN_0036cfa8(void)
 
 {
   DAT_003d7210 = 0xffffffff;
-  FUN_0035c6ec(0x487168,0,4);
+  memset(0x487168,0,4);
   return 0;
 }
 
@@ -4100,7 +4100,7 @@ FUN_0036cff0(undefined8 param_1,long param_2,undefined8 *param_3,undefined4 *par
         DAT_00486f40 = 0;
       }
       else if (param_2 < 0xfd) {
-        FUN_0035c544(0x487044,param_3,param_2);
+        memcpy(0x487044,param_3,param_2);
         DAT_00486f40 = (undefined4)param_2;
       }
       else {
@@ -4663,7 +4663,7 @@ undefined4 FUN_0036dba8(uint param_1)
   if (DAT_003d81b0 < 0) {
     DAT_003d81a8 = 0;
     DAT_003d81b8 = 0;
-    FUN_0035c6ec(0x487200,0,0x2000);
+    memset(0x487200,0,0x2000);
     DAT_003d81bc = &DAT_00487200;
     puVar4 = &DAT_00489200;
     iVar2 = 0x7f;
@@ -5264,7 +5264,7 @@ void FUN_0036e9b0(void)
 {
   DAT_003d81c8 = 0;
   DAT_003d81cc = 0;
-  FUN_0035c6ec(0x489608,0,0x200);
+  memset(0x489608,0,0x200);
   return;
 }
 
@@ -6333,7 +6333,7 @@ undefined4 FUN_00370100(long param_1,long param_2)
   long lVar1;
   
   if ((param_2 != param_1) &&
-     (lVar1 = FUN_0035ca74(*(undefined4 *)param_1,*(undefined4 *)param_2), lVar1 != 0)) {
+     (lVar1 = strcmp(*(undefined4 *)param_1,*(undefined4 *)param_2), lVar1 != 0)) {
     return 0;
   }
   return 1;

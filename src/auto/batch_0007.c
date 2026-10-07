@@ -2271,7 +2271,7 @@ undefined4 FUN_00163e08(undefined8 *param_1,undefined8 param_2,undefined4 param_
     puVar1 = (undefined8 *)((int)puVar1 + -4);
   } while (-1 < iVar2);
   *(undefined1 *)((int)param_1 + 0x69) = 0;
-  FUN_0035cbc0((int)param_1 + 0x5c,*(undefined4 *)(param_1 + 3));
+  strcpy((int)param_1 + 0x5c,*(undefined4 *)(param_1 + 3));
   return 1;
 }
 
@@ -2359,7 +2359,7 @@ LAB_00164030:
   }
   if (bVar4) {
     if (*(byte *)(iVar5 + 0x69) < 2) {
-      FUN_0035cbc0(iVar5 + 0x5c,*(undefined4 *)(iVar5 + 0x18));
+      strcpy(iVar5 + 0x5c,*(undefined4 *)(iVar5 + 0x18));
     }
     FUN_00164078(param_1);
   }

@@ -106,7 +106,7 @@ FUN_0038e438(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003ea7e8;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_0038b098();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -115,7 +115,7 @@ FUN_0038e438(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;
@@ -369,7 +369,7 @@ FUN_0038e910(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003e00e0;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_0038c3e0();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -378,7 +378,7 @@ FUN_0038e910(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;
@@ -440,7 +440,7 @@ FUN_0038eaa0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003e5e40;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_0038e688();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -449,7 +449,7 @@ FUN_0038eaa0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;
@@ -587,7 +587,7 @@ int FUN_0038ee80(long param_1)
     piVar3 = piVar1;
     if (0 < piVar1[0x100]) {
       do {
-        lVar2 = FUN_0035ca74(*piVar3 + 8,param_1);
+        lVar2 = strcmp(*piVar3 + 8,param_1);
         iVar5 = iVar5 + 1;
         if (lVar2 == 0) {
           return *piVar4;
@@ -660,7 +660,7 @@ FUN_0038f000(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003ebb48;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_0038be50();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -669,7 +669,7 @@ FUN_0038f000(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;
@@ -1665,7 +1665,7 @@ FUN_00390818(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003e00b0;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_00390168();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -1674,7 +1674,7 @@ FUN_00390818(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;
@@ -1896,7 +1896,7 @@ int FUN_00390cf8(long param_1)
     piVar3 = piVar1;
     if (0 < piVar1[0x100]) {
       do {
-        lVar2 = FUN_0035ca74(*piVar3 + 8,param_1);
+        lVar2 = strcmp(*piVar3 + 8,param_1);
         iVar5 = iVar5 + 1;
         if (lVar2 == 0) {
           return *piVar4;
@@ -2005,7 +2005,7 @@ FUN_00390f40(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003ec200;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_00390bc8();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -2014,7 +2014,7 @@ FUN_00390f40(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;
@@ -3324,7 +3324,7 @@ LAB_00393034:
     (*DAT_003c87ec)(auStack_b0[0],iVar8,uVar4);
   }
   *(undefined4 *)(iVar6 * 4 + iVar10) = auStack_b0[0];
-  FUN_0035c544(*(undefined4 *)(*param_2 * 4 + *(int *)(*(int *)(param_1 + 8) + 8)),iStack_b8,iVar8);
+  memcpy(*(undefined4 *)(*param_2 * 4 + *(int *)(*(int *)(param_1 + 8) + 8)),iStack_b8,iVar8);
   pcVar1 = *(code **)(*(int *)(param_1 + 8) + 0x14);
   if (pcVar1 != (code *)0x0) {
     iVar6 = *(int *)(*(int *)(param_1 + 4) + 0x14);
@@ -3684,7 +3684,7 @@ int FUN_00393978(long param_1)
     piVar3 = piVar1;
     if (0 < piVar1[0x100]) {
       do {
-        lVar2 = FUN_0035ca74(*piVar3 + 8,param_1);
+        lVar2 = strcmp(*piVar3 + 8,param_1);
         iVar5 = iVar5 + 1;
         if (lVar2 == 0) {
           return *piVar4;
@@ -4485,7 +4485,7 @@ FUN_003949a0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   piVar7 = (int *)param_1;
   iVar2 = 0;
   piVar7[0x44] = (int)&DAT_003f07a0;
-  FUN_0035cbc0(piVar7 + 2);
+  strcpy(piVar7 + 2);
   piVar1 = (int *)FUN_003935d8();
   piVar6 = piVar1;
   piVar5 = piVar1;
@@ -4494,7 +4494,7 @@ FUN_003949a0(undefined8 param_1,undefined8 param_2,int param_3,int param_4,char 
   }
   else {
     do {
-      lVar3 = FUN_0035ca74(*piVar5 + 8,piVar7 + 2);
+      lVar3 = strcmp(*piVar5 + 8,piVar7 + 2);
       iVar2 = iVar2 + 1;
       if (lVar3 == 0) {
         *piVar6 = (int)piVar7;

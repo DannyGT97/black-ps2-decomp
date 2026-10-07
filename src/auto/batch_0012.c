@@ -3302,7 +3302,7 @@ bool FUN_0018c8e8(int param_1,undefined8 param_2)
       bVar1 = false;
     }
     else {
-      lVar2 = FUN_0035ca74(param_2,*(undefined4 *)(param_1 + 0x30));
+      lVar2 = strcmp(param_2,*(undefined4 *)(param_1 + 0x30));
       bVar1 = lVar2 == 0;
     }
   }
@@ -3597,7 +3597,7 @@ bool FUN_0018ce78(int param_1,undefined8 param_2)
   case 3:
     uVar1 = *(undefined4 *)(param_1 + 0x34);
   }
-  lVar2 = FUN_0035ca74(param_2,uVar1);
+  lVar2 = strcmp(param_2,uVar1);
   return lVar2 == 0;
 }
 

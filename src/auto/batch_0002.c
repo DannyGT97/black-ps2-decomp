@@ -7217,7 +7217,7 @@ void FUN_00123ce0(undefined8 param_1)
     iVar5 = 0;
     do {
       uVar3 = FUN_00123c90(param_1,iVar5,iVar7);
-      FUN_0035c6ec(uVar3,0,0x20);
+      memset(uVar3,0,0x20);
       iVar6 = iVar5 + 1;
       puVar1 = (undefined4 *)FUN_00123c90(param_1,iVar5,iVar7);
       *puVar1 = 0xffffffff;
@@ -7288,7 +7288,7 @@ undefined4 FUN_00123e70(int param_1)
     iVar1 = 7;
     do {
       iVar1 = iVar1 + -1;
-      FUN_0035c6ec(puVar3,0,0x20);
+      memset(puVar3,0,0x20);
       *puVar3 = 0xffffffff;
       puVar3 = puVar3 + 8;
     } while (-1 < iVar1);
@@ -7298,7 +7298,7 @@ undefined4 FUN_00123e70(int param_1)
   iVar4 = 7;
   iVar1 = param_1 + 0x45c;
   do {
-    FUN_0035c6ec(iVar1,0,0x1c);
+    memset(iVar1,0,0x1c);
     iVar4 = iVar4 + -1;
     *puVar5 = 3;
     puVar5 = puVar5 + 0x1c;
@@ -8148,7 +8148,7 @@ bool FUN_00125178(undefined4 *param_1)
   
   bVar1 = DAT_003bcaf8 < 10;
   if (bVar1) {
-    FUN_0035d728(auStack_120,0x3f4040,0x3f4048,(&PTR_s__IOP_SIO2MAN_IRX_1_003bcad0)[DAT_003bcaf8]);
+    sprintf(auStack_120,0x3f4040,0x3f4048,(&PTR_s__IOP_SIO2MAN_IRX_1_003bcad0)[DAT_003bcaf8]);
     FUN_0036d218(auStack_120,0,0);
     DAT_003bcaf8 = DAT_003bcaf8 + 1;
   }

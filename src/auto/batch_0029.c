@@ -571,8 +571,8 @@ void FUN_00280e78(undefined8 param_1,char *param_2)
   uint uVar1;
   uint uVar2;
   
-  FUN_0035cbc0(param_2,param_1);
-  uVar1 = FUN_0035ccd8(param_2);
+  strcpy(param_2,param_1);
+  uVar1 = strlen(param_2);
   uVar2 = 0;
   if (uVar1 != 0) {
     do {
@@ -2208,7 +2208,7 @@ FUN_002828a8(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8
     FUN_00313e88(param_4);
   }
   FUN_003139a8(param_2,*puVar4,puVar4[1],param_6,param_7,0,0x20000,param_3);
-  FUN_0035cbc0(puVar4 + 0x3fc,param_2);
+  strcpy(puVar4 + 0x3fc,param_2);
   if (puVar5[0xb] == 2) {
     puVar4[0x40f] = 2;
   }
@@ -2302,7 +2302,7 @@ undefined4 FUN_00282ba0(undefined8 param_1,undefined8 param_2)
   undefined8 uStack_40;
   undefined4 uStack_38;
   
-  FUN_0035c6ec(&uStack_40,0,0xc);
+  memset(&uStack_40,0,0xc);
   iVar1 = *(int *)((int)param_1 + 0x70);
   *(undefined8 *)(iVar1 + 0x54) = uStack_40;
   *(undefined4 *)(iVar1 + 0x5c) = uStack_38;

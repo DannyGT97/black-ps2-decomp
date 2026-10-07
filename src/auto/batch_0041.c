@@ -3229,7 +3229,7 @@ void FUN_003429e8(undefined8 *param_1)
   undefined4 uStack_2c;
   undefined4 uStack_28;
   
-  FUN_0035c6ec(&uStack_30,0,0xc);
+  memset(&uStack_30,0,0xc);
   uStack_30 = *(undefined4 *)param_1;
   uStack_2c = *(undefined4 *)((int)param_1 + 4);
   uStack_40 = *param_1;
@@ -5366,7 +5366,7 @@ undefined4 FUN_00345510(undefined8 param_1,undefined8 param_2,undefined8 param_3
   }
   uVar10 = FUN_00343f48(0x78);
   puVar18[0x16] = (uint)uVar10;
-  FUN_0035c6ec(uVar10,0,0x78);
+  memset(uVar10,0,0x78);
   uVar4 = puVar18[1];
   *(undefined2 *)(puVar18 + 2) = 0;
   *(undefined2 *)(puVar18 + 0x17) = 0;
@@ -5475,7 +5475,7 @@ LAB_00345850:
   else {
     uVar10 = FUN_00343f48((int)*(short *)((int)puVar18 + 0x5e) << 2);
     puVar18[0x1c] = (uint)uVar10;
-    FUN_0035c6ec(uVar10,0,(int)*(short *)((int)puVar18 + 0x5e) << 2);
+    memset(uVar10,0,(int)*(short *)((int)puVar18 + 0x5e) << 2);
     if (puVar18[0x1c] != 0) {
       lVar11 = 0;
       iVar12 = FUN_003489a8(param_1);

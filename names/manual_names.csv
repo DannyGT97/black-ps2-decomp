@@ -1,0 +1,10 @@
+address,name,comment
+0035c6ec,memset,libc (newlib): rellena con pcpyh; params dst/byte/n
+0035c544,memcpy,libc: copia por bloques de 32 bytes si esta alineado
+0035ccd8,strlen,libc: deteccion de byte cero con 0x0101.. / 0x8080..
+0035cbc0,strcpy,libc: dos punteros alineados a 8; deteccion de byte cero
+0035ca74,strcmp,libc: devuelve entero; identificada por patron (confianza media)
+00364de0,tolower,libc: suma 0x20 si la tabla ctype marca mayuscula
+00360838,stricmp,comparacion de cadenas insensible a mayusculas (usa tolower)
+0035d728,sprintf,libc: buffer con limite 0x7fffffff y NUL final
+00361460,vfprintf_internal,formateador usado por sprintf

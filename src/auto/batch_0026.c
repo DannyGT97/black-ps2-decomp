@@ -98,7 +98,7 @@ undefined4 FUN_00250518(undefined8 param_1,undefined8 param_2,int *param_3)
   undefined4 uVar1;
   long lVar2;
   
-  lVar2 = FUN_0035ca74(*param_3 + 8,0x3ff808);
+  lVar2 = strcmp(*param_3 + 8,0x3ff808);
   uVar1 = 0;
   if (lVar2 == 0) {
     uVar1 = DAT_0043df78;
@@ -1512,7 +1512,7 @@ undefined8 FUN_00252c58(undefined8 param_1,undefined8 param_2,long param_3)
     *piVar3 = (int)puVar1;
     *puVar1 = 1;
     *(short *)(*piVar3 + 4) = (short)uVar2 + -9;
-    FUN_0035c6ec(*piVar3 + 8,param_2,param_3);
+    memset(*piVar3 + 8,param_2,param_3);
     *(short *)(*piVar3 + 2) = (short)param_3;
     *(undefined2 *)(*piVar3 + 6) = 0;
     *(undefined1 *)(*piVar3 + (int)param_3 + 8) = 0;
@@ -1550,7 +1550,7 @@ undefined8 FUN_00252d28(undefined8 param_1,int *param_2)
     if (uVar3 != 0) {
       iVar5 = (uint)uVar1 + (uint)uVar3;
       FUN_00253e60(param_1,iVar5,0,uVar1,0,iVar5);
-      FUN_0035c544(*piVar6 + 8 + (uint)uVar1,*param_2 + 8,uVar3 + 1);
+      memcpy(*piVar6 + 8 + (uint)uVar1,*param_2 + 8,uVar3 + 1);
     }
   }
   return param_1;
@@ -1589,11 +1589,11 @@ undefined8 FUN_00252e10(undefined8 param_1,undefined8 param_2)
     }
   }
   else {
-    lVar4 = FUN_0035ccd8(param_2);
+    lVar4 = strlen(param_2);
     iVar5 = (uint)uVar1 + (int)lVar4;
     if (lVar4 != 0) {
       FUN_00253e60(param_1,iVar5,0,uVar1,0,iVar5);
-      FUN_0035c544(*piVar6 + 8 + (uint)uVar1,param_2,(int)lVar4 + 1);
+      memcpy(*piVar6 + 8 + (uint)uVar1,param_2,(int)lVar4 + 1);
     }
   }
   return param_1;
@@ -1617,7 +1617,7 @@ undefined8 FUN_00252f20(undefined8 param_1,undefined8 param_2,int *param_3)
     FUN_00253ff0();
   }
   else {
-    lVar3 = FUN_0035ccd8(param_2);
+    lVar3 = strlen(param_2);
     iVar5 = (int)lVar3 + (uint)uVar1;
     if (lVar3 == 0) {
       psVar4 = (short *)*param_3;
@@ -1627,8 +1627,8 @@ undefined8 FUN_00252f20(undefined8 param_1,undefined8 param_2,int *param_3)
     else {
       FUN_00252bb8(apsStack_90,iVar5);
       psVar4 = apsStack_90[0] + 4;
-      FUN_0035c544(psVar4,param_2,lVar3);
-      FUN_0035c544((int)psVar4 + (int)lVar3,*param_3 + 8,uVar1);
+      memcpy(psVar4,param_2,lVar3);
+      memcpy((int)psVar4 + (int)lVar3,*param_3 + 8,uVar1);
       *(undefined1 *)((int)psVar4 + iVar5) = 0;
       apsStack_90[0][1] = (short)iVar5;
       apsStack_90[0][3] = 0;
@@ -1658,7 +1658,7 @@ undefined8 FUN_00253058(undefined8 param_1,int *param_2)
   FUN_002530e8(param_1,uVar1);
   piVar3 = (int *)param_1;
   iVar2 = *piVar3;
-  FUN_0035c544(iVar2 + 8,*param_2 + 8,uVar1);
+  memcpy(iVar2 + 8,*param_2 + 8,uVar1);
   *(undefined1 *)(iVar2 + 8 + (uint)uVar1) = 0;
   *(ushort *)(*piVar3 + 2) = uVar1;
   *(undefined2 *)(*piVar3 + 6) = *(undefined2 *)(*param_2 + 6);
@@ -1717,7 +1717,7 @@ undefined8 FUN_00253138(undefined8 param_1,undefined8 param_2,uint param_3)
     uVar2 = *(ushort *)(*(int *)param_1 + 2);
     iVar4 = uVar2 + uVar5;
     FUN_00253e60(param_1,iVar4,0,uVar2,1,iVar4);
-    FUN_0035c544(*(int *)param_1 + 8 + (uint)uVar2,param_2,uVar5);
+    memcpy(*(int *)param_1 + 8 + (uint)uVar2,param_2,uVar5);
   }
   return param_1;
 }
@@ -1757,7 +1757,7 @@ void FUN_00253238(undefined8 param_1,undefined8 param_2,undefined8 param_3)
   int iVar3;
   int *piVar4;
   
-  iVar1 = FUN_0035ccd8(param_2);
+  iVar1 = strlen(param_2);
   iVar1 = iVar1 << 2;
   while( true ) {
     FUN_00253e60(param_1,iVar1,0,0,0,0);
@@ -1868,7 +1868,7 @@ int FUN_002533c8(undefined8 param_1,int param_2,long param_3)
       else {
         iVar7 = param_2 + iVar6;
         FUN_00253e60(param_1,iVar7,0,param_2,0,iVar7);
-        FUN_0035c544(*piVar9 + 8 + param_2,iVar3 + 8 + uVar8,iVar6 + 1);
+        memcpy(*piVar9 + 8 + param_2,iVar3 + 8 + uVar8,iVar6 + 1);
         param_2 = iVar7;
       }
     }
@@ -2080,7 +2080,7 @@ undefined4 FUN_002539c0(undefined8 param_1,undefined8 param_2)
   
   piVar7 = (int *)param_1;
   uVar1 = *(ushort *)(*piVar7 + 2);
-  uVar5 = FUN_0035ccd8(param_2);
+  uVar5 = strlen(param_2);
   uVar4 = 0;
   if (uVar5 <= uVar1) {
     lVar6 = FUN_0035c4b0((*piVar7 + 8 + (uint)uVar1) - (int)uVar5,param_2,uVar5);
@@ -2314,7 +2314,7 @@ void FUN_00253e60(int *param_1,ulong param_2,long param_3,undefined8 param_4,lon
     *(short *)(*param_1 + 4) = (short)uVar4 + -9;
     *(short *)(*param_1 + 2) = (short)param_6;
     *(undefined2 *)(*param_1 + 6) = 0;
-    FUN_0035c544(*param_1 + 8,(int)psVar1 + (int)param_3 + 8,param_4);
+    memcpy(*param_1 + 8,(int)psVar1 + (int)param_3 + 8,param_4);
     if (param_5 == 0) {
       sVar2 = *psVar1;
       goto LAB_00253f98;
@@ -2345,7 +2345,7 @@ void FUN_00253ff0(int *param_1,undefined8 param_2)
     DAT_003bfaf8 = DAT_003bfaf8 + 1;
   }
   else {
-    iVar1 = FUN_0035ccd8(param_2);
+    iVar1 = strlen(param_2);
     uVar3 = iVar1 + 0xcU & 0xfffffffc;
     puVar2 = (undefined2 *)FUN_00250058(DAT_0043dee0,uVar3);
     *param_1 = (int)puVar2;
@@ -2353,7 +2353,7 @@ void FUN_00253ff0(int *param_1,undefined8 param_2)
     *(short *)(*param_1 + 4) = (short)uVar3 + -9;
     *(short *)(*param_1 + 2) = (short)iVar1;
     *(undefined2 *)(*param_1 + 6) = 0;
-    FUN_0035c544(*param_1 + 8,param_2,iVar1 + 1);
+    memcpy(*param_1 + 8,param_2,iVar1 + 1);
   }
   return;
 }
@@ -4922,7 +4922,7 @@ void FUN_00254120(int param_1)
   }
   uVar3 = FUN_00250058(DAT_0043dee0,param_1 << 2);
   DAT_003bfb08 = (undefined4)uVar3;
-  FUN_0035c6ec(uVar3,0,param_1 << 2);
+  memset(uVar3,0,param_1 << 2);
   DAT_003bfb0c = param_1;
   return;
 }
@@ -4970,7 +4970,7 @@ uint * FUN_00259558(undefined8 param_1)
     uVar10 = puVar6[2];
     while( true ) {
       if (*(ushort *)(uVar10 + 6) == uVar9) {
-        lVar7 = FUN_0035ca74(uVar10 + 8,param_1);
+        lVar7 = strcmp(uVar10 + 8,param_1);
         if (lVar7 == 0) {
           uVar12 = *puVar6;
           if ((uVar12 >> 0x12 & 0x3f) == 0x3f) {
@@ -13411,7 +13411,7 @@ undefined8 FUN_00264018(void)
   long lVar3;
   
   FUN_0028fbb8();
-  FUN_0035c6ec(0x1ff0000,0x65,0xf000);
+  memset(0x1ff0000,0x65,0xf000);
   FUN_00274228();
   FUN_00125208(0x40f0f0);
   uVar2 = FUN_00107cf8(0x210d0);
@@ -13554,23 +13554,23 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043ea68 = uVar7;
     DAT_0043ea70 = uVar7;
     DAT_0043ea78 = uVar7;
-    FUN_0035c6ec(0x43ea90,0,0xc);
+    memset(0x43ea90,0,0xc);
     uVar7 = DAT_00400008;
     DAT_0043ea90 = 0x41f00000;
     DAT_0043ea94 = DAT_00400010;
     DAT_0043ea98 = DAT_00400008;
     uVar8 = DAT_00400010;
-    FUN_0035c6ec(0x43ea9c,0,0xc);
+    memset(0x43ea9c,0,0xc);
     DAT_0043eaa4 = uVar7;
     uVar14 = 0x40e00000;
     DAT_0043ea9c = uVar11;
     DAT_0043eaa0 = uVar8;
-    FUN_0035c6ec(0x43eaa8,0,0xc);
+    memset(0x43eaa8,0,0xc);
     uVar10 = 0;
     DAT_0043eaa8 = 0x40a00000;
     DAT_0043eab0 = uVar7;
     DAT_0043eaac = uVar8;
-    FUN_0035c6ec(0x43eab4,0,0xc);
+    memset(0x43eab4,0,0xc);
     auVar26 = _qmtc2(0x3f774bc7);
     auVar26 = _sqc2(auVar26);
     auVar30 = _qmtc2(0x3f774bc7);
@@ -13580,7 +13580,7 @@ void FUN_00264130(long param_1,long param_2)
     auVar30 = _sqc2(auVar30);
     auVar20 = _sqc2(auVar20);
     DAT_0043eab8 = uVar8;
-    FUN_0035c6ec(0x43eac0,0,0xc);
+    memset(0x43eac0,0,0xc);
     DAT_0043eac0 = 0x41a00000;
     auVar21 = _qmtc2(0x3e841893);
     DAT_0043eac8 = uVar7;
@@ -13588,7 +13588,7 @@ void FUN_00264130(long param_1,long param_2)
     auVar22 = _qmtc2(0x3f5db22d);
     auVar22 = _sqc2(auVar22);
     DAT_0043eac4 = uVar8;
-    FUN_0035c6ec(0x43eacc,0,0xc);
+    memset(0x43eacc,0,0xc);
     auVar27 = _qmtc2(0xbf34fdf4);
     DAT_0043ead4 = uVar7;
     auVar23 = _qmtc2(0x3f5db22d);
@@ -13596,7 +13596,7 @@ void FUN_00264130(long param_1,long param_2)
     auVar23 = _sqc2(auVar23);
     DAT_0043eacc = uVar13;
     DAT_0043ead0 = uVar8;
-    FUN_0035c6ec(0x43ead8,0,0xc);
+    memset(0x43ead8,0,0xc);
     auVar31 = _qmtc2(0x3f774bc7);
     auVar35 = _qmtc2(0xbf34fdf4);
     auVar31 = _sqc2(auVar31);
@@ -13604,31 +13604,31 @@ void FUN_00264130(long param_1,long param_2)
     auVar35 = _sqc2(auVar35);
     DAT_0043ead8 = uVar13;
     DAT_0043eadc = uVar8;
-    FUN_0035c6ec(0x43eae4,0,0xc);
+    memset(0x43eae4,0,0xc);
     DAT_0043eae4 = 0x41680000;
     DAT_0043eaec = uVar7;
     DAT_0043eae8 = uVar8;
-    FUN_0035c6ec(0x43eaf0,0,0xc);
+    memset(0x43eaf0,0,0xc);
     DAT_0043eaf0 = 0x41680000;
     DAT_0043eaf8 = uVar7;
     DAT_0043eaf4 = uVar8;
-    FUN_0035c6ec(0x43eafc,0,0xc);
+    memset(0x43eafc,0,0xc);
     DAT_0043eb04 = uVar7;
     DAT_0043eafc = uVar14;
     DAT_0043eb00 = uVar8;
-    FUN_0035c6ec(0x43eb08,0,0xc);
+    memset(0x43eb08,0,0xc);
     DAT_0043eb10 = uVar7;
     DAT_0043eb08 = uVar14;
     DAT_0043eb0c = uVar8;
-    FUN_0035c6ec(0x43eb14,0,0xc);
+    memset(0x43eb14,0,0xc);
     DAT_0043eb14 = 0x41480000;
     DAT_0043eb1c = uVar7;
     DAT_0043eb18 = uVar8;
-    FUN_0035c6ec(0x43eb20,0,0xc);
+    memset(0x43eb20,0,0xc);
     DAT_0043eb20 = 0x41480000;
     DAT_0043eb28 = uVar7;
     DAT_0043eb24 = uVar8;
-    FUN_0035c6ec(0x43eb2c,0,0xc);
+    memset(0x43eb2c,0,0xc);
     fVar1 = DAT_0040000c;
     fVar9 = DAT_0040000c * 1.5;
     DAT_0043eb2c = 0x41f00000;
@@ -13637,55 +13637,55 @@ void FUN_00264130(long param_1,long param_2)
     fVar12 = DAT_0040000c * 0.5;
     uVar7 = DAT_00400014;
     DAT_0043eb34 = fVar9;
-    FUN_0035c6ec(0x43eb38,0,0xc);
+    memset(0x43eb38,0,0xc);
     DAT_0043eb38 = uVar11;
     DAT_0043eb3c = uVar7;
     DAT_0043eb40 = fVar9;
-    FUN_0035c6ec(0x43eb44,0,0xc);
+    memset(0x43eb44,0,0xc);
     DAT_0043eb44 = 0x40a00000;
     DAT_0043eb48 = uVar7;
     DAT_0043eb4c = fVar12;
-    FUN_0035c6ec(0x43eb50,0,0xc);
+    memset(0x43eb50,0,0xc);
     DAT_0043eb50 = 0x40a00000;
     DAT_0043eb54 = uVar7;
     DAT_0043eb58 = fVar12;
-    FUN_0035c6ec(0x43eb5c,0,0xc);
+    memset(0x43eb5c,0,0xc);
     DAT_0043eb5c = 0x41a00000;
     DAT_0043eb60 = uVar7;
     DAT_0043eb64 = fVar12;
-    FUN_0035c6ec(0x43eb68,0,0xc);
+    memset(0x43eb68,0,0xc);
     DAT_0043eb68 = uVar13;
     DAT_0043eb6c = uVar7;
     DAT_0043eb70 = fVar15;
-    FUN_0035c6ec(0x43eb74,0,0xc);
+    memset(0x43eb74,0,0xc);
     DAT_0043eb74 = uVar13;
     DAT_0043eb78 = uVar7;
     DAT_0043eb7c = fVar15;
-    FUN_0035c6ec(0x43eb80,0,0xc);
+    memset(0x43eb80,0,0xc);
     DAT_0043eb80 = 0x41680000;
     DAT_0043eb88 = fVar1;
     DAT_0043eb84 = uVar7;
-    FUN_0035c6ec(0x43eb8c,0,0xc);
+    memset(0x43eb8c,0,0xc);
     DAT_0043eb8c = 0x41680000;
     DAT_0043eb94 = fVar1;
     DAT_0043eb90 = uVar7;
-    FUN_0035c6ec(0x43eb98,0,0xc);
+    memset(0x43eb98,0,0xc);
     DAT_0043eb98 = uVar14;
     DAT_0043eb9c = uVar7;
     DAT_0043eba0 = fVar1 * 0.05;
-    FUN_0035c6ec(0x43eba4,0,0xc);
+    memset(0x43eba4,0,0xc);
     DAT_0043eba4 = uVar14;
     DAT_0043eba8 = uVar7;
     DAT_0043ebac = fVar1 * 0.05;
-    FUN_0035c6ec(0x43ebb0,0,0xc);
+    memset(0x43ebb0,0,0xc);
     DAT_0043ebb0 = 0x41480000;
     DAT_0043ebb4 = uVar7;
     DAT_0043ebb8 = fVar12;
-    FUN_0035c6ec(0x43ebbc,0,0xc);
+    memset(0x43ebbc,0,0xc);
     DAT_0043ebbc = 0x41480000;
     DAT_0043ebc0 = uVar7;
     DAT_0043ebc4 = fVar12;
-    FUN_0035c6ec(0x43ebd0,0,0x60);
+    memset(0x43ebd0,0,0x60);
     auVar24 = _lqc2(auVar16);
     auVar28 = _lqc2(auVar26);
     _lqc2(_DAT_0043ebf0);
@@ -13744,7 +13744,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ec00 = _sqc2(auVar33);
     _DAT_0043ec10 = _sqc2(auVar36);
     _DAT_0043ec20 = _sqc2(auVar38);
-    FUN_0035c6ec(0x43ec30,0,0x60);
+    memset(0x43ec30,0,0x60);
     auVar36 = _lqc2(auVar16);
     auVar38 = _lqc2(auVar26);
     _lqc2(_DAT_0043ec50);
@@ -13804,7 +13804,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ec60 = _sqc2(auVar28);
     _DAT_0043ec70 = _sqc2(auVar32);
     _DAT_0043ec80 = _sqc2(auVar36);
-    FUN_0035c6ec(0x43ec90,0,0x60);
+    memset(0x43ec90,0,0x60);
     auVar36 = _lqc2(auVar16);
     _lqc2(_DAT_0043ec90);
     _lqc2(_DAT_0043eca0);
@@ -13865,7 +13865,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ecc0 = _sqc2(auVar32);
     _DAT_0043ecd0 = _sqc2(auVar38);
     _DAT_0043ece0 = _sqc2(auVar23);
-    FUN_0035c6ec(0x43ecf0,0,0x60);
+    memset(0x43ecf0,0,0x60);
     auVar38 = _lqc2(auVar16);
     _lqc2(_DAT_0043ecf0);
     _lqc2(_DAT_0043ed00);
@@ -13927,7 +13927,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ed20 = _sqc2(auVar29);
     _DAT_0043ed30 = _sqc2(auVar25);
     _DAT_0043ed40 = _sqc2(auVar38);
-    FUN_0035c6ec(0x43ed50,0,0x60);
+    memset(0x43ed50,0,0x60);
     auVar25 = _lqc2(auVar16);
     _lqc2(_DAT_0043ed70);
     _lqc2(_DAT_0043ed60);
@@ -13985,7 +13985,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ed80 = _sqc2(auVar19);
     _DAT_0043ed90 = _sqc2(auVar26);
     _DAT_0043eda0 = _sqc2(auVar25);
-    FUN_0035c6ec(0x43edb0,0,0x60);
+    memset(0x43edb0,0,0x60);
     auVar25 = _lqc2(auVar4);
     _lqc2(_DAT_0043edb0);
     auVar26 = _vaddbc(in_vf0,auVar25);
@@ -14042,7 +14042,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ede0 = _sqc2(auVar19);
     _DAT_0043edf0 = _sqc2(auVar26);
     _DAT_0043ee00 = _sqc2(auVar25);
-    FUN_0035c6ec(0x43ee10,0,0x60);
+    memset(0x43ee10,0,0x60);
     auVar25 = _qmtc2(0xbf774bc7);
     auVar36 = _qmtc2(0x3e841893);
     auVar25 = _sqc2(auVar25);
@@ -14111,7 +14111,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ee40 = _sqc2(auVar21);
     _DAT_0043ee50 = _sqc2(auVar30);
     _DAT_0043ee60 = _sqc2(auVar26);
-    FUN_0035c6ec(0x43ee70,0,0x60);
+    memset(0x43ee70,0,0x60);
     auVar23 = _lqc2(auVar16);
     auVar19 = _qmtc2(0xbe841893);
     auVar25 = _lqc2(auVar25);
@@ -14173,7 +14173,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043eea0 = _sqc2(auVar30);
     _DAT_0043eeb0 = _sqc2(auVar20);
     _DAT_0043eec0 = _sqc2(auVar25);
-    FUN_0035c6ec(0x43eed0,0,0x60);
+    memset(0x43eed0,0,0x60);
     auVar21 = _lqc2(auVar16);
     auVar23 = _qmtc2(0xbf5db22d);
     auVar19 = _lqc2(auVar4);
@@ -14231,7 +14231,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ef00 = _sqc2(auVar30);
     _DAT_0043ef10 = _sqc2(auVar20);
     _DAT_0043ef20 = _sqc2(auVar25);
-    FUN_0035c6ec(0x43ef30,0,0x60);
+    memset(0x43ef30,0,0x60);
     auVar30 = _lqc2(auVar16);
     auVar20 = _qmtc2(0xbf5db22d);
     auVar25 = _lqc2(auVar4);
@@ -14291,7 +14291,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043ef60 = _sqc2(auVar26);
     _DAT_0043ef70 = _sqc2(auVar17);
     _DAT_0043ef80 = _sqc2(auVar18);
-    FUN_0035c6ec(0x43ef90,0,0x60);
+    memset(0x43ef90,0,0x60);
     auVar17 = _lqc2(auVar16);
     _lqc2(_DAT_0043efb0);
     _lqc2(_DAT_0043efa0);
@@ -14351,7 +14351,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043efc0 = _sqc2(auVar26);
     _DAT_0043efd0 = _sqc2(auVar17);
     _DAT_0043efe0 = _sqc2(auVar25);
-    FUN_0035c6ec(0x43eff0,0,0x60);
+    memset(0x43eff0,0,0x60);
     auVar26 = _lqc2(auVar16);
     auVar17 = _lqc2(auVar4);
     _lqc2(_DAT_0043f020);
@@ -14409,7 +14409,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043f020 = _sqc2(auVar36);
     _DAT_0043f030 = _sqc2(auVar17);
     _DAT_0043f040 = _sqc2(auVar25);
-    FUN_0035c6ec(0x43f050,0,0x60);
+    memset(0x43f050,0,0x60);
     auVar38 = _lqc2(auVar16);
     auVar25 = _lqc2(auVar4);
     _lqc2(_DAT_0043f070);
@@ -14463,7 +14463,7 @@ void FUN_00264130(long param_1,long param_2)
     _DAT_0043f070 = _sqc2(auVar29);
     _DAT_0043f080 = _sqc2(auVar18);
     _DAT_0043f090 = _sqc2(auVar36);
-    FUN_0035c6ec(0x43f0b0,0,0x20);
+    memset(0x43f0b0,0,0x20);
     DAT_0043f0b0 = 1;
     DAT_0043f0b4 = 0x40490625;
     DAT_0043f0c8 = 0x3f000000;
@@ -14472,7 +14472,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f0bc = 0x40490625;
     DAT_0043f0c0 = 0x3f000000;
     DAT_0043f0c4 = 0x3f000000;
-    FUN_0035c6ec(0x43f0d0,0,0x20);
+    memset(0x43f0d0,0,0x20);
     DAT_0043f0d0 = 2;
     DAT_0043f0d4 = 0x40490625;
     DAT_0043f0dc = 0x40490625;
@@ -14481,7 +14481,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f0e0 = uVar10;
     DAT_0043f0e4 = uVar10;
     DAT_0043f0e8 = uVar10;
-    FUN_0035c6ec(0x43f0f0,0,0x20);
+    memset(0x43f0f0,0,0x20);
     DAT_0043f0f0 = 1;
     DAT_0043f0f8 = 1;
     DAT_0043f0f4 = 0x40490625;
@@ -14490,7 +14490,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f100 = uVar10;
     DAT_0043f104 = uVar10;
     DAT_0043f108 = uVar10;
-    FUN_0035c6ec(0x43f110,0,0x20);
+    memset(0x43f110,0,0x20);
     DAT_0043f110 = 2;
     DAT_0043f114 = 0x40490625;
     DAT_0043f11c = 0x40490625;
@@ -14499,7 +14499,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f120 = uVar10;
     DAT_0043f124 = uVar10;
     DAT_0043f128 = uVar10;
-    FUN_0035c6ec(0x43f130,0,0x20);
+    memset(0x43f130,0,0x20);
     DAT_0043f130 = 1;
     DAT_0043f138 = 1;
     DAT_0043f134 = 0x40490625;
@@ -14508,7 +14508,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f140 = uVar10;
     DAT_0043f144 = uVar10;
     DAT_0043f148 = uVar10;
-    FUN_0035c6ec(0x43f150,0,0x20);
+    memset(0x43f150,0,0x20);
     DAT_0043f150 = 2;
     DAT_0043f154 = 0x40490625;
     DAT_0043f15c = 0x40490625;
@@ -14517,7 +14517,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f160 = uVar10;
     DAT_0043f164 = uVar10;
     DAT_0043f168 = uVar10;
-    FUN_0035c6ec(0x43f170,0,0x20);
+    memset(0x43f170,0,0x20);
     DAT_0043f170 = 1;
     DAT_0043f178 = 1;
     DAT_0043f174 = 0x40490625;
@@ -14526,7 +14526,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f180 = uVar10;
     DAT_0043f184 = uVar10;
     DAT_0043f188 = uVar10;
-    FUN_0035c6ec(0x43f190,0,0x20);
+    memset(0x43f190,0,0x20);
     DAT_0043f190 = 1;
     DAT_0043f19c = 0x40490625;
     DAT_0043f194 = 0x40490625;
@@ -14539,7 +14539,7 @@ void FUN_00264130(long param_1,long param_2)
     FUN_00388c30(0x43f1d0);
     FUN_00388c30(0x43f1f0);
     FUN_00388c30(0x43f210);
-    FUN_0035c6ec(0x43f230,0,0x20);
+    memset(0x43f230,0,0x20);
     DAT_0043f234 = 0x3f23d70a;
     DAT_0043f23c = 0x3f49374c;
     DAT_0043f230 = 1;
@@ -14548,7 +14548,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f240 = uVar10;
     DAT_0043f244 = uVar10;
     DAT_0043f248 = uVar10;
-    FUN_0035c6ec(0x43f250,0,0x20);
+    memset(0x43f250,0,0x20);
     DAT_0043f250 = 2;
     DAT_0043f25c = 0x3dcccccd;
     DAT_0043f254 = 0x3f03126f;
@@ -14556,7 +14556,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f260 = uVar10;
     DAT_0043f264 = uVar10;
     DAT_0043f268 = uVar10;
-    FUN_0035c6ec(0x43f270,0,0x20);
+    memset(0x43f270,0,0x20);
     DAT_0043f270 = 1;
     DAT_0043f27c = 0x3f49374c;
     DAT_0043f274 = 0x3f03126f;
@@ -14565,7 +14565,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f280 = uVar10;
     DAT_0043f284 = uVar10;
     DAT_0043f288 = uVar10;
-    FUN_0035c6ec(0x43f290,0,0x20);
+    memset(0x43f290,0,0x20);
     DAT_0043f290 = 2;
     DAT_0043f29c = 0x3dcccccd;
     DAT_0043f294 = 0x3f49374c;
@@ -14574,7 +14574,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f2a0 = uVar10;
     DAT_0043f2a4 = uVar10;
     DAT_0043f2a8 = uVar10;
-    FUN_0035c6ec(0x43f2b0,0,0x20);
+    memset(0x43f2b0,0,0x20);
     DAT_0043f2b0 = 1;
     DAT_0043f2bc = 0x3f48f5c3;
     DAT_0043f2b8 = 1;
@@ -14583,7 +14583,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f2c0 = uVar10;
     DAT_0043f2c4 = uVar10;
     DAT_0043f2c8 = uVar10;
-    FUN_0035c6ec(0x43f2d0,0,0x20);
+    memset(0x43f2d0,0,0x20);
     DAT_0043f2d0 = 2;
     DAT_0043f2dc = 0x3dcccccd;
     DAT_0043f2d4 = 0x3f860419;
@@ -14591,7 +14591,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f2e0 = uVar10;
     DAT_0043f2e4 = uVar10;
     DAT_0043f2e8 = uVar10;
-    FUN_0035c6ec(0x43f2f0,0,0x20);
+    memset(0x43f2f0,0,0x20);
     DAT_0043f2f0 = 1;
     DAT_0043f2fc = 0x3f23d70a;
     DAT_0043f2f4 = 0x3e83126f;
@@ -14600,7 +14600,7 @@ void FUN_00264130(long param_1,long param_2)
     DAT_0043f300 = uVar10;
     DAT_0043f304 = uVar10;
     DAT_0043f308 = uVar10;
-    FUN_0035c6ec(0x43f310,0,0x20);
+    memset(0x43f310,0,0x20);
     DAT_0043f310 = 1;
     DAT_0043f31c = 0x3f860419;
     DAT_0043f314 = 0x3f860419;
@@ -17308,8 +17308,7 @@ ulong FUN_00269188(undefined8 param_1,uint param_2,ulong param_3)
               uVar6 = uVar3;
             }
             param_3 = (ulong)((int)param_3 - (int)uVar6);
-            FUN_0035c544(param_2,(*(uint *)(iVar9 + 0x3c) | 0x30000000) + *(int *)(iVar9 + 0x38),
-                         uVar6);
+            memcpy(param_2,(*(uint *)(iVar9 + 0x3c) | 0x30000000) + *(int *)(iVar9 + 0x38),uVar6);
             lVar4 = *(long *)(iVar9 + 0x10);
             if (*(long *)(iVar9 + 8) < (long)(uVar6 + lVar4)) {
               uVar6 = (ulong)((int)*(long *)(iVar9 + 8) - (int)lVar4);

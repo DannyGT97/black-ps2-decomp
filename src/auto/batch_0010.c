@@ -2775,7 +2775,7 @@ void FUN_0017b530(int param_1,undefined8 param_2)
   lVar1 = FUN_0017b7d0(0x40800000,DAT_0040f4d4 + 0x1290,&uStack_70,auStack_50);
   *(int *)(param_1 + 0x124) = (int)lVar1;
   if (0 < lVar1) {
-    FUN_0035c544(param_1 + 0x24,auStack_50[0],(int)lVar1 << 2);
+    memcpy(param_1 + 0x24,auStack_50[0],(int)lVar1 << 2);
   }
   return;
 }

@@ -66,7 +66,7 @@ void FUN_00329c70(int param_1,int *param_2)
   }
   else if (uVar1 < 3) {
     if (uVar1 == 1) {
-      FUN_0035cbc0(0x45ca48,*param_2);
+      strcpy(0x45ca48,*param_2);
     }
   }
   else if (uVar1 == 3) {
@@ -126,7 +126,7 @@ undefined8 FUN_00329f70(undefined8 param_1,undefined8 param_2,long param_3)
     *(undefined4 *)(iVar4 + 0xac) = puVar3[0xb];
     *(undefined4 *)(iVar4 + 0xa4) = puVar3[9];
     if (puVar3[1] == 1) {
-      FUN_0035cbc0(iVar4 + 0xb0,*puVar3);
+      strcpy(iVar4 + 0xb0,*puVar3);
       puVar1 = (undefined8 *)puVar3[3];
     }
     else {
@@ -145,7 +145,7 @@ undefined8 FUN_00329f70(undefined8 param_1,undefined8 param_2,long param_3)
       *(undefined4 *)(iVar4 + 0x90) = 0;
     }
     else {
-      FUN_0035cbc0(iVar4 + 0x1b0);
+      strcpy(iVar4 + 0x1b0);
       *(int *)(iVar4 + 0x90) = *(int *)(iVar4 + 0x540) + 0x130;
     }
     FUN_0032a4f0(iVar4 + 0x300,param_3);

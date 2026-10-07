@@ -250,7 +250,7 @@ uint FUN_003707a0(undefined4 *param_1,undefined4 *param_2)
 {
   uint uVar1;
   
-  uVar1 = FUN_0035ca74(*param_1,*param_2);
+  uVar1 = strcmp(*param_1,*param_2);
   return uVar1 >> 0x1f;
 }
 
@@ -5059,7 +5059,7 @@ undefined8 FUN_00378788(undefined8 param_1,undefined8 param_2,int *param_3)
   *(int *)(iVar3 + 0x40) = iVar3 + 0x48;
   piVar1 = (int *)*param_3;
   if (piVar1[1] == 1) {
-    FUN_0035ccd8(*piVar1);
+    strlen(*piVar1);
     FUN_0035d1a0(iVar3 + 0x58,*(undefined4 *)*param_3,0x80);
   }
   else if (piVar1[1] == 2) {
@@ -7632,7 +7632,7 @@ void FUN_0037bf28(int param_1,undefined8 param_2,int param_3)
     *(undefined8 *)(param_3 + 0x1c) = uVar6;
     *(undefined4 *)(param_3 + 0xc) = **(undefined4 **)(*(int *)(iVar3 + 0x18) + 0x14);
     uVar1 = *(undefined4 *)(*piVar8 * 0x20 + *(int *)(iVar3 + 0x10) + 4);
-    uVar5 = FUN_0035ccd8(uVar1);
+    uVar5 = strlen(uVar1);
     uVar7 = 0x7f;
     if (uVar5 < 0x81) {
       uVar7 = uVar5;
