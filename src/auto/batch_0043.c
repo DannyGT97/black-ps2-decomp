@@ -4915,7 +4915,7 @@ LAB_0035daec:
     case 0x44:
       uVar24 = 1;
     case 100:
-      pcStack_b0 = FUN_00364da8;
+      pcStack_b0 = strtol;
       break;
     case 0x45:
     case 0x47:
@@ -4952,7 +4952,7 @@ LAB_0035daec:
     case 0x69:
       uVar29 = 3;
       lVar28 = 0;
-      pcStack_b0 = FUN_00364da8;
+      pcStack_b0 = strtol;
       goto LAB_0035dcfc;
     case 0x6c:
       goto switchD_0035db18_caseD_6c;
@@ -4991,7 +4991,7 @@ LAB_0035dc6c:
     goto LAB_0035dcfc;
   }
 switchD_0035db18_caseD_1:
-  pcStack_b0 = FUN_00364da8;
+  pcStack_b0 = strtol;
   lVar28 = 10;
   uVar29 = 3;
   uVar24 = uVar24 | *(byte *)((int)&PTR_DAT_0040a991 + (int)(char)bVar1) & 1;
@@ -5601,14 +5601,16 @@ void FUN_0035e730(undefined8 param_1)
 }
 
 
-// ==== FUN_0035e750 @ 0035e750 ====
+// ==== atoi @ 0035e750 ====
 
-undefined4 FUN_0035e750(undefined8 param_1)
+/* llama a strtol(p,0,10) */
+
+undefined4 atoi(undefined8 param_1)
 
 {
   undefined4 uVar1;
   
-  uVar1 = FUN_00364da8(param_1,0,10);
+  uVar1 = strtol(param_1,0,10);
   return uVar1;
 }
 
@@ -10297,9 +10299,11 @@ LAB_00364cd0:
 }
 
 
-// ==== FUN_00364da8 @ 00364da8 ====
+// ==== strtol @ 00364da8 ====
 
-void FUN_00364da8(undefined8 param_1,undefined8 param_2,undefined8 param_3)
+/* libc */
+
+void strtol(undefined8 param_1,undefined8 param_2,undefined8 param_3)
 
 {
   FUN_00364b78(PTR_DAT_003d6944,param_1,param_2,param_3);

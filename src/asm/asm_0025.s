@@ -9122,7 +9122,7 @@
   00244ce0  0800e003  jr ra
   00244ce4  000082ac  _sw v0,0x0(a0)
 
-# ==== FUN_00244ce8 @ 00244ce8 ====
+# ==== Refcount_Dec @ 00244ce8 ====
   00244ce8  0000828c  lw v0,0x0(a0)
   00244cec  ffff4224  addiu v0,v0,-0x1
   00244cf0  0800e003  jr ra

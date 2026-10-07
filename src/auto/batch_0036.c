@@ -3419,7 +3419,7 @@ undefined4 FUN_002f2660(undefined8 param_1,long param_2)
       lVar5 = stricmp(uVar4,0x4076a8);
       if (lVar5 == 0) {
         uVar4 = FUN_002e3918(param_2);
-        uVar4 = FUN_0035e750(uVar4);
+        uVar4 = atoi(uVar4);
         FUN_002ecb80(uVar4);
         *(undefined1 *)((int)param_1 + 0x10) = 1;
       }
@@ -3441,7 +3441,7 @@ undefined4 FUN_002f2660(undefined8 param_1,long param_2)
       bVar9 = false;
       lVar5 = FUN_002e3330(param_2,0x407658);
       if (lVar5 != 0) {
-        lVar5 = FUN_0035e750(lVar5);
+        lVar5 = atoi(lVar5);
         bVar9 = lVar5 != 0;
       }
       lVar5 = FUN_002e31e0(param_2,0x407670);
@@ -4617,7 +4617,7 @@ undefined4 FUN_002f4390(int *param_1,undefined8 param_2)
     iVar2 = param_1[0x1b];
   }
   else {
-    iVar2 = FUN_0035e750(lVar4);
+    iVar2 = atoi(lVar4);
     param_1[0x1b] = iVar2;
     iVar2 = param_1[0x1b];
   }
@@ -5512,7 +5512,7 @@ undefined4 FUN_002f57c0(int param_1,long param_2)
         uVar1 = 0;
       }
       else {
-        uVar1 = FUN_0035e750(lVar4);
+        uVar1 = atoi(lVar4);
         *(undefined4 *)(param_1 + 0x10) = uVar1;
         uVar1 = 1;
       }
@@ -11893,7 +11893,7 @@ LAB_003001d8:
           if (lVar5 == 0) {
             return 0;
           }
-          iVar8 = FUN_0035e750(lVar5);
+          iVar8 = atoi(lVar5);
           param_1[0x13] = iVar8;
         }
         else {
@@ -11966,7 +11966,7 @@ LAB_003001d8:
                 if (lVar5 == 0) {
                   return 0;
                 }
-                iVar8 = FUN_0035e750(lVar5);
+                iVar8 = atoi(lVar5);
                 *(bool *)(param_1 + 0x18) = (float)iVar8 != 0.0;
               }
               else {
@@ -12051,7 +12051,7 @@ LAB_003001d8:
                               lVar5 = stricmp(uVar4,0x408210);
                               if (lVar5 == 0) {
                                 uVar4 = FUN_002e3918(param_2);
-                                uVar4 = FUN_0035e750(uVar4);
+                                uVar4 = atoi(uVar4);
                                 FUN_002fb1c8(param_1 + 0x1b,uVar4);
                                 return 1;
                               }
@@ -12059,7 +12059,7 @@ LAB_003001d8:
                               lVar5 = stricmp(uVar4,0x408220);
                               if (lVar5 == 0) {
                                 uVar4 = FUN_002e3918(param_2);
-                                uVar2 = FUN_0035e750(uVar4);
+                                uVar2 = atoi(uVar4);
                                 if (uVar2 < 3) {
                                   *(bool *)((int)param_1 + 0x62) = uVar2 != 0;
                                   return 1;

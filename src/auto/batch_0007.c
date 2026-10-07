@@ -3936,7 +3936,7 @@ void FUN_00165c78(undefined8 *param_1)
   uStack_20 = uStack_2c;
   uStack_1f = uStack_2b;
   uStack_1e = 0;
-  FUN_0035e750(&uStack_20);
+  atoi(&uStack_20);
   return;
 }
 

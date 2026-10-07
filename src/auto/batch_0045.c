@@ -1036,7 +1036,7 @@ uint FUN_00371c88(void)
       if (cVar1 == '\0') break;
     }
     FUN_0036bfb0(lVar3);
-    lVar3 = FUN_0035e750(auStack_149 + uVar2);
+    lVar3 = atoi(auStack_149 + uVar2);
     uVar2 = (uint)(0x1315670 < lVar3);
   }
   return uVar2;

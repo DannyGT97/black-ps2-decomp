@@ -1,7 +1,7 @@
 # black-ps2-decomp
 
 <!-- PROGRESS:START -->
-**Decompilacion verificada: 0.00% (funciones) / 0.00% (bytes)** | Identificadas: 3.64% | actualizado 2026-10-08
+**Decompilacion verificada: 0.00% (funciones) / 0.00% (bytes)** | Identificadas: 3.67% | actualizado 2026-10-08
 <!-- PROGRESS:END -->
 
 Proyecto de decompilacion de **Black** (Criterion, 2006), version PS2 NTSC-U (`SLUS_213.76`).
@@ -27,6 +27,8 @@ Este repositorio **no incluye** el ISO, el ejecutable ni ningun asset del juego.
 - Video: decodificador MPEG-2 (`slice_start_code`), `.M2V` en el disco.
 - Motor de render: RenderWare (modulos `RWA.IRX` y similares en `IOP/`).
 - Mirrors de memoria `0x2xxxxxxx` y `0x3xxxxxxx` del mismo contenido: ignorar al analizar cadenas.
+
+Mapa de modulos: `docs/modules.md` y `docs/address_map.md`.
 
 ## Flujo de trabajo
 

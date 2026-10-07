@@ -12486,7 +12486,7 @@ LAB_002d1840:
       if (lVar4 == 0) {
         lVar4 = FUN_002e3918(param_2);
         if (lVar4 != 0) {
-          uVar7 = FUN_0035e750(lVar4);
+          uVar7 = atoi(lVar4);
           *(undefined4 *)(iVar6 + 0x74) = uVar7;
           return 1;
         }
@@ -12531,7 +12531,7 @@ LAB_002d1840:
               if (lVar4 == 0) {
                 lVar4 = FUN_002e3918(param_2);
                 if (lVar4 != 0) {
-                  uVar7 = FUN_0035e750(lVar4);
+                  uVar7 = atoi(lVar4);
                   *(undefined4 *)(iVar6 + 0x24) = uVar7;
                   return 1;
                 }
@@ -12539,7 +12539,7 @@ LAB_002d1840:
               else {
                 lVar4 = stricmp(uVar3,0x404098);
                 if ((lVar4 == 0) && (lVar4 = FUN_002e3918(param_2), lVar4 != 0)) {
-                  uVar7 = FUN_0035e750(lVar4);
+                  uVar7 = atoi(lVar4);
                   *(undefined4 *)(iVar6 + 0x30) = uVar7;
                   return 1;
                 }
@@ -14016,7 +14016,7 @@ undefined8 FUN_002d3d38(undefined8 param_1,long param_2)
       else {
         lVar5 = stricmp(uVar4,0x404398);
         if ((lVar5 == 0) && (lVar5 = FUN_002e3918(param_2), lVar5 != 0)) {
-          uVar2 = FUN_0035e750(lVar5);
+          uVar2 = atoi(lVar5);
           *(undefined4 *)(iVar8 + 0x4c) = uVar2;
           return 1;
         }
@@ -15498,7 +15498,7 @@ bool FUN_002d62d0(int param_1,long param_2)
       lVar4 = stricmp(uVar3,0x4044d8);
       if (lVar4 == 0) {
         uVar3 = FUN_002e3918(param_2);
-        uVar1 = FUN_0035e750(uVar3);
+        uVar1 = atoi(uVar3);
         *(undefined4 *)(param_1 + 0x3c) = uVar1;
         return true;
       }

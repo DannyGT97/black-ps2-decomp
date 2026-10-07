@@ -7752,7 +7752,7 @@
   0035e744  0800e003  jr ra
   0035e748  1000bd27  _addiu sp,sp,0x10
 
-# ==== FUN_0035e750 @ 0035e750 ====
+# ==== atoi @ 0035e750 ====
   0035e750  f0ffbd27  addiu sp,sp,-0x10
   0035e754  2d280000  move a1,zero
   0035e758  0000bfff  sd ra,0x0(sp)
@@ -14350,7 +14350,7 @@
   00364d9c  0800e003  jr ra
   00364da0  b000bd27  _addiu sp,sp,0xb0
 
-# ==== FUN_00364da8 @ 00364da8 ====
+# ==== strtol @ 00364da8 ====
   00364da8  2d408000  move t0,a0
   00364dac  3d00023c  lui v0,0x3d
   00364db0  f0ffbd27  addiu sp,sp,-0x10

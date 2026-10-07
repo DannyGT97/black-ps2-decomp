@@ -4603,7 +4603,7 @@ void FUN_00209a60(void)
 {
   long lVar1;
   
-  lVar1 = FUN_0035e750();
+  lVar1 = atoi();
   if (lVar1 == 0) {
     FUN_00209a50(DAT_0040f544 + 0x44c,0x209aa0);
   }
@@ -5821,7 +5821,7 @@ void FUN_0020b2b0(undefined8 param_1)
           *(undefined4 *)(iVar6 + 0x3890) = 0;
         }
         else {
-          lVar4 = FUN_00244ce8();
+          lVar4 = Refcount_Dec();
           if (lVar4 == 0) {
             FUN_00244cf8(aiStack_80[0]);
             *(undefined4 *)(iVar6 + 0x3890) = 0;
@@ -6238,7 +6238,7 @@ void FUN_0020bff8(undefined8 param_1,int *param_2)
     FUN_00218898(aiStack_50,*(undefined4 *)(iVar1 + 0xc),*(undefined4 *)(iVar1 + 0x10),lVar2);
     iVar3 = *param_2;
   }
-  if ((iVar3 != 0) && (lVar2 = FUN_00244ce8(), lVar2 == 0)) {
+  if ((iVar3 != 0) && (lVar2 = Refcount_Dec(), lVar2 == 0)) {
     FUN_00244cf8(*param_2);
   }
   return;
@@ -6288,7 +6288,7 @@ void FUN_0020c0e8(undefined8 param_1,undefined8 param_2)
   switch(*(undefined4 *)uVar3) {
   case 1:
     puVar1 = (undefined4 *)FUN_00209c70(uVar3);
-    uVar5 = FUN_0035e750(param_2);
+    uVar5 = atoi(param_2);
     *puVar1 = uVar5;
     break;
   case 2:
@@ -6664,7 +6664,7 @@ void FUN_0020cca0(int param_1,undefined8 param_2,int param_3)
   
   sprintf(auStack_160,0x3fa9d0,param_1 + param_3 * 10 + 0x38bf,param_2);
   FUN_0021a3b8(auStack_160,auStack_60);
-  FUN_0035e750(auStack_60);
+  atoi(auStack_60);
   return;
 }
 

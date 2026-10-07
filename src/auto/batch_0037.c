@@ -4358,7 +4358,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
         uVar1 = 0;
       }
       else {
-        uVar1 = FUN_0035e750(lVar4);
+        uVar1 = atoi(lVar4);
         *(undefined4 *)(param_1 + 8) = uVar1;
         uVar1 = 1;
       }
@@ -4372,7 +4372,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
           uVar1 = 0;
         }
         else {
-          uVar1 = FUN_0035e750(lVar4);
+          uVar1 = atoi(lVar4);
           *(undefined4 *)(param_1 + 0xc) = uVar1;
           uVar1 = 1;
         }
@@ -4386,7 +4386,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
             uVar1 = 0;
           }
           else {
-            uVar1 = FUN_0035e750(lVar4);
+            uVar1 = atoi(lVar4);
             *(undefined4 *)(param_1 + 0x10) = uVar1;
             uVar1 = 1;
           }
@@ -4400,7 +4400,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
               uVar1 = 0;
             }
             else {
-              uVar1 = FUN_0035e750(lVar4);
+              uVar1 = atoi(lVar4);
               *(undefined4 *)(param_1 + 0x14) = uVar1;
               uVar1 = 1;
             }
@@ -4414,7 +4414,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
                 uVar1 = 0;
               }
               else {
-                uVar1 = FUN_0035e750(lVar4);
+                uVar1 = atoi(lVar4);
                 *(undefined4 *)(param_1 + 0x18) = uVar1;
                 uVar1 = 1;
               }
@@ -4428,7 +4428,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
                   uVar1 = 0;
                 }
                 else {
-                  uVar1 = FUN_0035e750(lVar4);
+                  uVar1 = atoi(lVar4);
                   *(undefined4 *)(param_1 + 0x1c) = uVar1;
                   uVar1 = 1;
                 }
@@ -4442,7 +4442,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
                     uVar1 = 0;
                   }
                   else {
-                    uVar1 = FUN_0035e750(lVar4);
+                    uVar1 = atoi(lVar4);
                     *(undefined4 *)(param_1 + 0x20) = uVar1;
                     uVar1 = 1;
                   }
@@ -4456,7 +4456,7 @@ undefined4 FUN_0030d370(int param_1,long param_2)
                       uVar1 = 0;
                     }
                     else {
-                      uVar1 = FUN_0035e750(lVar4);
+                      uVar1 = atoi(lVar4);
                       *(undefined4 *)(param_1 + 0x24) = uVar1;
                       uVar1 = 1;
                     }

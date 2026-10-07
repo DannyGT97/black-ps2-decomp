@@ -22,3 +22,6 @@ address,name,comment
 0029eb90,sqrtf,libm con manejador de error (cadena sqrtf)
 00254120,AS_Interpreter_main,interprete de ActionScript de los menus (propiedades _alpha/_xscale, substr, split...)
 00252440,AS_ResolveRootParent,resuelve _root/_parent en el interprete de ActionScript
+0035e750,atoi,llama a strtol(p,0,10)
+00364da8,strtol,libc
+00244ce8,Refcount_Dec,decrementa un contador *p-- (muy usada)
